@@ -30,22 +30,26 @@
     {
       "title": "Monter les blancs",
       "description": "Monter les blancs d'œufs en neige ferme en ajoutant le sucre progressivement en trois fois.",
-      "duration": 8
+      "duration": 8,
+      "gestureVideo": ""
     },
     {
       "title": "Incorporer la poudre",
       "description": "Incorporer délicatement la poudre d'amandes tamisée aux blancs montés à l'aide d'une maryse.",
-      "duration": 3
+      "duration": 3,
+      "gestureVideo": ""
     },
     {
       "title": "Dresser",
       "description": "Dresser à la poche à douille sur une plaque recouverte de papier cuisson en formant des cercles ou des bandes.",
-      "duration": 5
+      "duration": 5,
+      "gestureVideo": ""
     },
     {
       "title": "Cuire",
       "description": "Cuire à 180-200°C pendant 25 à 30 minutes jusqu'à ce que la surface soit dorée et le biscuit moelleux.",
-      "duration": 30
+      "duration": 30,
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -60,5 +64,7 @@
     "Maryse",
     "Poche à douille",
     "Plaque de cuisson"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

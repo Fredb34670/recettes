@@ -40,27 +40,32 @@
     {
       "title": "Fondre le chocolat",
       "description": "Fondre le chocolat et le beurre ensemble au bain-marie ou au micro-ondes. Mélanger jusqu'à obtenir une préparation lisse.",
-      "duration": 5
+      "duration": 5,
+      "gestureVideo": ""
     },
     {
       "title": "Blanchir les œufs",
       "description": "Blanchir les œufs entiers avec le sucre jusqu'à ce que le mélange double de volume et blanchisse.",
-      "duration": 5
+      "duration": 5,
+      "gestureVideo": ""
     },
     {
       "title": "Ajouter la farine",
       "description": "Ajouter la farine tamisée au mélange œufs-sucre et mélanger délicatement.",
-      "duration": 2
+      "duration": 2,
+      "gestureVideo": ""
     },
     {
       "title": "Mélanger",
       "description": "Incorporer le mélange chocolat-beurre fondu à la préparation. Mélanger jusqu'à obtention d'une pâte homogène.",
-      "duration": 2
+      "duration": 2,
+      "gestureVideo": ""
     },
     {
       "title": "Cuire",
       "description": "Verser dans des moules individuels beurrés. Cuire à 190°C pendant 9 minutes pour un cœur fondant.",
-      "duration": 9
+      "duration": 9,
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -76,5 +81,7 @@
     "Moules individuels",
     "Balance",
     "Maryse"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

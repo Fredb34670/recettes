@@ -35,22 +35,26 @@
     {
       "title": "Battre les œufs",
       "description": "Battre les œufs entiers avec le sucre à chaud (50°C) ou à froid pendant 15 minutes jusqu'à ce que le mélange blanchisse et triple de volume.",
-      "duration": 15
+      "duration": 15,
+      "gestureVideo": ""
     },
     {
       "title": "Incorporer la farine",
       "description": "Tamiser la farine et l'incorporer délicatement au mélange œufs-sucre à l'aide d'une maryse, en effectuant des mouvements de bas en haut pour ne pas faire retomber l'appareil.",
-      "duration": 3
+      "duration": 3,
+      "gestureVideo": ""
     },
     {
       "title": "Ajouter le beurre",
       "description": "Ajouter le beurre fondu chaud en fin de mélange, l'incorporer délicatement.",
-      "duration": 2
+      "duration": 2,
+      "gestureVideo": ""
     },
     {
       "title": "Cuire",
       "description": "Verser dans un moule beurré et fariné. Cuire à 180°C pendant 20 à 25 minutes. Vérifier la cuisson avec la pointe d'un couteau.",
-      "duration": 25
+      "duration": 25,
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -65,5 +69,7 @@
     "Maryse",
     "Moule à manqué",
     "Tamis"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

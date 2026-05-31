@@ -41,33 +41,39 @@
       "title": "Préparer le caramel",
       "description": "Faire fondre 200 g de sucre à sec dans une casserole jusqu'à l'obtention d'un caramel ambré. Répartir immédiatement au fond des moules.",
       "duration": 10,
-      "tip": "Ne pas toucher le caramel en fusion : il brûle à plus de 160 °C."
+      "tip": "Ne pas toucher le caramel en fusion : il brûle à plus de 160 °C.",
+      "gestureVideo": ""
     },
     {
       "title": "Faire bouillir le lait vanillé",
       "description": "Fendre les gousses de vanille, gratter les graines. Porter le lait à ébullition avec les gousses et les graines. Retirer du feu et laisser infuser.",
-      "duration": 10
+      "duration": 10,
+      "gestureVideo": ""
     },
     {
       "title": "Blanchir les œufs",
       "description": "Fouetter les œufs entiers avec 150 g de sucre jusqu'à ce que le mélange blanchisse.",
-      "duration": 5
+      "duration": 5,
+      "gestureVideo": ""
     },
     {
       "title": "Mélanger",
       "description": "Verser le lait chaud sur le mélange œufs-sucre en remuant doucement. Passer au chinois.",
-      "duration": 5
+      "duration": 5,
+      "gestureVideo": ""
     },
     {
       "title": "Cuire au bain-marie",
       "description": "Remplir les moules caramélisés. Cuire au bain-marie à 150 °C pendant 40-50 minutes. La lame d'un couteau doit ressortir sèche.",
       "duration": 45,
-      "expertNote": "La cuisson au bain-marie doit être douce : si l'eau bout, la crème présente des bulles. La température à cœur idéale est de 82 °C."
+      "expertNote": "La cuisson au bain-marie doit être douce : si l'eau bout, la crème présente des bulles. La température à cœur idéale est de 82 °C.",
+      "gestureVideo": ""
     },
     {
       "title": "Démouler",
       "description": "Laisser refroidir complètement, puis placer au réfrigérateur minimum 4 heures. Démouler en passant une lame fine autour du moule et en retournant sur une assiette.",
-      "duration": 5
+      "duration": 5,
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -82,5 +88,7 @@
     "Fouet",
     "Moule à flan",
     "Chinois"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

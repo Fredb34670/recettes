@@ -35,17 +35,20 @@
     {
       "title": "Porter l'eau à ébullition",
       "description": "Faire bouillir l'eau dans une grande casserole.",
-      "duration": 5
+      "duration": 5,
+      "gestureVideo": ""
     },
     {
       "title": "Ajouter le sucre et le cacao",
       "description": "Hors du feu, ajouter le sucre et la poudre de cacao tamisée. Fouetter pour dissoudre.",
-      "duration": 3
+      "duration": 3,
+      "gestureVideo": ""
     },
     {
       "title": "Incorporer la crème",
       "description": "Ajouter la crème double et remettre sur feu doux. Laisser épaissir quelques minutes en remuant.",
-      "duration": 7
+      "duration": 7,
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -58,5 +61,7 @@
     "Fouet",
     "Maryse",
     "Balance"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

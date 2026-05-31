@@ -3,14 +3,14 @@
 import { Suspense, useEffect } from "react"
 import Link from "next/link"
 import { usePathname, useSearchParams } from "next/navigation"
-import { ChefHat, LayoutDashboard, BookOpen, Heart } from "lucide-react"
+import { ChefHat, LayoutDashboard, BookOpen, Heart, Sparkles, GraduationCap } from "lucide-react"
 import { useAppStore } from "@/lib/store"
 
 function MobileNav() {
   const pathname = usePathname()
   const searchParams = useSearchParams()
   const filter = searchParams.get("filter")
-  const { favorites, hydrated, hydrate } = useAppStore()
+  const { favorites, hydrated, hydrate, mode, toggleMode } = useAppStore()
 
   useEffect(() => { hydrate() }, [hydrate])
 
@@ -49,6 +49,19 @@ function MobileNav() {
           </Link>
         )
       })}
+      <button
+        onClick={toggleMode}
+        className="flex flex-col items-center gap-0.5 px-4 py-1 rounded-xl transition-all"
+      >
+        {hydrated && mode === "expert" ? (
+          <ChefHat size={20} className="text-amber-600" />
+        ) : (
+          <GraduationCap size={20} className="text-stone-400" />
+        )}
+        <span className={`text-[10px] font-medium ${hydrated && mode === "expert" ? "text-amber-600" : "text-stone-400"}`}>
+          {hydrated && mode === "expert" ? "Expert" : "Débutant"}
+        </span>
+      </button>
     </nav>
   )
 }

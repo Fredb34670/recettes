@@ -25,17 +25,20 @@
     {
       "title": "Bouillir la crème",
       "description": "Porter la crème liquide à ébullition dans une casserole.",
-      "duration": 5
+      "duration": 5,
+      "gestureVideo": ""
     },
     {
       "title": "Ajouter le chocolat",
       "description": "Hors du feu, ajouter le chocolat concassé et mélanger jusqu'à complète fonte.",
-      "duration": 3
+      "duration": 3,
+      "gestureVideo": ""
     },
     {
       "title": "Finaliser",
       "description": "Remettre sur le feu et faire bouillir quelques secondes en remuant.",
-      "duration": 2
+      "duration": 2,
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -48,5 +51,7 @@
     "Fouet",
     "Maryse",
     "Balance"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

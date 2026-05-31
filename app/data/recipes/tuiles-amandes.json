@@ -40,27 +40,32 @@
     {
       "title": "Mélanger les ingrédients",
       "description": "Mélanger la farine, le sucre et les amandes effilées dans un saladier.",
-      "duration": 3
+      "duration": 3,
+      "gestureVideo": ""
     },
     {
       "title": "Ajouter les liquides",
       "description": "Ajouter les blancs d'œufs et le beurre fondu, mélanger jusqu'à obtention d'une pâte homogène.",
-      "duration": 3
+      "duration": 3,
+      "gestureVideo": ""
     },
     {
       "title": "Repos",
       "description": "Couvrir et laisser reposer au réfrigérateur pendant 24 heures.",
-      "duration": 1440
+      "duration": 1440,
+      "gestureVideo": ""
     },
     {
       "title": "Cuire",
       "description": "Déposer des petits tas espacés sur une plaque recouverte de papier cuisson. Cuire à 180°C pendant 8 à 10 minutes jusqu'à coloration dorée.",
-      "duration": 10
+      "duration": 10,
+      "gestureVideo": ""
     },
     {
       "title": "Former",
       "description": "À la sortie du four, former les tuiles encore chaudes en les courbant sur un rouleau ou une bouteille.",
-      "duration": 3
+      "duration": 3,
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -75,5 +80,7 @@
     "Plaque de cuisson",
     "Rouleau à pâtisserie",
     "Maryse"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

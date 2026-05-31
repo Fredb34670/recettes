@@ -41,25 +41,29 @@
       "title": "Faire bouillir le lait",
       "description": "Porter le lait à ébullition avec la gousse de vanille fendue et grattée.",
       "duration": 5,
-      "expertNote": "Le rapport jaunes/lait est de 160 g pour 1 L. Remplacer 20 % du lait par de la crème liquide donne une texture plus onctueuse."
+      "expertNote": "Le rapport jaunes/lait est de 160 g pour 1 L. Remplacer 20 % du lait par de la crème liquide donne une texture plus onctueuse.",
+      "gestureVideo": ""
     },
     {
       "title": "Blanchir les jaunes",
       "description": "Fouetter les jaunes avec le sucre et la poudre à crème jusqu'à ce que le mélange blanchisse.",
       "duration": 5,
-      "expertNote": "La poudre à crème peut être remplacée par un mélange 50/50 farine T55 et fécule de maïs."
+      "expertNote": "La poudre à crème peut être remplacée par un mélange 50/50 farine T55 et fécule de maïs.",
+      "gestureVideo": ""
     },
     {
       "title": "Cuire la crème",
       "description": "Verser le lait chaud sur le mélange jaunes-sucre en fouettant. Remettre sur le feu et cuire jusqu'à épaississement, sans cesser de remuer. Faire bouillir 2 minutes pour cuire la poudre à crème.",
       "duration": 8,
       "tip": "Ne cessez pas de remuer pour éviter les grumeaux.",
-      "expertNote": "La température cible est 85 °C pour une épaississement optimal. Si la crème n'a pas bouilli au moins 2 minutes, la poudre à crème reste crue."
+      "expertNote": "La température cible est 85 °C pour une épaississement optimal. Si la crème n'a pas bouilli au moins 2 minutes, la poudre à crème reste crue.",
+      "gestureVideo": ""
     },
     {
       "title": "Refroidir",
       "description": "Verser la crème dans un plat, filmer au contact et laisser refroidir.",
-      "duration": 60
+      "duration": 60,
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -74,5 +78,7 @@
     "Cul-de-poule",
     "Plaque",
     "Film alimentaire"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

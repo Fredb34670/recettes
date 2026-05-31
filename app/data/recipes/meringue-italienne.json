@@ -30,22 +30,26 @@
     {
       "title": "Cuire le sucre",
       "description": "Porter le sucre et l'eau à ébullition dans une casserole. Cuire jusqu'à 117-121°C (selon l'utilisation souhaitée).",
-      "duration": 8
+      "duration": 8,
+      "gestureVideo": ""
     },
     {
       "title": "Monter les blancs",
       "description": "Commencer à monter les blancs d'œufs en neige lorsqu'il le sirop atteint 115°C.",
-      "duration": 3
+      "duration": 3,
+      "gestureVideo": ""
     },
     {
       "title": "Verser le sirop",
       "description": "Verser le sirop chaud en filet sur les blancs montés tout en continuant de battre à vitesse moyenne.",
-      "duration": 2
+      "duration": 2,
+      "gestureVideo": ""
     },
     {
       "title": "Refroidir",
       "description": "Continuer de battre à vitesse lente jusqu'à complet refroidissement de la meringue (environ 30°C).",
-      "duration": 10
+      "duration": 10,
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -61,5 +65,7 @@
     "Batteur électrique",
     "Sonde thermique",
     "Maryse"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

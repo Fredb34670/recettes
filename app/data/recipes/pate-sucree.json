@@ -42,33 +42,38 @@
       "description": "Sortez le beurre à température ambiante. Dans la cuve du batteur, crémez le beurre pommade avec le sucre semoule et le sel jusqu'à obtenir un mélange homogène et légèrement blanchi.",
       "duration": 5,
       "tip": "Le beurre doit être bien pommade mais pas fondu pour une texture optimale.",
-      "expertNote": "La méthode par crémage donne une pâte plus friable et fondante que le sablage."
+      "expertNote": "La méthode par crémage donne une pâte plus friable et fondante que le sablage.",
+      "gestureVideo": ""
     },
     {
       "title": "Ajouter l'œuf",
       "description": "Ajoutez les œufs entiers battus en une ou deux fois. Mélangez à vitesse douce jusqu'à complète incorporation.",
       "duration": 2,
-      "tip": "Versez les œufs en filet pour une meilleure absorption."
+      "tip": "Versez les œufs en filet pour une meilleure absorption.",
+      "gestureVideo": ""
     },
     {
       "title": "Incorporer la farine",
       "description": "Tamisez la farine au-dessus de la préparation. Incorporez-la délicatement à la maryse ou en dernière vitesse du batteur. Arrêtez dès que la farine est absorbée.",
       "duration": 3,
       "tip": "Ne travaillez pas trop la pâte après l'ajout de la farine pour éviter le développement du gluten.",
-      "expertNote": "Une pâte sucrée trop travaillée devient élastique et se rétracte à la cuisson."
+      "expertNote": "Une pâte sucrée trop travaillée devient élastique et se rétracte à la cuisson.",
+      "gestureVideo": ""
     },
     {
       "title": "Repos au frais",
       "description": "Formez une boule, aplatissez-la en disque, filmez au contact et réservez au réfrigérateur pendant 1 heure minimum.",
       "duration": 60,
-      "tip": "Le repos au frais est essentiel pour faciliter l'étalement et éviter la rétractation."
+      "tip": "Le repos au frais est essentiel pour faciliter l'étalement et éviter la rétractation.",
+      "gestureVideo": ""
     },
     {
       "title": "Cuire à blanc",
       "description": "Abaissez la pâte sur 3 mm d'épaisseur. Foncer un cercle ou un moule beurré. Piquez le fond à la fourchette. Cuire à blanc à 170°C pendant 15-20 minutes selon la garniture.",
       "duration": 20,
       "tip": "Pour une cuisson à blanc parfaite, utilisez des billes de cuisson ou haricots secs sur du papier sulfurisé.",
-      "expertNote": "La cuisson à blanc peut être partielle (précuisson) ou totale selon la garniture choisie."
+      "expertNote": "La cuisson à blanc peut être partielle (précuisson) ou totale selon la garniture choisie.",
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -83,5 +88,7 @@
     "Cercle à tarte",
     "Balance",
     "Film alimentaire"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

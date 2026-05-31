@@ -40,32 +40,38 @@
     {
       "title": "Préparer la base fruits",
       "description": "Mélanger la pulpe de fruits avec le sucre et le jus de citron.",
-      "duration": 5
+      "duration": 5,
+      "gestureVideo": ""
     },
     {
       "title": "Faire fondre la gélatine",
       "description": "Réhydrater la gélatine dans l'eau froide, puis la fondre au micro-ondes ou dans un peu de pulpe chaude.",
-      "duration": 5
+      "duration": 5,
+      "gestureVideo": ""
     },
     {
       "title": "Assembler",
       "description": "Incorporer la gélatine fondue à la pulpe de fruits.",
-      "duration": 2
+      "duration": 2,
+      "gestureVideo": ""
     },
     {
       "title": "Monter la crème",
       "description": "Monter la crème liquide en chantilly bien ferme.",
-      "duration": 5
+      "duration": 5,
+      "gestureVideo": ""
     },
     {
       "title": "Incorporer",
       "description": "Incorporer délicatement la chantilly à la pulpe de fruits à la spatule.",
-      "duration": 3
+      "duration": 3,
+      "gestureVideo": ""
     },
     {
       "title": "Réserver",
       "description": "Verser dans des verrines et réfrigérer au moins 3 heures.",
-      "duration": 180
+      "duration": 180,
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -81,5 +87,7 @@
     "Batteur électrique",
     "Maryse",
     "Mixeur plongeant"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

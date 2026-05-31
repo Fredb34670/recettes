@@ -56,24 +56,28 @@
       "title": "Infuser la crème",
       "description": "Porter la crème à ébullition avec le bâton de cannelle et le zeste de citron. Couvrir et laisser infuser 10 minutes hors du feu.",
       "duration": 15,
-      "tip": "Utiliser un économe pour prélever le zeste sans la partie blanche amère."
+      "tip": "Utiliser un économe pour prélever le zeste sans la partie blanche amère.",
+      "gestureVideo": ""
     },
     {
       "title": "Préparer la crème pâtissière légère",
       "description": "Blanchir le jaune, l'œuf entier et le sucre avec la poudre à crème. Verser la crème infusée chaude en fouettant. Remettre à cuire jusqu'à épaississement.",
       "duration": 10,
-      "expertNote": "Cette crème est plus légère qu'une crème pâtissière classique : la proportion de poudre à crème est réduite."
+      "expertNote": "Cette crème est plus légère qu'une crème pâtissière classique : la proportion de poudre à crème est réduite.",
+      "gestureVideo": ""
     },
     {
       "title": "Mettre en plats",
       "description": "Verser la crème dans des plats en grès ou des ramequins larges et peu profonds. Lisser la surface. Laisser refroidir puis placer au réfrigérateur 3 heures.",
-      "duration": 5
+      "duration": 5,
+      "gestureVideo": ""
     },
     {
       "title": "Caraméliser",
       "description": "Au moment de servir, saupoudrer généreusement de cassonade et caraméliser au chalumeau jusqu'à l'obtention d'une fine croûte dorée.",
       "duration": 5,
-      "tip": "Tourner le chalumeau régulièrement pour une caramélisation uniforme."
+      "tip": "Tourner le chalumeau régulièrement pour une caramélisation uniforme.",
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -88,5 +92,7 @@
     "Cul-de-poule",
     "Ramequins",
     "Fer à caraméliser"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

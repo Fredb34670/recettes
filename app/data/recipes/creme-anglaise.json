@@ -37,26 +37,30 @@
       "description": "Fendre les gousses de vanille et gratter les graines. Porter le lait à ébullition avec les gousses et les graines. Laisser infuser hors du feu 15 minutes.",
       "duration": 20,
       "tip": "L'infusion prolongée donne un parfum plus intense.",
-      "expertNote": "La vanille épuisée peut être séchée et mixée avec du sucre pour obtenir du sucre vanillé maison."
+      "expertNote": "La vanille épuisée peut être séchée et mixée avec du sucre pour obtenir du sucre vanillé maison.",
+      "gestureVideo": ""
     },
     {
       "title": "Blanchir les jaunes",
       "description": "Fouetter les jaunes avec le sucre jusqu'à ce que le mélange blanchisse et forme le ruban.",
-      "duration": 5
+      "duration": 5,
+      "gestureVideo": ""
     },
     {
       "title": "Cuire la crème",
       "description": "Verser le lait chaud sur les jaunes en fouettant. Remettre sur feu doux et cuire à 82-85°C en remuant constamment à la spatule. La crème est cuite quand elle nappe le dos de la cuillère.",
       "duration": 10,
       "tip": "Ne dépassez pas 85°C sous peine de voir les œufs coaguler et former des grumeaux.",
-      "expertNote": "La coagulation des jaunes commence à 65 °C mais l'épaississement n'est sensible qu'à partir de 82 °C. Test de la nappe : passer le doigt sur la spatule — la trace doit rester nette sans se refermer."
+      "expertNote": "La coagulation des jaunes commence à 65 °C mais l'épaississement n'est sensible qu'à partir de 82 °C. Test de la nappe : passer le doigt sur la spatule — la trace doit rester nette sans se refermer.",
+      "gestureVideo": ""
     },
     {
       "title": "Refroidir",
       "description": "Passer la crème au chinois fin. Refroidir rapidement sur un bain de glace en remuant.",
       "duration": 10,
       "tip": "Le refroidissement rapide évite la prolifération bactérienne.",
-      "expertNote": "En laboratoire, la température cœur doit passer sous les 10 °C en moins de 2 heures. La crème anglaise est un milieu favorable aux staphylocoques — ne pas laisser traîner à température ambiante."
+      "expertNote": "En laboratoire, la température cœur doit passer sous les 10 °C en moins de 2 heures. La crème anglaise est un milieu favorable aux staphylocoques — ne pas laisser traîner à température ambiante.",
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -73,5 +77,7 @@
     "Spatule Exoglass",
     "Sonde thermique",
     "Chinois"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

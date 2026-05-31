@@ -41,24 +41,28 @@
       "title": "Préparer la crème anglaise",
       "description": "Faire chauffer le lait avec la vanille. Blanchir les jaunes avec le sucre. Verser le lait chaud sur les jaunes, remettre à feu doux et cuire à la nappe (85 °C) sans bouillir.",
       "duration": 15,
-      "expertNote": "La crème anglaise est cuite à la 'nappe' : la crème nappe la cuillère et trace un sillon net quand on passe le doigt. Ne jamais dépasser 85 °C."
+      "expertNote": "La crème anglaise est cuite à la 'nappe' : la crème nappe la cuillère et trace un sillon net quand on passe le doigt. Ne jamais dépasser 85 °C.",
+      "gestureVideo": ""
     },
     {
       "title": "Ajouter la gélatine fondue",
       "description": "Réhydrater la gélatine dans l'eau froide, la fondre au micro-ondes ou à feu doux, puis l'incorporer à la crème anglaise encore tiède.",
-      "duration": 5
+      "duration": 5,
+      "gestureVideo": ""
     },
     {
       "title": "Refroidir la crème",
       "description": "Laisser refroidir la crème anglaise jusqu'à 25-30 °C en remuant régulièrement pour éviter la formation d'un film en surface.",
       "duration": 10,
-      "tip": "Placer au bain-marie d'eau froide pour accélérer le refroidissement."
+      "tip": "Placer au bain-marie d'eau froide pour accélérer le refroidissement.",
+      "gestureVideo": ""
     },
     {
       "title": "Incorporer la crème fouettée",
       "description": "Monter la crème entière bien froide en chantilly ferme. Incorporer délicatement à la spatule dans la crème anglaise refroidie en mouvements circulaires du bas vers le haut.",
       "duration": 10,
-      "expertNote": "La crème et la base anglaise doivent être à des températures proches (18-20 °C) pour éviter le choc thermique qui ferait trancher la préparation."
+      "expertNote": "La crème et la base anglaise doivent être à des températures proches (18-20 °C) pour éviter le choc thermique qui ferait trancher la préparation.",
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -74,5 +78,7 @@
     "Spatule",
     "Chinois",
     "Sonde thermique"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

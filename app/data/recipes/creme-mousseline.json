@@ -41,30 +41,35 @@
       "title": "Faire bouillir le lait",
       "description": "Porter le lait à ébullition dans une casserole. Retirer du feu dès les premiers bouillons.",
       "duration": 5,
-      "tip": "Utiliser du lait entier pour une crème plus onctueuse."
+      "tip": "Utiliser du lait entier pour une crème plus onctueuse.",
+      "gestureVideo": ""
     },
     {
       "title": "Blanchir les jaunes",
       "description": "Blanchir les jaunes d'œufs avec le sucre semoule et la poudre à crème jusqu'à ce que le mélange rubane.",
-      "duration": 5
+      "duration": 5,
+      "gestureVideo": ""
     },
     {
       "title": "Cuire la crème pâtissière",
       "description": "Verser le lait chaud sur le mélange jaunes-sucre en fouettant. Remettre à cuire sur feu moyen jusqu'à ébullition, sans cesser de remuer. Laisser cuire 2 minutes.",
       "duration": 10,
-      "expertNote": "La crème pâtissière est cuite lorsqu'elle bout et que la texture épaissit nettement. Poursuivre 30 secondes supplémentaires après l'ébullition pour inactive l'amylase."
+      "expertNote": "La crème pâtissière est cuite lorsqu'elle bout et que la texture épaissit nettement. Poursuivre 30 secondes supplémentaires après l'ébullition pour inactive l'amylase.",
+      "gestureVideo": ""
     },
     {
       "title": "Ajouter le beurre à chaud",
       "description": "Hors du feu, incorporer 250 g de beurre coupé en dés à la crème pâtissière encore chaude (60-65 °C). Mélanger jusqu'à complète homogénéisation.",
       "duration": 5,
-      "expertNote": "L'émulsion beurre-crème pâtissière à chaud donne une texture soyeuse. La température idéale est de 60 °C pour une incorporation parfaite sans risque de séparation."
+      "expertNote": "L'émulsion beurre-crème pâtissière à chaud donne une texture soyeuse. La température idéale est de 60 °C pour une incorporation parfaite sans risque de séparation.",
+      "gestureVideo": ""
     },
     {
       "title": "Monter le beurre à froid",
       "description": "Une fois la crème refroidie à 20-25 °C, incorporer les 250 g de beurre restant pommade en fouettant énergiquement. Lisser au robot pour une texture mousseuse.",
       "duration": 15,
-      "tip": "Le beurre doit être à température ambiante (20 °C) pour bien s'incorporer."
+      "tip": "Le beurre doit être à température ambiante (20 °C) pour bien s'incorporer.",
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -106,5 +111,7 @@
     "Batteur électrique",
     "Maryse",
     "Poche à douille"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

@@ -42,32 +42,37 @@
       "description": "Coupez le beurre froid en dés. Mélangez la farine tamisée et le beurre du bout des doigts jusqu'à obtenir un aspect sablonneux.",
       "duration": 5,
       "tip": "Travaillez rapidement pour que le beurre reste froid.",
-      "expertNote": "Cette pâte est une variante de la pâte brisée, enrichie par les jaunes d'œufs qui apportent couleur et friabilité."
+      "expertNote": "Cette pâte est une variante de la pâte brisée, enrichie par les jaunes d'œufs qui apportent couleur et friabilité.",
+      "gestureVideo": ""
     },
     {
       "title": "Ajouter les jaunes et le liquide",
       "description": "Délayez les jaunes d'œufs dans l'eau ou le lait avec le sel. Versez sur le sablage et mélangez du bout des doigts.",
       "duration": 3,
-      "tip": "Si les jaunes sont gros, réduisez légèrement le liquide."
+      "tip": "Si les jaunes sont gros, réduisez légèrement le liquide.",
+      "gestureVideo": ""
     },
     {
       "title": "Fraser la pâte",
       "description": "Rassemblez la pâte en la fraisant une ou deux fois sur le plan de travail. Formez une boule, filmez au contact et réservez au frais.",
       "duration": 2,
-      "tip": "Ne fraisez pas trop pour garder la pâte friable."
+      "tip": "Ne fraisez pas trop pour garder la pâte friable.",
+      "gestureVideo": ""
     },
     {
       "title": "Repos au frais",
       "description": "Réservez au réfrigérateur pendant 30 minutes minimum avant utilisation.",
       "duration": 30,
-      "tip": "Ce repos est indispensable pour éviter la rétractation."
+      "tip": "Ce repos est indispensable pour éviter la rétractation.",
+      "gestureVideo": ""
     },
     {
       "title": "Cuire",
       "description": "Abaissez sur 3 mm d'épaisseur, foncez un moule beurré, piquez le fond. Cuire à blanc à 170°C pendant 20-25 minutes.",
       "duration": 25,
       "tip": "Cette pâte supporte bien la cuisson à blanc, elle reste friable.",
-      "expertNote": "La présence de jaunes permet une coloration plus homogène et une meilleure tenue."
+      "expertNote": "La présence de jaunes permet une coloration plus homogène et une meilleure tenue.",
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -82,5 +87,7 @@
     "Cercle à tarte",
     "Fourchette",
     "Film alimentaire"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

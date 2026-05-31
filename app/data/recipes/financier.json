@@ -40,27 +40,32 @@
     {
       "title": "Mélanger les secs",
       "description": "Tamiser et mélanger ensemble le sucre glace, la poudre d'amandes et la farine.",
-      "duration": 3
+      "duration": 3,
+      "gestureVideo": ""
     },
     {
       "title": "Ajouter les blancs",
       "description": "Ajouter les blancs d'œufs au mélange sec et bien mélanger jusqu'à obtention d'une pâte lisse.",
-      "duration": 3
+      "duration": 3,
+      "gestureVideo": ""
     },
     {
       "title": "Chauffer au bain-marie",
       "description": "Chauffer la préparation au bain-marie à 50°C en remuant constamment, jusqu'à ce que la pâte soit tiède et homogène.",
-      "duration": 5
+      "duration": 5,
+      "gestureVideo": ""
     },
     {
       "title": "Ajouter le beurre",
       "description": "Ajouter le beurre noisette tiède à la préparation et mélanger délicatement.",
-      "duration": 2
+      "duration": 2,
+      "gestureVideo": ""
     },
     {
       "title": "Cuire",
       "description": "Verser dans des moules à financiers beurrés. Cuire à 180°C pendant 15 à 20 minutes.",
-      "duration": 20
+      "duration": 20,
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -75,5 +80,7 @@
     "Fouet",
     "Moule à financiers",
     "Maryse"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

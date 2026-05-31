@@ -40,17 +40,20 @@
     {
       "title": "Crémer le beurre",
       "description": "Travailler le beurre pommade avec le TPT et la poudre à crème jusqu'à obtention d'un mélange homogène.",
-      "duration": 5
+      "duration": 5,
+      "gestureVideo": ""
     },
     {
       "title": "Ajouter les œufs",
       "description": "Incorporer les œufs progressivement en plusieurs fois tout en mélangeant.",
-      "duration": 5
+      "duration": 5,
+      "gestureVideo": ""
     },
     {
       "title": "Parfumer",
       "description": "Ajouter le rhum et mélanger une dernière fois. La crème est prête à l'emploi.",
-      "duration": 2
+      "duration": 2,
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -65,5 +68,7 @@
     "Fouet",
     "Balance",
     "Maryse"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

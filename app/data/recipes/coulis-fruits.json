@@ -30,12 +30,14 @@
     {
       "title": "Préparer la pulpe",
       "description": "Mixer les fruits frais ou surgelés pour obtenir une pulpe lisse. Filtrer si nécessaire.",
-      "duration": 5
+      "duration": 5,
+      "gestureVideo": ""
     },
     {
       "title": "Mélanger",
       "description": "À froid, mélanger la pulpe avec le sucre et le jus de citron jusqu'à dissolution complète.",
-      "duration": 5
+      "duration": 5,
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -50,5 +52,7 @@
     "Chinois",
     "Mixeur plongeant",
     "Balance"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

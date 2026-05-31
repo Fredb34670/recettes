@@ -37,27 +37,31 @@
       "description": "Dans un saladier, mélangez la farine, la cassonade et la poudre d'amandes. Ajoutez le beurre froid coupé en petits dés. Sablez du bout des doigts jusqu'à obtenir une texture de sable grossier avec des morceaux irréguliers.",
       "duration": 5,
       "tip": "Ne travaillez pas trop : le crumble doit garder des morceaux de différentes tailles pour un effet croustillant.",
-      "expertNote": "La règle du 1/4, 1/4, 1/4, 1/4 (farine, beurre, sucre, poudre) garantit un crumble parfait à chaque fois."
+      "expertNote": "La règle du 1/4, 1/4, 1/4, 1/4 (farine, beurre, sucre, poudre) garantit un crumble parfait à chaque fois.",
+      "gestureVideo": ""
     },
     {
       "title": "Réserver au frais",
       "description": "Placez la pâte à crumble 15 minutes au réfrigérateur pour raffermir le beurre avant la cuisson.",
       "duration": 15,
-      "tip": "Cette étape évite que le crumble ne s'affaisse à la cuisson."
+      "tip": "Cette étape évite que le crumble ne s'affaisse à la cuisson.",
+      "gestureVideo": ""
     },
     {
       "title": "Émietter sur les fruits",
       "description": "Disposez les fruits (pommes, rhubarbe, poires, fruits rouges) dans un plat beurré. Répartissez la pâte à crumble en émiettant grossièrement sur toute la surface des fruits. Ne tassez pas.",
       "duration": 5,
       "tip": "Utilisez des fruits légèrement acidulés pour équilibrer le sucré du crumble.",
-      "expertNote": "Les fruits doivent être coupés en morceaux réguliers pour une cuisson homogène. Saupoudrez-les d'un peu de sucre si nécessaire."
+      "expertNote": "Les fruits doivent être coupés en morceaux réguliers pour une cuisson homogène. Saupoudrez-les d'un peu de sucre si nécessaire.",
+      "gestureVideo": ""
     },
     {
       "title": "Cuire au four",
       "description": "Enfournez à 180°C pendant 20-25 minutes jusqu'à ce que le crumble soit doré et croustillant. Les fruits doivent être fondants et légèrement caramélisés.",
       "duration": 25,
       "tip": "Servez tiède avec une boule de glace vanille ou de la crème anglaise.",
-      "expertNote": "La cuisson parfaite est atteinte quand le dessus est bien doré et que les fruits bouillonnent légèrement sur les bords."
+      "expertNote": "La cuisson parfaite est atteinte quand le dessus est bien doré et que les fruits bouillonnent légèrement sur les bords.",
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -70,5 +74,7 @@
     "Cul-de-poule",
     "Plat à four",
     "Balance"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

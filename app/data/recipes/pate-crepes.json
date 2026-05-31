@@ -46,27 +46,31 @@
       "title": "Mélanger la farine, les œufs, le sucre et le sel",
       "description": "Dans un grand saladier, versez la farine tamisée en puits. Ajoutez les œufs, le sucre et le sel au centre. Mélangez au fouet en partant du centre, en incorporant la farine progressivement.",
       "duration": 5,
-      "tip": "Commencer par les œufs au centre du puits évite les grumeaux."
+      "tip": "Commencer par les œufs au centre du puits évite les grumeaux.",
+      "gestureVideo": ""
     },
     {
       "title": "Ajouter le lait progressivement",
       "description": "Versez le lait en filet tout en fouettant énergiquement. La pâte doit devenir lisse et fluide. Ajoutez le beurre fondu et le parfum choisi (rhum, fleur d'oranger, vanille).",
       "duration": 3,
       "tip": "Si des grumeaux persistent, passez la pâte au chinois.",
-      "expertNote": "L'ajout progressif du lait permet d'éviter la formation de grumeaux et d'obtenir une pâte parfaitement lisse."
+      "expertNote": "L'ajout progressif du lait permet d'éviter la formation de grumeaux et d'obtenir une pâte parfaitement lisse.",
+      "gestureVideo": ""
     },
     {
       "title": "Reposer la pâte",
       "description": "Laissez reposer la pâte 30 minutes à température ambiante. Cela permet à la farine de s'hydrater et au gluten de se détendre.",
       "duration": 30,
-      "tip": "Pendant le repos, le gluten se détend : les crêpes seront plus moelleuses et se déchireront moins."
+      "tip": "Pendant le repos, le gluten se détend : les crêpes seront plus moelleuses et se déchireront moins.",
+      "gestureVideo": ""
     },
     {
       "title": "Cuire les crêpes",
       "description": "Faites chauffer une poêle antiadhésive avec un peu de beurre. Versez une louche de pâte, inclinez la poêle pour répartir. Cuisez 1 à 2 minutes par face jusqu'à coloration dorée.",
       "duration": 20,
       "tip": "La première crêpe est souvent ratée, c'est normal. Elle sert à 'assaisonner' la poêle.",
-      "expertNote": "Le geste d'inclinaison de la poêle détermine l'épaisseur : rapide et fluide pour des crêpes fines."
+      "expertNote": "Le geste d'inclinaison de la poêle détermine l'épaisseur : rapide et fluide pour des crêpes fines.",
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -81,5 +85,7 @@
     "Louche",
     "Poêle à crêpes",
     "Spatule"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

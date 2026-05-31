@@ -30,17 +30,20 @@
     {
       "title": "Faire bouillir la crème",
       "description": "Porter la crème à ébullition dans une casserole.",
-      "duration": 5
+      "duration": 5,
+      "gestureVideo": "https://media.giphy.com/media/PAMUIrbA3vUWF4n5l0/giphy.mp4"
     },
     {
       "title": "Verser sur le chocolat",
       "description": "Verser la crème chaude sur le chocolat concassé. Laisser reposer 1 minute puis mélanger doucement.",
-      "duration": 3
+      "duration": 3,
+      "gestureVideo": ""
     },
     {
       "title": "Ajouter le beurre",
       "description": "Ajouter le beurre coupé en dés et mélanger jusqu'à obtention d'une ganache lisse et brillante.",
-      "duration": 2
+      "duration": 2,
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -55,5 +58,26 @@
     "Maryse",
     "Balance",
     "Mixeur plongeant"
+  ],
+  "materialVideo": "https://media.giphy.com/media/xT0xeMAk74pG30f3Mc/giphy.mp4",
+  "technicalSpecs": [
+    {
+      "label": "Viscosité",
+      "description": "Fluidité idéale pour le pochage",
+      "unit": "Pa·s",
+      "value": "2.5"
+    },
+    {
+      "label": "Point de fusion",
+      "description": "Température de fonte en bouche",
+      "unit": "°C",
+      "value": "32"
+    },
+    {
+      "label": "Cristallisation",
+      "description": "Stabilité du beurre de cacao",
+      "unit": "Type",
+      "value": "V"
+    }
   ]
 }
