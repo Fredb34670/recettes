@@ -30,22 +30,26 @@
     {
       "title": "Monter les blancs",
       "description": "Monter les blancs d'œufs en neige ferme. Ajouter le sucre semoule progressivement en trois fois, en continuant de battre jusqu'à obtenir une meringue brillante et ferme.",
-      "duration": 10
+      "duration": 10,
+      "gestureVideo": ""
     },
     {
       "title": "Incorporer le sucre glace",
       "description": "Incorporer délicatement le sucre glace tamisé à la maryse, en soulevant la masse.",
-      "duration": 3
+      "duration": 3,
+      "gestureVideo": ""
     },
     {
       "title": "Dresser",
       "description": "Dresser à la poche à douille sur une plaque recouverte de papier cuisson en formant des petits dômes ou des formes désirées.",
-      "duration": 5
+      "duration": 5,
+      "gestureVideo": ""
     },
     {
       "title": "Cuire",
       "description": "Cuire à 130°C pendant 2 heures. Les meringues doivent être sèches à l'intérieur et légèrement dorées à l'extérieur.",
-      "duration": 120
+      "duration": 120,
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -61,5 +65,7 @@
     "Maryse",
     "Poche à douille",
     "Plaque de cuisson"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

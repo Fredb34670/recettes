@@ -30,17 +30,20 @@
     {
       "title": "Blanchir",
       "description": "Fouetter les jaunes avec le sucre jusqu'à ce que le mélange blanchisse et devienne mousseux.",
-      "duration": 5
+      "duration": 5,
+      "gestureVideo": ""
     },
     {
       "title": "Ajouter le champagne",
       "description": "Incorporer le champagne en filet tout en continuant de fouetter.",
-      "duration": 2
+      "duration": 2,
+      "gestureVideo": ""
     },
     {
       "title": "Monter sur le feu",
       "description": "Cuire au bain-marie en fouettant sans cesse jusqu'à ce que la sauce épaississe et double de volume.",
-      "duration": 8
+      "duration": 8,
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -53,5 +56,7 @@
     "Cul-de-poule",
     "Fouet",
     "Balance"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

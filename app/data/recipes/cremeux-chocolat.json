@@ -41,19 +41,22 @@
       "title": "Préparer la crème anglaise",
       "description": "Porter le lait et la crème à ébullition. Blanchir les jaunes avec le sucre. Verser le liquide chaud sur les jaunes, remettre à chauffer doucement en remuant jusqu'à 82-85 °C (à la nappe).",
       "duration": 15,
-      "expertNote": "Ne pas dépasser 85 °C sous peine de voir les jaunes coaguler. La crème doit napper la cuillère."
+      "expertNote": "Ne pas dépasser 85 °C sous peine de voir les jaunes coaguler. La crème doit napper la cuillère.",
+      "gestureVideo": ""
     },
     {
       "title": "Ajouter le chocolat",
       "description": "Hors du feu, ajouter le chocolat concassé à la crème anglaise bien chaude. Laisser fondre 1 minute, puis mélanger doucement à la spatule jusqu'à obtention d'une crème lisse et brillante.",
       "duration": 5,
-      "tip": "Utiliser un chocolat de couverture de qualité pour un résultat professionnel."
+      "tip": "Utiliser un chocolat de couverture de qualité pour un résultat professionnel.",
+      "gestureVideo": ""
     },
     {
       "title": "Lisser et réserver",
       "description": "Passer la crème au chinois pour éliminer les éventuels grumeaux. Verser dans des verrines ou un moule. Lisser la surface et placer au réfrigérateur minimum 4 heures.",
       "duration": 5,
-      "expertNote": "Au contact du chocolat, la crème anglaise épaissit déjà : travailler rapidement pour une répartition homogène."
+      "expertNote": "Au contact du chocolat, la crème anglaise épaissit déjà : travailler rapidement pour une répartition homogène.",
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -68,5 +71,7 @@
     "Fouet",
     "Mixeur plongeant",
     "Sonde thermique"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

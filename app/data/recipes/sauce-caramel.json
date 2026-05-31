@@ -40,17 +40,20 @@
     {
       "title": "Cuire le caramel",
       "description": "Mélanger l'eau, le sucre et le glucose. Cuire à feu moyen jusqu'à obtention d'un caramel blond.",
-      "duration": 15
+      "duration": 15,
+      "gestureVideo": ""
     },
     {
       "title": "Déglacer",
       "description": "Hors du feu, verser la crème chaude en filet tout en remuant. Attention aux projections.",
-      "duration": 3
+      "duration": 3,
+      "gestureVideo": ""
     },
     {
       "title": "Rectifier",
       "description": "Ajouter le beurre salé et mélanger. Rectifier la consistance avec un peu d'eau si nécessaire.",
-      "duration": 2
+      "duration": 2,
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -65,5 +68,7 @@
     "Fouet",
     "Chinois",
     "Balance"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

@@ -4,12 +4,20 @@ export interface Ingredient {
   unit: string
 }
 
+export interface TechnicalSpec {
+  label: string
+  value: string
+  unit: string
+  description: string
+}
+
 export interface Step {
   title: string
   description: string
   duration?: number
   tip?: string
   expertNote?: string
+  gestureVideo?: string
 }
 
 export interface Recipe {
@@ -28,4 +36,6 @@ export interface Recipe {
   tips: string[]
   tools: string[]
   image: string
+  materialVideo?: string
+  technicalSpecs?: TechnicalSpec[]
 }

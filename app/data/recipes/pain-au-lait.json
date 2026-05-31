@@ -50,27 +50,32 @@
     {
       "title": "Pétrir",
       "description": "Mélanger farine, sucre, sel, lait, eau et levure. Pétrir 10 minutes puis ajouter le beurre pommade et pétrir à nouveau 5 minutes.",
-      "duration": 15
+      "duration": 15,
+      "gestureVideo": ""
     },
     {
       "title": "Pointer",
       "description": "Laisser pointer 1h à température ambiante, la pâte doit doubler de volume.",
-      "duration": 60
+      "duration": 60,
+      "gestureVideo": ""
     },
     {
       "title": "Façonner",
       "description": "Dégazer et diviser la pâte en petits pains de 60 à 80g chacun. Façonner en boules ou en petits pains allongés.",
-      "duration": 15
+      "duration": 15,
+      "gestureVideo": ""
     },
     {
       "title": "Pousser",
       "description": "Laisser pousser 1h sur une plaque recouverte d'un torchon.",
-      "duration": 60
+      "duration": 60,
+      "gestureVideo": ""
     },
     {
       "title": "Cuire",
       "description": "Dorer au lait ou à l'œuf battu et cuire à 180°C pendant 15 à 20 minutes.",
-      "duration": 20
+      "duration": 20,
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -85,5 +90,7 @@
     "Balance",
     "Plaque de cuisson",
     "Pinceau"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

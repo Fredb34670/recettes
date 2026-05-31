@@ -37,32 +37,37 @@
       "description": "Coupez le beurre froid en petits dés. Mélangez la farine tamisée avec le beurre du bout des doigts ou au batteur avec la feuille jusqu'à obtenir un aspect sablonneux. Le beurre ne doit pas être fondu.",
       "duration": 5,
       "tip": "Plus le beurre est froid, plus la pâte sera croustillante. Travaillez rapidement.",
-      "expertNote": "Le sablage est la clé d'une pâte brisée réussie : les particules de beurre enrobées de farine donnent le croustillant."
+      "expertNote": "Le sablage est la clé d'une pâte brisée réussie : les particules de beurre enrobées de farine donnent le croustillant.",
+      "gestureVideo": ""
     },
     {
       "title": "Ajouter l'eau et le sel",
       "description": "Dissolvez le sel dans l'eau froide. Versez sur le sablage et mélangez du bout des doigts sans pétrir.",
       "duration": 2,
-      "tip": "N'ajoutez pas toute l'eau d'un coup. La pâte ne doit pas être collante."
+      "tip": "N'ajoutez pas toute l'eau d'un coup. La pâte ne doit pas être collante.",
+      "gestureVideo": ""
     },
     {
       "title": "Fraser la pâte",
       "description": "Rassemblez la pâte en la poussant avec la paume de la main sur le plan de travail (fraser) pour homogénéiser. Formez une boule, filmez et réservez au frais.",
       "duration": 3,
       "tip": "Ne fraisez qu'une ou deux fois pour ne pas développer le gluten.",
-      "expertNote": "Le frasage consiste à écraser la pâte avec la paume pour répartir le beurre sans l'amalgamer complètement."
+      "expertNote": "Le frasage consiste à écraser la pâte avec la paume pour répartir le beurre sans l'amalgamer complètement.",
+      "gestureVideo": ""
     },
     {
       "title": "Repos au frais",
       "description": "Filmez la pâte au contact et réservez au réfrigérateur pendant 30 minutes minimum.",
       "duration": 30,
-      "tip": "Ce repos détend le gluten et évite la rétractation à la cuisson."
+      "tip": "Ce repos détend le gluten et évite la rétractation à la cuisson.",
+      "gestureVideo": ""
     },
     {
       "title": "Cuire",
       "description": "Abaissez la pâte sur 3 mm d'épaisseur. Foncer un moule beurré et piquez le fond. Cuire à blanc à 170°C pendant 20-25 minutes, ou avec la garniture selon la recette.",
       "duration": 25,
-      "tip": "Pour les tartes salées, précuisez toujours la pâte 10 minutes avant d'ajouter l'appareil."
+      "tip": "Pour les tartes salées, précuisez toujours la pâte 10 minutes avant d'ajouter l'appareil.",
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -77,5 +82,7 @@
     "Cercle à tarte",
     "Balance",
     "Film alimentaire"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

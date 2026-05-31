@@ -41,29 +41,34 @@
       "title": "Infuser le lait et la crème à la vanille",
       "description": "Fendre les gousses de vanille, gratter les graines. Porter le lait, la crème, les gousses et les graines à ébullition. Couvrir et laisser infuser 15-20 minutes hors du feu.",
       "duration": 20,
-      "tip": "Ne pas jeter les gousses après infusion : rincer et sécher pour faire du sucre vanillé."
+      "tip": "Ne pas jeter les gousses après infusion : rincer et sécher pour faire du sucre vanillé.",
+      "gestureVideo": ""
     },
     {
       "title": "Blanchir les jaunes",
       "description": "Blanchir les jaunes d'œufs avec le sucre jusqu'à ce que le mélange rubane.",
-      "duration": 5
+      "duration": 5,
+      "gestureVideo": ""
     },
     {
       "title": "Mélanger les préparations",
       "description": "Verser le lait infusé chaud sur les jaunes blanchis en fouettant doucement. Passer au chinois pour retirer les gousses et les éventuels morceaux d'œuf coagulé.",
-      "duration": 5
+      "duration": 5,
+      "gestureVideo": ""
     },
     {
       "title": "Cuire au four à basse température",
       "description": "Remplir les ramequins au trois quarts. Cuire au bain-marie à 95 °C pendant 40-50 minutes. La crème doit être prise mais encore tremblotante au centre.",
       "duration": 45,
-      "expertNote": "La cuisson à 95 °C permet d'éviter la coagulation des œufs qui donnerait une texture granuleuse. La température à cœur doit atteindre 78 °C."
+      "expertNote": "La cuisson à 95 °C permet d'éviter la coagulation des œufs qui donnerait une texture granuleuse. La température à cœur doit atteindre 78 °C.",
+      "gestureVideo": ""
     },
     {
       "title": "Refroidir et caraméliser",
       "description": "Laisser refroidir à température ambiante, puis placer au réfrigérateur au moins 4 heures. Au moment de servir, saupoudrer de cassonade et caraméliser au chalumeau.",
       "duration": 5,
-      "tip": "La couche de sucre doit être fine et uniforme pour une caramélisation homogène."
+      "tip": "La couche de sucre doit être fine et uniforme pour une caramélisation homogène.",
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -78,5 +83,7 @@
     "Fouet",
     "Ramequins",
     "Chalumeau"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

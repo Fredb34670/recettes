@@ -42,28 +42,32 @@
       "description": "Dans la cuve du batteur, fouettez les œufs entiers avec le sucre semoule jusqu'à ce que le mélange blanchisse et devienne mousseux. La texture doit faire le ruban.",
       "duration": 8,
       "tip": "Le mélange est prêt quand il forme un ruban qui persiste quelques secondes à la surface.",
-      "expertNote": "Le blanchiment incorpore de l'air dans la pâte, ce qui contribuera à la formation de la bosse."
+      "expertNote": "Le blanchiment incorpore de l'air dans la pâte, ce qui contribuera à la formation de la bosse.",
+      "gestureVideo": ""
     },
     {
       "title": "Ajouter la farine et la levure",
       "description": "Tamisez la farine et la levure au-dessus du mélange œufs-sucre. Incorporez délicatement à la maryse en soulevant la masse pour ne pas faire retomber la préparation.",
       "duration": 3,
       "tip": "Soulevez la masse délicatement pour conserver l'air incorporé. La pâte doit rester mousseuse.",
-      "expertNote": "L'incorporation de la farine doit être faite en deux fois pour éviter la formation de grumeaux."
+      "expertNote": "L'incorporation de la farine doit être faite en deux fois pour éviter la formation de grumeaux.",
+      "gestureVideo": ""
     },
     {
       "title": "Ajouter le beurre fondu refroidi",
       "description": "Faites fondre le beurre sans le colorer. Laissez-le refroidir à température ambiante puis incorporez-le délicatement à la pâte. Ajoutez le zeste de citron râpé ou la fleur d'oranger.",
       "duration": 3,
       "tip": "Le beurre doit être fondu mais tiède pour ne pas cuire les œufs.",
-      "expertNote": "Le beurre noisette (légèrement coloré) apporte une saveur supplémentaire mais change la texture."
+      "expertNote": "Le beurre noisette (légèrement coloré) apporte une saveur supplémentaire mais change la texture.",
+      "gestureVideo": ""
     },
     {
       "title": "Cuire les madeleines",
       "description": "Versez la pâte dans les moules à madeleine beurrés et farinés. Enfournez immédiatement à 220°C pendant 4 minutes, puis baissez à 180°C pour 6-8 minutes. La bosse doit se former dans les premières minutes.",
       "duration": 12,
       "tip": "Le choc thermique (four très chaud initialement) est essentiel pour la formation de la bosse.",
-      "expertNote": "La bosse de la madeleine se forme grâce à la différence de cuisson : les bords cuisent plus vite et le cœur en expansion crée la bosse."
+      "expertNote": "La bosse de la madeleine se forme grâce à la différence de cuisson : les bords cuisent plus vite et le cœur en expansion crée la bosse.",
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -78,5 +82,7 @@
     "Moule à madeleines",
     "Maryse",
     "Balance"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

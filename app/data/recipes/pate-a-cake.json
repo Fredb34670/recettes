@@ -47,35 +47,40 @@
       "description": "Sortez le beurre à température ambiante. Dans la cuve du batteur avec la feuille, crémez le beurre pommade avec le sucre glace jusqu'à obtenir un mélange mousseux et blanchi.",
       "duration": 5,
       "tip": "Le beurre doit être pommade mais pas fondu pour une texture parfaite.",
-      "expertNote": "Le sucre glace se dissout plus facilement que le sucre semoule, donnant une texture plus fine."
+      "expertNote": "Le sucre glace se dissout plus facilement que le sucre semoule, donnant une texture plus fine.",
+      "gestureVideo": ""
     },
     {
       "title": "Ajouter les œufs",
       "description": "Ajoutez les œufs un par un en mélangeant à vitesse douce entre chaque ajout. Le mélange doit être homogène et lisse.",
       "duration": 5,
       "tip": "Si le mélange tranche (se sépare), ajoutez une cuillère de farine pour le stabiliser.",
-      "expertNote": "Les œufs doivent être à température ambiante pour ne pas figer le beurre et éviter le tranchage."
+      "expertNote": "Les œufs doivent être à température ambiante pour ne pas figer le beurre et éviter le tranchage.",
+      "gestureVideo": ""
     },
     {
       "title": "Incorporer la farine et la levure",
       "description": "Tamisez la farine et la levure chimique ensemble. Incorporez-les délicatement à la maryse en soulevant la masse. Ne mélangez pas trop.",
       "duration": 3,
       "tip": "La farine doit être incorporée en deux fois pour éviter les grumeaux.",
-      "expertNote": "Le mouvement de la maryse doit être circulaire en soulevant la pâte pour conserver l'air incorporé."
+      "expertNote": "Le mouvement de la maryse doit être circulaire en soulevant la pâte pour conserver l'air incorporé.",
+      "gestureVideo": ""
     },
     {
       "title": "Ajouter les raisins secs",
       "description": "Farinez légèrement les raisins secs et incorporez-les délicatement à la pâte. Ajoutez éventuellement le rhum et les fruits confits.",
       "duration": 2,
       "tip": "Fariner les raisins évite qu'ils tombent au fond du moule pendant la cuisson.",
-      "expertNote": "Les raisins doivent être préalablement trempés dans du rhum ou de l'eau chaude pour les réhydrater."
+      "expertNote": "Les raisins doivent être préalablement trempés dans du rhum ou de l'eau chaude pour les réhydrater.",
+      "gestureVideo": ""
     },
     {
       "title": "Cuire au four",
       "description": "Versez la pâte dans des moules à cake beurrés et farinés. Cuire à 170°C pendant 45-50 minutes. Vérifiez la cuisson avec la lame d'un couteau qui doit ressortir sèche.",
       "duration": 50,
       "tip": "Si le dessus colore trop vite, couvrez d'une feuille d'aluminium.",
-      "expertNote": "Laissez le cake refroidir 10 minutes dans le moule avant de démouler sur une grille."
+      "expertNote": "Laissez le cake refroidir 10 minutes dans le moule avant de démouler sur une grille.",
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -90,5 +95,7 @@
     "Moule à cake",
     "Maryse",
     "Tamis"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

@@ -50,27 +50,32 @@
     {
       "title": "Pétrir",
       "description": "Mélanger farine, sucre, sel, œufs, lochrine et levure. Pétrir 15 à 20 minutes jusqu'à développement du réseau glutineux.",
-      "duration": 20
+      "duration": 20,
+      "gestureVideo": ""
     },
     {
       "title": "Ajouter le beurre",
       "description": "Ajouter le beurre pommade en parcelles en fin de pétrissage. Bien incorporer.",
-      "duration": 5
+      "duration": 5,
+      "gestureVideo": ""
     },
     {
       "title": "Pointer",
       "description": "Laisser pointer 1h30 à 2h à température ambiante, la pâte doit doubler de volume.",
-      "duration": 120
+      "duration": 120,
+      "gestureVideo": ""
     },
     {
       "title": "Mettre au froid",
       "description": "Dégazer la pâte et la placer au réfrigérateur au moins 4h ou une nuit.",
-      "duration": 240
+      "duration": 240,
+      "gestureVideo": ""
     },
     {
       "title": "Façonner et cuire",
       "description": "Façonner les brioches, laisser pousser, dorer à l'œuf et cuire à 170°C pendant 25 à 35 minutes.",
-      "duration": 40
+      "duration": 40,
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -85,5 +90,7 @@
     "Balance",
     "Moule à brioche",
     "Corne à ramasser"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

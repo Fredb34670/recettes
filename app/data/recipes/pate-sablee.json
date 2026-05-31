@@ -42,27 +42,31 @@
       "description": "Du bout des doigts ou au robot, sabler la farine avec le beurre froid coupé en dés jusqu'à obtenir une texture de sable grossier.",
       "duration": 5,
       "tip": "Le beurre doit être froid mais pas dur. Travaillez rapidement pour ne pas chauffer la pâte.",
-      "expertNote": "Le sablage peut être réalisé au robot avec la feuille (vitesse 1-2). La texture finale doit ressembler à du sable de plage humide — pas de morceaux de beurre visibles."
+      "expertNote": "Le sablage peut être réalisé au robot avec la feuille (vitesse 1-2). La texture finale doit ressembler à du sable de plage humide — pas de morceaux de beurre visibles.",
+      "gestureVideo": ""
     },
     {
       "title": "Ajouter les œufs et le sucre",
       "description": "Ajouter les œufs, le sucre et le sel. Fraser jusqu'à disparition de toute trace de farine sans travailler la pâte.",
       "duration": 5,
       "tip": "Ne pétrissez pas trop pour éviter le développement du gluten.",
-      "expertNote": "Fraiser = écraser la pâte avec la paume de la main sur le plan de travail pour amalgamer sans pétrir. 2 à 3 passages suffisent. La pâte ne doit jamais devenir élastique."
+      "expertNote": "Fraiser = écraser la pâte avec la paume de la main sur le plan de travail pour amalgamer sans pétrir. 2 à 3 passages suffisent. La pâte ne doit jamais devenir élastique.",
+      "gestureVideo": ""
     },
     {
       "title": "Réserver au frais",
       "description": "Envelopper la pâte dans un film étirable et réserver au réfrigérateur au moins 1 heure.",
       "duration": 60,
-      "tip": "Le repos au froid est essentiel pour éviter le retrait à la cuisson."
+      "tip": "Le repos au froid est essentiel pour éviter le retrait à la cuisson.",
+      "gestureVideo": ""
     },
     {
       "title": "Cuire à blanc",
       "description": "Étaler la pâte sur 3 mm d'épaisseur, foncer le cercle, piquer à la fourchette et cuire à 170°C pendant 18 minutes environ.",
       "duration": 18,
       "tip": "Utilisez des billes de cuisson pour éviter que la pâte ne gonfle.",
-      "expertNote": "Cuisson à blanc : beurrer le cercle, foncer, piquer, poser un papier sulfurisé et des billes de cuisson (ou haricots secs). Retirer les billes à mi-cuisson pour sécher le fond."
+      "expertNote": "Cuisson à blanc : beurrer le cercle, foncer, piquer, poser un papier sulfurisé et des billes de cuisson (ou haricots secs). Retirer les billes à mi-cuisson pour sécher le fond.",
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -78,5 +82,7 @@
     "Cercle à tarte",
     "Balance",
     "Film alimentaire"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

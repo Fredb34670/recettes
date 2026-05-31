@@ -35,29 +35,34 @@
     {
       "title": "Faire bouillir le lait vanillé",
       "description": "Fendre les gousses de vanille et gratter les graines. Porter le lait à ébullition avec les gousses et les graines. Couvrir et laisser infuser 10 minutes.",
-      "duration": 15
+      "duration": 15,
+      "gestureVideo": ""
     },
     {
       "title": "Blanchir les jaunes",
       "description": "Fouetter les jaunes avec le sucre jusqu'à ce que le mélange blanchisse et forme un ruban.",
-      "duration": 5
+      "duration": 5,
+      "gestureVideo": ""
     },
     {
       "title": "Mélanger",
       "description": "Verser le lait chaud sur les jaunes blanchis en fouettant doucement. Passer au chinois pour une texture parfaitement lisse.",
-      "duration": 5
+      "duration": 5,
+      "gestureVideo": ""
     },
     {
       "title": "Remplir les pots",
       "description": "Verser la préparation dans des petits pots en grès ou des ramequins. Écumer la mousse en surface pour une texture lisse.",
       "duration": 5,
-      "tip": "Tapoter légèrement les pots sur le plan de travail pour faire remonter les bulles d'air."
+      "tip": "Tapoter légèrement les pots sur le plan de travail pour faire remonter les bulles d'air.",
+      "gestureVideo": ""
     },
     {
       "title": "Cuire au bain-marie",
       "description": "Disposer les pots dans un plat allant au four. Verser de l'eau tiède à mi-hauteur. Cuire à 140 °C pendant 40-45 minutes. Les crèmes doivent être prises mais encore tremblotantes.",
       "duration": 45,
-      "expertNote": "La cuisson à 140 °C est idéale : une température plus élevée ferait bouillir l'eau et donnerait une texture trouée aux crèmes."
+      "expertNote": "La cuisson à 140 °C est idéale : une température plus élevée ferait bouillir l'eau et donnerait une texture trouée aux crèmes.",
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -90,5 +95,7 @@
     "Fouet",
     "Ramequins",
     "Chinois"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

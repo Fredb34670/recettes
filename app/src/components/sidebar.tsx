@@ -59,7 +59,7 @@ function SidebarNav() {
         className="w-full flex items-center gap-3 p-3 rounded-xl transition-all text-stone-600 hover:bg-stone-100 mb-3"
       >
         {hydrated && mode === "expert" ? (
-          <Sparkles size={20} className="text-amber-600" />
+          <ChefHat size={20} className="text-amber-600" />
         ) : (
           <GraduationCap size={20} className="text-stone-400" />
         )}

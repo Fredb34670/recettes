@@ -50,30 +50,35 @@
     {
       "title": "Préparer l'appareil à clafoutis",
       "description": "Fouetter les œufs entiers avec le sucre et la poudre à crème jusqu'à obtenir un mélange homogène et légèrement mousseux.",
-      "duration": 5
+      "duration": 5,
+      "gestureVideo": ""
     },
     {
       "title": "Ajouter le lait et la crème",
       "description": "Verser le lait et la crème en filet tout en continuant à fouetter doucement. La pâte doit être lisse et fluide.",
       "duration": 5,
-      "tip": "Si la pâte est trop liquide, ajouter une cuillère de farine supplémentaire."
+      "tip": "Si la pâte est trop liquide, ajouter une cuillère de farine supplémentaire.",
+      "gestureVideo": ""
     },
     {
       "title": "Disposer les cerises",
       "description": "Beurrer généreusement un moule à gratin. Laver et équeuter les cerises. Les disposer en une seule couche au fond du moule.",
       "duration": 10,
-      "expertNote": "La tradition limousine ne dénoyaute pas les cerises : le noyau apporte un parfum d'amande. Pour les enfants, les dénoyauter."
+      "expertNote": "La tradition limousine ne dénoyaute pas les cerises : le noyau apporte un parfum d'amande. Pour les enfants, les dénoyauter.",
+      "gestureVideo": ""
     },
     {
       "title": "Verser l'appareil",
       "description": "Verser l'appareil à clafoutis par-dessus les cerises. La pâte doit recouvrir les fruits aux trois quarts.",
-      "duration": 2
+      "duration": 2,
+      "gestureVideo": ""
     },
     {
       "title": "Cuire au four",
       "description": "Enfourner à 180 °C pendant 35 à 40 minutes. Le clafoutis doit être gonflé et doré, mais encore légèrement tremblotant au centre.",
       "duration": 40,
-      "tip": "Ne pas ouvrir le four pendant les 25 premières minutes de cuisson."
+      "tip": "Ne pas ouvrir le four pendant les 25 premières minutes de cuisson.",
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -88,5 +93,7 @@
     "Moule à manqué",
     "Balance",
     "Pinceau"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

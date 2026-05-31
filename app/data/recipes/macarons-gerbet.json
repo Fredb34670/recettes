@@ -40,32 +40,38 @@
     {
       "title": "Tamiser le TPT",
       "description": "Tamiser ensemble le TPT (poudre d'amandes et sucre glace) et le sucre glace supplémentaire.",
-      "duration": 3
+      "duration": 3,
+      "gestureVideo": ""
     },
     {
       "title": "Monter les blancs",
       "description": "Monter les 200g de blancs d'œufs en neige ferme en ajoutant le sucre semoule progressivement.",
-      "duration": 8
+      "duration": 8,
+      "gestureVideo": ""
     },
     {
       "title": "Ajouter les blancs supplémentaires",
       "description": "Ajouter les 50g de blancs d'œufs supplémentaires au TPT pour former une pâte.",
-      "duration": 2
+      "duration": 2,
+      "gestureVideo": ""
     },
     {
       "title": "Macaronner",
       "description": "Incorporer les blancs montés au TPT en trois fois. Macaronner en écrasant la masse contre le bord du récipient jusqu'à obtenir un ruban qui s'écoule lentement.",
-      "duration": 5
+      "duration": 5,
+      "gestureVideo": ""
     },
     {
       "title": "Croûter",
       "description": "Dresser à la poche à douille sur plaque recouverte de papier cuisson. Laisser croûter à l'air libre pendant 30 minutes jusqu'à ce que la surface ne colle plus au doigt.",
-      "duration": 30
+      "duration": 30,
+      "gestureVideo": ""
     },
     {
       "title": "Cuire",
       "description": "Cuire à 180°C pendant 8 minutes. Ouvrir le four une fois à mi-cuisson pour évacuer la vapeur.",
-      "duration": 8
+      "duration": 8,
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -82,5 +88,7 @@
     "Plaque de cuisson",
     "Tamis",
     "Mixeur"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

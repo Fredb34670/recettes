@@ -25,22 +25,26 @@
     {
       "title": "Fondre la couverture",
       "description": "Faire fondre la couverture lactée au bain-marie ou au micro-ondes à 45-50°C.",
-      "duration": 5
+      "duration": 5,
+      "gestureVideo": ""
     },
     {
       "title": "Détendre",
       "description": "Ajouter 1/3 de la crème fouettée froide à la couverture fondue et mélanger délicatement pour détendre l'appareil.",
-      "duration": 3
+      "duration": 3,
+      "gestureVideo": ""
     },
     {
       "title": "Incorporer le reste",
       "description": "Ajouter le reste de crème fouettée en plusieurs fois en mélangeant délicatement à la spatule.",
-      "duration": 5
+      "duration": 5,
+      "gestureVideo": ""
     },
     {
       "title": "Réserver",
       "description": "Réfrigérer au moins 2 heures avant de servir.",
-      "duration": 120
+      "duration": 120,
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -55,5 +59,7 @@
     "Batteur électrique",
     "Maryse",
     "Balance"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

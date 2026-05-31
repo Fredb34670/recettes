@@ -55,37 +55,44 @@
     {
       "title": "Préparer la détrempe",
       "description": "Mélanger farine, sucre, sel, eau, lait et levure émiettée. Pétrir 10 minutes. Ajouter les 50g de beurre en fin de pétrissage.",
-      "duration": 15
+      "duration": 15,
+      "gestureVideo": ""
     },
     {
       "title": "Pointer",
       "description": "Laisser pointer 45 minutes à température ambiante.",
-      "duration": 45
+      "duration": 45,
+      "gestureVideo": ""
     },
     {
       "title": "Congeler",
       "description": "Abaisser la détrempe en rectangle, filmer et congeler 1 heure.",
-      "duration": 60
+      "duration": 60,
+      "gestureVideo": ""
     },
     {
       "title": "Beurrage et tourage",
       "description": "Incorporer le beurre de tourage et réaliser 2 à 3 tours simples. Réfrigérer 30 minutes entre chaque tour.",
-      "duration": 40
+      "duration": 40,
+      "gestureVideo": ""
     },
     {
       "title": "Abaisser et détailler",
       "description": "Abaisser la pâte sur 4mm d'épaisseur. Couper des triangles et rouler en croissants.",
-      "duration": 15
+      "duration": 15,
+      "gestureVideo": ""
     },
     {
       "title": "Pousser",
       "description": "Laisser pousser les croissants à température ambiante 1h30 à 2h jusqu'à doublement de volume.",
-      "duration": 120
+      "duration": 120,
+      "gestureVideo": ""
     },
     {
       "title": "Dorer et cuire",
       "description": "Dorer à l'œuf battu et cuire à 180°C pendant 15 à 20 minutes.",
-      "duration": 20
+      "duration": 20,
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -100,5 +107,7 @@
     "Plaque de cuisson",
     "Pinceau",
     "Couteau"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

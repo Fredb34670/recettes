@@ -25,17 +25,20 @@
     {
       "title": "Cuire le sucre",
       "description": "Cuire le sucre avec un peu d'eau jusqu'à 120°C (grand boulé).",
-      "duration": 10
+      "duration": 10,
+      "gestureVideo": ""
     },
     {
       "title": "Verser sur les jaunes",
       "description": "Verser le sirop chaud en filet sur les jaunes tout en fouettant.",
-      "duration": 3
+      "duration": 3,
+      "gestureVideo": ""
     },
     {
       "title": "Monter jusqu'à refroidissement",
       "description": "Continuer de fouetter jusqu'à complet refroidissement du mélange. La pâte doit être épaisse et légère.",
-      "duration": 10
+      "duration": 10,
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -50,5 +53,7 @@
     "Batteur électrique",
     "Sonde thermique",
     "Maryse"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

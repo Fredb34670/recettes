@@ -40,26 +40,30 @@
     {
       "title": "Porter à ébullition",
       "description": "Porter à ébullition la pulpe de framboise et le sucre inverti.",
-      "duration": 5
+      "duration": 5,
+      "gestureVideo": ""
     },
     {
       "title": "Verser sur le chocolat",
       "description": "Verser le mélange chaud sur le chocolat blanc concassé. Laisser fondre 2 minutes puis lisser délicatement à la spatule.",
       "duration": 5,
       "tip": "Émulsionner doucement pour éviter d'incorporer de l'air.",
-      "expertNote": "Le chocolat blanc est plus sensible à la température que le noir ou au lait. Ne pas chauffer la pulpe au-delà de 65 °C pour éviter la déstabilisation du beurre de cacao."
+      "expertNote": "Le chocolat blanc est plus sensible à la température que le noir ou au lait. Ne pas chauffer la pulpe au-delà de 65 °C pour éviter la déstabilisation du beurre de cacao.",
+      "gestureVideo": ""
     },
     {
       "title": "Ajouter le beurre et l'alcool",
       "description": "Lorsque la ganache atteint 28°C, ajouter le beurre en parcelles et l'eau-de-vie de framboise. Mélanger jusqu'à homogénéité.",
       "duration": 5,
       "tip": "La température de 28°C est importante pour une texture lisse.",
-      "expertNote": "L'émulsion eau-dans-huile de la ganache nécessite une température stable de 28 °C. Si trop chaude, le beurre fond complètement et la ganace tranche au refroidissement."
+      "expertNote": "L'émulsion eau-dans-huile de la ganache nécessite une température stable de 28 °C. Si trop chaude, le beurre fond complètement et la ganace tranche au refroidissement.",
+      "gestureVideo": ""
     },
     {
       "title": "Réserver",
       "description": "Filmer au contact et réserver au réfrigérateur minimum 3 heures avant utilisation.",
-      "duration": 180
+      "duration": 180,
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -74,5 +78,7 @@
     "Maryse",
     "Sonde thermique",
     "Mixeur plongeant"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

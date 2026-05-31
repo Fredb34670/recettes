@@ -55,32 +55,38 @@
     {
       "title": "Monter les blancs",
       "description": "Monter les blancs d'œufs en neige ferme en ajoutant le sucre progressivement.",
-      "duration": 8
+      "duration": 8,
+      "gestureVideo": ""
     },
     {
       "title": "Mélanger le TPT",
       "description": "Mélanger le TPT (poudre d'amandes et sucre glace) avec les œufs entiers et les jaunes jusqu'à obtenir un appareil homogène et légèrement mousseux.",
-      "duration": 5
+      "duration": 5,
+      "gestureVideo": ""
     },
     {
       "title": "Incorporer les blancs",
       "description": "Incorporer délicatement les blancs montés au mélange TPT-œufs à l'aide d'une maryse.",
-      "duration": 3
+      "duration": 3,
+      "gestureVideo": ""
     },
     {
       "title": "Ajouter la farine",
       "description": "Tamiser la farine et l'incorporer en soulevant délicatement la masse.",
-      "duration": 2
+      "duration": 2,
+      "gestureVideo": ""
     },
     {
       "title": "Ajouter le beurre",
       "description": "Ajouter le beurre fondu chaud en dernier, l'incorporer rapidement sans trop mélanger.",
-      "duration": 2
+      "duration": 2,
+      "gestureVideo": ""
     },
     {
       "title": "Cuire",
       "description": "Étaler sur plaque recouverte de papier cuisson. Cuire à 180°C pendant 12 à 15 minutes.",
-      "duration": 15
+      "duration": 15,
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -95,5 +101,7 @@
     "Maryse",
     "Plaque de cuisson",
     "Spatule coudée"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

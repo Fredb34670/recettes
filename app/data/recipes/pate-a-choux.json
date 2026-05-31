@@ -47,42 +47,48 @@
       "description": "Dans une grande casserole, versez l'eau, le lait, le beurre coupé en morceaux et le sel. Portez à ébullition. Le beurre doit être complètement fondu quand le liquide bout.",
       "duration": 5,
       "tip": "Utilisez une casserole à fond épais pour une cuisson homogène.",
-      "expertNote": "Le mélange eau-lait apporte du moelleux et une meilleure coloration. Le lait seul donnerait une pâte trop lourde."
+      "expertNote": "Le mélange eau-lait apporte du moelleux et une meilleure coloration. Le lait seul donnerait une pâte trop lourde.",
+      "gestureVideo": ""
     },
     {
       "title": "Ajouter la farine d'un coup",
       "description": "Retirez du feu. Versez la farine tamisée d'un seul coup dans le liquide bouillant. Mélangez vigoureusement avec une spatule en bois jusqu'à obtention d'une panade homogène qui se détache des parois.",
       "duration": 3,
       "tip": "La panade doit former une boule nette qui ne colle plus aux parois.",
-      "expertNote": "C'est l'étape de la panade : la farine se gorge d'eau et d'amidon. Le mouvement doit être énergique et rapide."
+      "expertNote": "C'est l'étape de la panade : la farine se gorge d'eau et d'amidon. Le mouvement doit être énergique et rapide.",
+      "gestureVideo": ""
     },
     {
       "title": "Dessécher la panade",
       "description": "Remettez la casserole sur feu doux pendant 1 à 2 minutes en remuant pour évaporer l'excès d'humidité. La panade doit former une boule lisse et légèrement translucide.",
       "duration": 2,
       "tip": "Une fine pellicule blanche au fond de la casserole indique que le dessèchement est suffisant.",
-      "expertNote": "Le dessèchement est crucial : une panade trop humide ne gonflera pas à la cuisson."
+      "expertNote": "Le dessèchement est crucial : une panade trop humide ne gonflera pas à la cuisson.",
+      "gestureVideo": "https://media.giphy.com/media/36icdZPtXj78OkkDz3/giphy.mp4"
     },
     {
       "title": "Ajouter les œufs un par un",
       "description": "Hors du feu, incorporez les œufs battus un par un en mélangeant énergiquement entre chaque ajout. La pâte doit devenir lisse, souple et former un bec d'oiseau quand on la soulève avec la spatule.",
       "duration": 8,
       "tip": "Attendez que chaque œuf soit bien absorbé avant d'ajouter le suivant.",
-      "expertNote": "Test du bec d'oiseau : prélevez un peu de pâte avec la spatule, elle doit retomber en formant un ruban qui fait un bec."
+      "expertNote": "Test du bec d'oiseau : prélevez un peu de pâte avec la spatule, elle doit retomber en formant un ruban qui fait un bec.",
+      "gestureVideo": ""
     },
     {
       "title": "Pocher la pâte",
       "description": "Transvasez la pâte dans une poche à douille. Dressez les choux ou éclairs sur une plaque recouverte de papier sulfurisé. Dorez à l'œuf battu si souhaité.",
       "duration": 10,
       "tip": "Espacez suffisamment les pièces car elles gonflent à la cuisson.",
-      "expertNote": "Pour des choux réguliers, tenez la poche verticalement et coupez net en tournant légèrement."
+      "expertNote": "Pour des choux réguliers, tenez la poche verticalement et coupez net en tournant légèrement.",
+      "gestureVideo": "https://media.giphy.com/media/gSylay3iGvuhRfRINd/giphy.mp4"
     },
     {
       "title": "Cuire au four",
       "description": "Enfournez à 180°C (thermostat 6). Ne pas ouvrir la porte pendant les 20 premières minutes. Poursuivez la cuisson jusqu'à coloration dorée, environ 25-30 minutes au total.",
       "duration": 30,
       "tip": "NE PAS OUVRIR LE FOUR en début de cuisson sous peine de voir les choux s'affaisser.",
-      "expertNote": "La vapeur d'eau emprisonnée dans la pâte crée la pression qui fait gonfler les choux. La chaleur fixe la structure."
+      "expertNote": "La vapeur d'eau emprisonnée dans la pâte crée la pression qui fait gonfler les choux. La chaleur fixe la structure.",
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -97,5 +103,20 @@
     "Cul-de-poule",
     "Poche à douille",
     "Plaque de cuisson"
+  ],
+  "materialVideo": "https://media.giphy.com/media/l0HlS66H7J6uUvOda/giphy.mp4",
+  "technicalSpecs": [
+    {
+      "description": "Essentiel pour le développement en vapeur",
+      "unit": "%",
+      "label": "Taux d'humidité",
+      "value": "12"
+    },
+    {
+      "description": "Température de prise des œufs",
+      "unit": "°C",
+      "label": "Coagulation",
+      "value": "85"
+    }
   ]
 }

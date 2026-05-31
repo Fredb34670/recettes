@@ -35,27 +35,32 @@
     {
       "title": "Détendre la pâte d'amande",
       "description": "Détendre la pâte d'amande avec les œufs entiers en mélangeant progressivement jusqu'à obtenir une pâte lisse et homogène.",
-      "duration": 8
+      "duration": 8,
+      "gestureVideo": ""
     },
     {
       "title": "Monter l'appareil",
       "description": "Monter la préparation au batteur jusqu'à ce qu'elle devienne épaisse et mousseuse (elle forme un ruban).",
-      "duration": 5
+      "duration": 5,
+      "gestureVideo": ""
     },
     {
       "title": "Ajouter la farine",
       "description": "Tamiser et incorporer la farine délicatement à l'aide d'une maryse.",
-      "duration": 2
+      "duration": 2,
+      "gestureVideo": ""
     },
     {
       "title": "Ajouter le beurre",
       "description": "Ajouter le beurre fondu refroidi et mélanger délicatement.",
-      "duration": 2
+      "duration": 2,
+      "gestureVideo": ""
     },
     {
       "title": "Cuire",
       "description": "Verser dans un moule beurré. Cuire à 170°C pendant 35 à 40 minutes. Vérifier la cuisson avec la lame d'un couteau.",
-      "duration": 40
+      "duration": 40,
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -70,5 +75,7 @@
     "Balance",
     "Maryse",
     "Pinceau"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

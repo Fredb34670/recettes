@@ -2,18 +2,23 @@
 
 import { useParams, useRouter } from "next/navigation"
 import { useState, useMemo, useEffect } from "react"
-import { ArrowLeft, Clock, Flame, Users, Plus, Minus, Lightbulb, Star, Sparkles, Heart, ChefHat } from "lucide-react"
+import { ArrowLeft, Clock, Flame, Users, Plus, Minus, Lightbulb, Star, Heart, ChefHat, Microscope, Activity, Video, X } from "lucide-react"
 import { getRecipe } from "@/lib/recipes-registry"
 import { getFamilyColor } from "@/lib/families"
 import { getDifficultyStars } from "@/lib/difficulty"
 import { formatQuantity } from "@/lib/format"
 import { useAppStore } from "@/lib/store"
+import { CgiVault } from "@/components/cgi-vault"
+import { ExpertOverlay } from "@/components/expert-overlay"
+import { ToolBadge } from "@/components/tool-badge"
+import { motion, AnimatePresence } from "framer-motion"
 
 export default function RecipeDetailPage() {
   const params = useParams()
   const router = useRouter()
   const recipe = useMemo(() => getRecipe(params.id as string), [params.id])
   const [servings, setServings] = useState(recipe?.servings || 4)
+  const [activeVideoStep, setActiveVideoStep] = useState<number | null>(null)
   const { mode, hydrated, hydrate, favorites, toggleFavorite } = useAppStore()
 
   useEffect(() => { hydrate() }, [hydrate])
@@ -44,22 +49,26 @@ export default function RecipeDetailPage() {
           <ArrowLeft size={18} />
           Retour aux recettes
         </button>
-        {hydrated && (
-          <button
-            onClick={() => toggleFavorite(recipe.id)}
-            className={`p-3 rounded-xl border transition-all ${
-              isFavorite 
-                ? "bg-rose-50 border-rose-100 text-rose-500" 
-                : "bg-white border-stone-200 text-stone-400 hover:text-rose-400"
-            }`}
-          >
-            <Heart size={20} className={isFavorite ? "fill-current" : ""} />
-          </button>
-        )}
+        <div className="flex items-center gap-2">
+          {hydrated && (
+            <button
+              onClick={() => toggleFavorite(recipe.id)}
+              className={`p-3 rounded-xl border transition-all ${
+                isFavorite 
+                  ? "bg-rose-50 border-rose-100 text-rose-500" 
+                  : "bg-white border-stone-200 text-stone-400 hover:text-rose-400"
+              }`}
+            >
+              <Heart size={20} className={isFavorite ? "fill-current" : ""} />
+            </button>
+          )}
+        </div>
       </div>
 
-      <div className="rounded-2xl overflow-hidden h-64 md:h-[400px] mb-8">
-        <img src={recipe.image} alt={recipe.title} className="w-full h-full object-cover" />
+      <div className="rounded-2xl overflow-hidden mb-8 relative">
+        <div className="h-64 md:h-[400px]">
+          <img src={recipe.image} alt={recipe.title} className="w-full h-full object-cover" />
+        </div>
       </div>
 
       <div className="mb-8">
@@ -79,7 +88,7 @@ export default function RecipeDetailPage() {
           </span>
           {hydrated && mode === "expert" && (
             <span className="inline-flex items-center gap-1 text-[10px] font-bold uppercase tracking-widest px-3 py-1.5 rounded-full border bg-amber-50 text-amber-700 border-amber-200">
-              <Sparkles size={11} />
+              <ChefHat size={11} />
               Expert
             </span>
           )}
@@ -87,6 +96,41 @@ export default function RecipeDetailPage() {
         <h1 className="font-display text-3xl md:text-5xl text-stone-800 mb-4">{recipe.title}</h1>
         <p className="text-stone-500 text-lg leading-relaxed">{recipe.description}</p>
       </div>
+
+      <AnimatePresence>
+        {hydrated && mode === "expert" && recipe.technicalSpecs && recipe.technicalSpecs.length > 0 && (
+          <motion.div 
+            initial={{ opacity: 0, height: 0 }}
+            animate={{ opacity: 1, height: "auto" }}
+            exit={{ opacity: 0, height: 0 }}
+            className="mb-10 overflow-hidden"
+          >
+            <div className="rounded-2xl bg-stone-900 text-white p-6 md:p-8 border border-stone-800 shadow-xl">
+              <div className="flex items-center gap-2 mb-6">
+                <Microscope size={20} className="text-amber-500" />
+                <h3 className="font-display text-xl">Analyse Physico-Chimique</h3>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+                {recipe.technicalSpecs.map((spec, i) => (
+                  <div key={i} className="group relative">
+                    <div className="flex items-center justify-between mb-1 opacity-60">
+                      <span className="text-[10px] font-bold uppercase tracking-widest">{spec.label}</span>
+                      <Activity size={12} className="text-amber-500" />
+                    </div>
+                    <div className="flex items-baseline gap-1">
+                      <span className="text-3xl font-display font-bold text-white">{spec.value}</span>
+                      <span className="text-sm text-stone-500 font-medium">{spec.unit}</span>
+                    </div>
+                    <p className="text-[10px] text-stone-400 mt-2 leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity">
+                      {spec.description}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
 
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-10">
         {[
@@ -156,9 +200,7 @@ export default function RecipeDetailPage() {
         </h3>
         <div className="flex flex-wrap gap-2">
           {recipe.tools?.map((tool, i) => (
-            <span key={i} className="px-4 py-2 bg-white border border-stone-200 rounded-xl text-sm text-stone-600 font-medium shadow-sm">
-              {tool}
-            </span>
+            <ToolBadge key={i} name={tool} />
           ))}
         </div>
       </div>
@@ -175,8 +217,37 @@ export default function RecipeDetailPage() {
                 <div className="absolute left-5 top-10 bottom-0 w-0.5 bg-stone-200" />
               )}
               <div className="flex-1 pb-8">
-                <h4 className="font-display text-xl text-stone-800 mb-2">{step.title}</h4>
+                <h4 className="font-display text-xl text-stone-800 mb-2 flex items-center justify-between">
+                  {step.title}
+                  {step.gestureVideo && mode === "debutant" && (
+                    <button
+                      onClick={() => setActiveVideoStep(activeVideoStep === i ? null : i)}
+                      className={`p-2 rounded-full transition-all ${
+                        activeVideoStep === i 
+                          ? "bg-amber-600 text-white shadow-lg shadow-amber-600/20" 
+                          : "bg-stone-100 text-stone-400 hover:text-amber-600 hover:bg-amber-50"
+                      }`}
+                      title={activeVideoStep === i ? "Masquer la vidéo" : "Voir le geste technique"}
+                    >
+                      {activeVideoStep === i ? <X size={16} /> : <Video size={16} />}
+                    </button>
+                  )}
+                </h4>
                 <p className="text-stone-600 leading-relaxed mb-3">{step.description}</p>
+                
+                <AnimatePresence>
+                  {step.gestureVideo && mode === "debutant" && activeVideoStep === i && (
+                    <motion.div 
+                      initial={{ opacity: 0, height: 0, scale: 0.95 }}
+                      animate={{ opacity: 1, height: "auto", scale: 1 }}
+                      exit={{ opacity: 0, height: 0, scale: 0.95 }}
+                      className="mb-6 overflow-hidden rounded-xl border-2 border-amber-100 shadow-xl bg-stone-900 aspect-video"
+                    >
+                      <CgiVault src={step.gestureVideo} className="w-full h-full" showControls />
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+
                 <div className="flex items-center gap-4 text-sm text-stone-400">
                   {step.duration && (
                     <span className="flex items-center gap-1">
@@ -193,7 +264,7 @@ export default function RecipeDetailPage() {
                 {step.expertNote && hydrated && mode === "expert" && (
                   <div className="mt-3 p-4 bg-stone-50 border border-stone-200 rounded-xl">
                     <div className="flex items-center gap-1.5 mb-2">
-                      <Sparkles size={14} className="text-amber-600" />
+                      <ChefHat size={14} className="text-amber-600" />
                     </div>
                     <p className="text-sm text-stone-600">{step.expertNote}</p>
                   </div>

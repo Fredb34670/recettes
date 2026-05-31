@@ -51,20 +51,23 @@
       "title": "Préparer la crème pâtissière à la gélatine",
       "description": "Réhydrater la gélatine dans l'eau froide. Préparer une crème pâtissière avec le lait, les jaunes, 100 g de sucre et la poudre à crème. Hors du feu, ajouter la gélatine essorée à la crème encore bouillante.",
       "duration": 15,
-      "expertNote": "La gélatine doit être ajoutée à une température minimale de 80 °C pour une dissolution parfaite. Ne pas la faire bouillir après ajout."
+      "expertNote": "La gélatine doit être ajoutée à une température minimale de 80 °C pour une dissolution parfaite. Ne pas la faire bouillir après ajout.",
+      "gestureVideo": ""
     },
     {
       "title": "Réaliser la meringue italienne",
       "description": "Porter 600 g de sucre avec un peu d'eau à 118 °C. Commencer à monter les blancs en neige. Verser le sirop chaud en filet sur les blancs tout en continuant de fouetter jusqu'à refroidissement (40 °C).",
       "duration": 15,
       "tip": "Le sirop doit atteindre exactement 118 °C pour une meringue stable.",
-      "expertNote": "La température de 118 °C correspond au stade 'grand boulé'. Le sirop doit être versé progressivement pour ne pas cuire les blancs trop brusquement."
+      "expertNote": "La température de 118 °C correspond au stade 'grand boulé'. Le sirop doit être versé progressivement pour ne pas cuire les blancs trop brusquement.",
+      "gestureVideo": ""
     },
     {
       "title": "Incorporer la meringue à la crème",
       "description": "La crème pâtissière doit être à 40-45 °C. Incorporer la meringue italienne en trois fois, en mélangeant délicatement à la spatule pour ne pas casser les blancs.",
       "duration": 10,
-      "tip": "Travailler rapidement mais délicatement pour conserver l'air incorporé."
+      "tip": "Travailler rapidement mais délicatement pour conserver l'air incorporé.",
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -80,5 +83,7 @@
     "Batteur électrique",
     "Maryse",
     "Sonde thermique"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

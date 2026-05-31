@@ -11,14 +11,14 @@ import { DifficultyFilter } from "@/components/difficulty-filter"
 import { searchRecipes } from "@/lib/search"
 import { useRecipeStore } from "@/store/use-recipe-store"
 import { useAppStore } from "@/lib/store"
-import { Heart } from "lucide-react"
+import { Heart, GraduationCap, ChefHat, Info } from "lucide-react"
 
 function RecipesContent() {
   const searchParams = useSearchParams()
   const familyParam = searchParams.get("family")
   const favsParam = searchParams.get("filter") === "favorites"
   const { searchQuery, selectedFamily, selectedDifficulty, setSelectedFamily } = useRecipeStore()
-  const { favorites, hydrated } = useAppStore()
+  const { favorites, hydrated, mode } = useAppStore()
 
   useEffect(() => {
     if (familyParam) setSelectedFamily(familyParam)
@@ -52,9 +52,24 @@ function RecipesContent() {
             </Link>
           </div>
         ) : null}
-        <h2 className="font-display text-3xl md:text-4xl text-stone-800 mb-1">
-          {favsParam ? "Mes Favoris" : (selectedFamily || "Recettes")}
-        </h2>
+        <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-1">
+          <h2 className="font-display text-3xl md:text-4xl text-stone-800">
+            {favsParam ? "Mes Favoris" : (selectedFamily || "Recettes")}
+          </h2>
+          {hydrated && (
+            <div className="flex items-center gap-4 text-xs font-medium text-stone-500 bg-stone-100/50 px-4 py-2 rounded-full border border-stone-200">
+              <div className="flex items-center gap-1.5">
+                <GraduationCap size={14} className="text-stone-400" />
+                <span>Débutant : Vidéos</span>
+              </div>
+              <div className="w-px h-3 bg-stone-300" />
+              <div className="flex items-center gap-1.5">
+                <ChefHat size={14} className="text-amber-600" />
+                <span>Expert : Chimie</span>
+              </div>
+            </div>
+          )}
+        </div>
         <p className="text-stone-500 text-sm md:text-base">
           {filtered.length} recette{filtered.length > 1 ? "s" : ""} trouvée{filtered.length > 1 ? "s" : ""}
         </p>

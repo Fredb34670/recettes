@@ -37,41 +37,47 @@
       "description": "Dans la cuve du batteur, mélangez la farine tamisée et le sel. Ajoutez un peu de beurre fondu (prélevé sur les 375g) et l'eau froide. Pétrissez jusqu'à obtenir une pâte homogène et souple, sans gluten développé. Formez une boule, filmez et réservez au frais 1 heure.",
       "duration": 10,
       "tip": "La détrempe ne doit pas être trop travaillée. Elle doit être souple mais pas élastique.",
-      "expertNote": "Le rapport farine/eau pour la détrempe est crucial : trop d'eau = pâte élastique, pas assez = détrempe sèche qui craquelle."
+      "expertNote": "Le rapport farine/eau pour la détrempe est crucial : trop d'eau = pâte élastique, pas assez = détrempe sèche qui craquelle.",
+      "gestureVideo": ""
     },
     {
       "title": "Repos de la détrempe",
       "description": "Filmez la détrempe et réservez au réfrigérateur pendant 1 heure minimum. Ce repos détend le gluten et facilite le tourage.",
       "duration": 60,
-      "tip": "La détrempe doit avoir la même consistance que le beurre de tourage pour un feuilletage régulier."
+      "tip": "La détrempe doit avoir la même consistance que le beurre de tourage pour un feuilletage régulier.",
+      "gestureVideo": ""
     },
     {
       "title": "Préparer le beurre de tourage",
       "description": "Placez le beurre de tourage entre deux feuilles de papier sulfurisé. Tapez au rouleau pour l'assouplir, puis formez un carré régulier d'environ 1 cm d'épaisseur. Le beurre doit rester froid mais malléable.",
       "duration": 5,
       "tip": "Le beurre ne doit ni fondre ni être trop dur. Il doit plier sans casser.",
-      "expertNote": "Le beurre de tourage sec (82% MG minimum) contient moins d'eau qu'un beurre standard, ce qui garantit un feuilletage régulier."
+      "expertNote": "Le beurre de tourage sec (82% MG minimum) contient moins d'eau qu'un beurre standard, ce qui garantit un feuilletage régulier.",
+      "gestureVideo": ""
     },
     {
       "title": "Enfermer le beurre dans la détrempe",
       "description": "Abaissez la détrempe en croix (4 côtés plus épais au centre). Placez le carré de beurre au centre. Rabattez les 4 côtés de la détrempe par-dessus le beurre pour l'enfermer complètement. Soudez bien les bords.",
       "duration": 5,
       "tip": "Les bords doivent être bien soudés pour que le beurre ne s'échappe pas au premier tour.",
-      "expertNote": "On appelle cette étape le 'tourrage' ou l'enfermement. C'est la clé d'un feuilletage réussi."
+      "expertNote": "On appelle cette étape le 'tourrage' ou l'enfermement. C'est la clé d'un feuilletage réussi.",
+      "gestureVideo": ""
     },
     {
       "title": "6 tours simples avec repos",
       "description": "Réalisez 6 tours simples (plier en trois comme un portefeuille). Après le tour 2 et le tour 4, filmez et réservez 1 heure au frais. Respectez impérativement les repos pour ne pas fatiguer la pâte.",
       "duration": 180,
       "tip": "Farinez légèrement le plan de travail et le rouleau. Tournez la pâte d'un quart de tour entre chaque tour.",
-      "expertNote": "Chaque tour multiplie par 3 le nombre de couches. Après 6 tours : 3^6 = 729 couches de beurre et de détrempe. Au-delà, les couches deviennent trop fines et risquent de percer."
+      "expertNote": "Chaque tour multiplie par 3 le nombre de couches. Après 6 tours : 3^6 = 729 couches de beurre et de détrempe. Au-delà, les couches deviennent trop fines et risquent de percer.",
+      "gestureVideo": ""
     },
     {
       "title": "Cuire",
       "description": "Abaissez la pâte à l'épaisseur désirée (2-4 mm). Détaillez selon l'utilisation. Enfournez à 180-200°C selon la pièce : pithiviers 180°C, millefeuilles 200°C. La cuisson dure 20-30 minutes.",
       "duration": 30,
       "tip": "Pour une meilleure levée, ne dorez pas les bords des pièces à lever.",
-      "expertNote": "La pâte feuilletée cuit en deux temps : d'abord la vapeur soulève les couches, puis la chaleur les fixe et les colore."
+      "expertNote": "La pâte feuilletée cuit en deux temps : d'abord la vapeur soulève les couches, puis la chaleur les fixe et les colore.",
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -86,5 +92,7 @@
     "Pinceau",
     "Couteau de chef",
     "Film alimentaire"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

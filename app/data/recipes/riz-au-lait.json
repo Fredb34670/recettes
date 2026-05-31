@@ -40,22 +40,26 @@
     {
       "title": "Laver le riz",
       "description": "Laver le riz à l'eau froide pour retirer l'excédent d'amidon.",
-      "duration": 2
+      "duration": 2,
+      "gestureVideo": ""
     },
     {
       "title": "Blanchir",
       "description": "Plonger le riz dans l'eau bouillante 2 minutes, puis égoutter.",
-      "duration": 3
+      "duration": 3,
+      "gestureVideo": ""
     },
     {
       "title": "Cuire le riz au lait",
       "description": "Verser le riz dans le lait bouillant avec la vanille fendue et grattée et le sel. Cuire à frémissement 25 à 35 minutes en remuant régulièrement.",
-      "duration": 30
+      "duration": 30,
+      "gestureVideo": ""
     },
     {
       "title": "Sucrer",
       "description": "Ajouter le sucre en fin de cuisson et mélanger. Laisser refroidir avant de servir.",
-      "duration": 2
+      "duration": 2,
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -70,5 +74,7 @@
     "Chinois",
     "Balance",
     "Ramequins"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }

@@ -40,27 +40,32 @@
     {
       "title": "Monter les blancs",
       "description": "Monter les blancs d'œufs en neige ferme en ajoutant le sucre progressivement.",
-      "duration": 8
+      "duration": 8,
+      "gestureVideo": ""
     },
     {
       "title": "Ajouter les jaunes",
       "description": "Ajouter les jaunes d'œufs délicatement aux blancs montés, en mélangeant doucement à la maryse.",
-      "duration": 2
+      "duration": 2,
+      "gestureVideo": ""
     },
     {
       "title": "Incorporer les secs",
       "description": "Tamiser la farine et la fécule ensemble, puis les incorporer délicatement au mélange en soulevant la masse.",
-      "duration": 3
+      "duration": 3,
+      "gestureVideo": ""
     },
     {
       "title": "Dresser",
       "description": "Dresser à la poche à douille sur une plaque recouverte de papier cuisson, en formant des biscuits allongés.",
-      "duration": 5
+      "duration": 5,
+      "gestureVideo": ""
     },
     {
       "title": "Cuire",
       "description": "Saupoudrer de sucre glace et cuire à 180°C pendant 12 à 15 minutes jusqu'à légère coloration.",
-      "duration": 15
+      "duration": 15,
+      "gestureVideo": ""
     }
   ],
   "tips": [
@@ -76,5 +81,7 @@
     "Maryse",
     "Plaque de cuisson",
     "Tamis"
-  ]
+  ],
+  "materialVideo": "",
+  "technicalSpecs": []
 }
