@@ -1,0 +1,89 @@
+{
+  "id": "pain-au-lait",
+  "family": "Viennoiserie",
+  "title": "Pain au lait",
+  "difficulty": "Intermédiaire",
+  "description": "Petits pains moelleux et légèrement sucrés, parfaits pour le petit-déjeuner des enfants.",
+  "prepTime": 30,
+  "cookTime": 20,
+  "restTime": 120,
+  "servings": 20,
+  "calories": 220,
+  "ingredients": [
+    {
+      "name": "Farine T45",
+      "quantity": 1.0,
+      "unit": "kg"
+    },
+    {
+      "name": "Beurre doux",
+      "quantity": 0.2,
+      "unit": "kg"
+    },
+    {
+      "name": "Sucre semoule",
+      "quantity": 0.08,
+      "unit": "kg"
+    },
+    {
+      "name": "Sel",
+      "quantity": 0.02,
+      "unit": "kg"
+    },
+    {
+      "name": "Lait",
+      "quantity": 0.25,
+      "unit": "L"
+    },
+    {
+      "name": "Levure fraîche",
+      "quantity": 0.03,
+      "unit": "kg"
+    },
+    {
+      "name": "Eau",
+      "quantity": 0.25,
+      "unit": "L"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Pétrir",
+      "description": "Mélanger farine, sucre, sel, lait, eau et levure. Pétrir 10 minutes puis ajouter le beurre pommade et pétrir à nouveau 5 minutes.",
+      "duration": 15
+    },
+    {
+      "title": "Pointer",
+      "description": "Laisser pointer 1h à température ambiante, la pâte doit doubler de volume.",
+      "duration": 60
+    },
+    {
+      "title": "Façonner",
+      "description": "Dégazer et diviser la pâte en petits pains de 60 à 80g chacun. Façonner en boules ou en petits pains allongés.",
+      "duration": 15
+    },
+    {
+      "title": "Pousser",
+      "description": "Laisser pousser 1h sur une plaque recouverte d'un torchon.",
+      "duration": 60
+    },
+    {
+      "title": "Cuire",
+      "description": "Dorer au lait ou à l'œuf battu et cuire à 180°C pendant 15 à 20 minutes.",
+      "duration": 20
+    }
+  ],
+  "tips": [
+    "Ne pas hésiter à bien pétrir pour obtenir une pâte souple et homogène.",
+    "Les pains au lait se congèlent très bien, les passer au four 5 minutes pour les redonner du croustillant.",
+    "Ajouter des pépites de chocolat pour une version gourmande."
+  ],
+  "image": "https://images.unsplash.com/photo-1777627828740-2c3b01e6a6cb?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Robot pâtissier",
+    "Cul-de-poule",
+    "Balance",
+    "Plaque de cuisson",
+    "Pinceau"
+  ]
+}

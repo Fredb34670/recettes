@@ -1,0 +1,100 @@
+{
+  "id": "pate-briochee",
+  "family": "Pâtes",
+  "title": "Pâte briochée",
+  "difficulty": "Avancé",
+  "description": "Pâte levée riche en beurre et en œufs, à la texture filante et moelleuse. Brioche classique, brioche feuilletée, brioche des rois. Nécessite un pétrissage long et un repos au froid.",
+  "prepTime": 45,
+  "cookTime": 40,
+  "restTime": 150,
+  "servings": 20,
+  "calories": 350,
+  "ingredients": [
+    {
+      "name": "Farine de gruau T45",
+      "quantity": 2.5,
+      "unit": "kg"
+    },
+    {
+      "name": "Beurre doux",
+      "quantity": 0.75,
+      "unit": "kg"
+    },
+    {
+      "name": "Œufs entiers",
+      "quantity": 1.5,
+      "unit": "L"
+    },
+    {
+      "name": "Sucre semoule",
+      "quantity": 0.2,
+      "unit": "kg"
+    },
+    {
+      "name": "Sel fin",
+      "quantity": 0.037,
+      "unit": "kg"
+    },
+    {
+      "name": "Levure boulangère fraîche",
+      "quantity": 0.03,
+      "unit": "kg"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Pétrir la farine, les œufs, le sucre, le sel et la levure",
+      "description": "Dans la cuve du batteur muni du crochet, versez la farine, le sucre, le sel et la levure émiettée. Ajoutez les œufs battus. Pétrissez à vitesse lente 5 minutes, puis à vitesse moyenne 10 minutes jusqu'à ce que la pâte soit lisse et élastique.",
+      "duration": 15,
+      "tip": "La levure ne doit pas être en contact direct avec le sel car le sel tue la levure.",
+      "expertNote": "La farine de gruau (T45) est riche en gluten, ce qui permet d'absorber beaucoup de beurre et d'œufs tout en conservant une structure solide."
+    },
+    {
+      "title": "Ajouter le beurre à la fin",
+      "description": "Ajoutez le beurre pommade en plusieurs fois, en continuant de pétrir à vitesse moyenne. Pétrissez jusqu'à ce que le beurre soit complètement incorporé et la pâte lisse, souple et élastique (environ 10 minutes).",
+      "duration": 10,
+      "tip": "Le beurre doit être à température ambiante et ajouté seulement quand la pâte est bien développée.",
+      "expertNote": "Ajouter le beurre en fin de pétrissage permet au gluten de se développer avant que la matière grasse ne l'enrobe et freine son développement."
+    },
+    {
+      "title": "Pointer à température ambiante",
+      "description": "Filmez la cuve et laissez pointer (première fermentation) à température ambiante (25°C) pendant 1h30. La pâte doit doubler de volume.",
+      "duration": 90,
+      "tip": "Si votre cuisine est froide, placez la cuve dans un four éteint avec un bol d'eau chaude.",
+      "expertNote": "Le pointage développe les arômes de fermentation et prépare la structure de la mie."
+    },
+    {
+      "title": "Rabattre la pâte",
+      "description": "Rabattez la pâte : dégazez-la en appuyant dessus pour chasser le gaz carbonique. Cela affine la mie et relance la fermentation.",
+      "duration": 2,
+      "tip": "Le rabat homogénéise la température et la fermentation dans toute la pâte."
+    },
+    {
+      "title": "Mettre au frais",
+      "description": "Filmez la pâte et placez-la au réfrigérateur au moins 6 heures, idéalement une nuit. Le froid solidifie le beurre et facilite le façonnage.",
+      "duration": 360,
+      "tip": "Le repos au froid développe les arômes et rend la pâte facile à travailler.",
+      "expertNote": "Le froid bloque l'activité de la levure et fige le beurre, ce qui permet de façonner sans écraser la structure."
+    },
+    {
+      "title": "Façonner et cuire",
+      "description": "Abaissez et façonnez selon l'utilisation (tresse, moule à cake, brioche parisienne). Dorez à l'œuf battu. Laissez apprêter 1h à température ambiante. Dorez à nouveau et cuire à 170°C pendant 30-40 minutes.",
+      "duration": 40,
+      "tip": "Pour une croûte brillante, appliquez deux dorures : une avant l'apprêt, une après.",
+      "expertNote": "La cuisson est réussie quand la température à cœur atteint 96°C. Démoulez sur grille pour éviter que le fond ne ramollisse."
+    }
+  ],
+  "tips": [
+    "Ne mettez jamais la levure en contact direct avec le sel.",
+    "La pâte à brioche se conserve 3 jours dans un linge propre. Se congèle très bien cuite.",
+    "Si la pâte est trop collante, ne rajoutez pas de farine — continuez à pétrir, la pâte va se structurer."
+  ],
+  "image": "https://images.unsplash.com/photo-1777627828740-2c3b01e6a6cb?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Robot pâtissier",
+    "Cul-de-poule",
+    "Corne à ramasser",
+    "Balance",
+    "Film alimentaire"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "creme-bavaroise",
+  "family": "Crèmes",
+  "title": "Crème bavaroise",
+  "difficulty": "Intermédiaire",
+  "description": "Crème anglaise prise à la gélatine et allégée à la crème fouettée, base de nombreux entremets.",
+  "prepTime": 30,
+  "cookTime": 15,
+  "restTime": 240,
+  "servings": 6,
+  "calories": 320,
+  "ingredients": [
+    {
+      "name": "Lait entier",
+      "quantity": 0.25,
+      "unit": "L"
+    },
+    {
+      "name": "Jaunes d'œufs",
+      "quantity": 0.125,
+      "unit": "kg"
+    },
+    {
+      "name": "Sucre semoule",
+      "quantity": 0.05,
+      "unit": "kg"
+    },
+    {
+      "name": "Crème entière liquide (30 % MG)",
+      "quantity": 0.25,
+      "unit": "L"
+    },
+    {
+      "name": "Gélatine en feuilles",
+      "quantity": 0.01,
+      "unit": "kg"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Préparer la crème anglaise",
+      "description": "Faire chauffer le lait avec la vanille. Blanchir les jaunes avec le sucre. Verser le lait chaud sur les jaunes, remettre à feu doux et cuire à la nappe (85 °C) sans bouillir.",
+      "duration": 15,
+      "expertNote": "La crème anglaise est cuite à la 'nappe' : la crème nappe la cuillère et trace un sillon net quand on passe le doigt. Ne jamais dépasser 85 °C."
+    },
+    {
+      "title": "Ajouter la gélatine fondue",
+      "description": "Réhydrater la gélatine dans l'eau froide, la fondre au micro-ondes ou à feu doux, puis l'incorporer à la crème anglaise encore tiède.",
+      "duration": 5
+    },
+    {
+      "title": "Refroidir la crème",
+      "description": "Laisser refroidir la crème anglaise jusqu'à 25-30 °C en remuant régulièrement pour éviter la formation d'un film en surface.",
+      "duration": 10,
+      "tip": "Placer au bain-marie d'eau froide pour accélérer le refroidissement."
+    },
+    {
+      "title": "Incorporer la crème fouettée",
+      "description": "Monter la crème entière bien froide en chantilly ferme. Incorporer délicatement à la spatule dans la crème anglaise refroidie en mouvements circulaires du bas vers le haut.",
+      "duration": 10,
+      "expertNote": "La crème et la base anglaise doivent être à des températures proches (18-20 °C) pour éviter le choc thermique qui ferait trancher la préparation."
+    }
+  ],
+  "tips": [
+    "La bavaroise doit prendre au moins 4 heures au réfrigérateur.",
+    "Pour démouler facilement, passer le moule 2 secondes sous l'eau chaude.",
+    "Peut être utilisée comme base pour des entremets aux fruits."
+  ],
+  "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Casserole",
+    "Fouet",
+    "Cul-de-poule",
+    "Spatule",
+    "Chinois",
+    "Sonde thermique"
+  ]
+}

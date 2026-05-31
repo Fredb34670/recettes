@@ -1,0 +1,104 @@
+{
+  "id": "pate-croissants",
+  "family": "Viennoiserie",
+  "title": "Pâte à croissants",
+  "difficulty": "Avancé",
+  "description": "Pâte levée feuilletée au beurre, pour des croissants maison dorés et aériens.",
+  "prepTime": 60,
+  "cookTime": 20,
+  "restTime": 180,
+  "servings": 20,
+  "calories": 320,
+  "ingredients": [
+    {
+      "name": "Farine de gruau T45",
+      "quantity": 1.0,
+      "unit": "kg"
+    },
+    {
+      "name": "Beurre doux (détrempe)",
+      "quantity": 0.05,
+      "unit": "kg"
+    },
+    {
+      "name": "Beurre sec (tourage)",
+      "quantity": 0.45,
+      "unit": "kg"
+    },
+    {
+      "name": "Sucre semoule",
+      "quantity": 0.135,
+      "unit": "kg"
+    },
+    {
+      "name": "Sel",
+      "quantity": 0.02,
+      "unit": "kg"
+    },
+    {
+      "name": "Eau",
+      "quantity": 0.45,
+      "unit": "L"
+    },
+    {
+      "name": "Lait",
+      "quantity": 0.05,
+      "unit": "L"
+    },
+    {
+      "name": "Levure fraîche",
+      "quantity": 0.04,
+      "unit": "kg"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Préparer la détrempe",
+      "description": "Mélanger farine, sucre, sel, eau, lait et levure émiettée. Pétrir 10 minutes. Ajouter les 50g de beurre en fin de pétrissage.",
+      "duration": 15
+    },
+    {
+      "title": "Pointer",
+      "description": "Laisser pointer 45 minutes à température ambiante.",
+      "duration": 45
+    },
+    {
+      "title": "Congeler",
+      "description": "Abaisser la détrempe en rectangle, filmer et congeler 1 heure.",
+      "duration": 60
+    },
+    {
+      "title": "Beurrage et tourage",
+      "description": "Incorporer le beurre de tourage et réaliser 2 à 3 tours simples. Réfrigérer 30 minutes entre chaque tour.",
+      "duration": 40
+    },
+    {
+      "title": "Abaisser et détailler",
+      "description": "Abaisser la pâte sur 4mm d'épaisseur. Couper des triangles et rouler en croissants.",
+      "duration": 15
+    },
+    {
+      "title": "Pousser",
+      "description": "Laisser pousser les croissants à température ambiante 1h30 à 2h jusqu'à doublement de volume.",
+      "duration": 120
+    },
+    {
+      "title": "Dorer et cuire",
+      "description": "Dorer à l'œuf battu et cuire à 180°C pendant 15 à 20 minutes.",
+      "duration": 20
+    }
+  ],
+  "tips": [
+    "Le beurre de tourage doit être à la même consistance que la détrempe pour ne pas percer.",
+    "Ne pas dépasser 3 tours pour garder des couches bien distinctes.",
+    "La pousse est idéale à 25-27°C, pas plus chaud pour ne pas faire fondre le beurre."
+  ],
+  "image": "https://images.unsplash.com/photo-1777627828740-2c3b01e6a6cb?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Robot pâtissier",
+    "Rouleau à pâtisserie",
+    "Plaque de cuisson",
+    "Pinceau",
+    "Couteau"
+  ]
+}

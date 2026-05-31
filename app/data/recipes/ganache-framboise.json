@@ -1,0 +1,78 @@
+{
+  "id": "ganache-framboise",
+  "family": "Ganaches",
+  "title": "Ganache framboise",
+  "difficulty": "Intermédiaire",
+  "description": "Ganache fruitée au chocolat blanc et à la framboise. Porter à ébullition la pulpe de framboise et le sucre inverti, verser sur le chocolat, lisser, puis à 28°C ajouter le beurre et l'eau-de-vie.",
+  "prepTime": 20,
+  "cookTime": 10,
+  "restTime": 180,
+  "servings": 8,
+  "calories": 310,
+  "ingredients": [
+    {
+      "name": "Pulpe de framboise",
+      "quantity": 0.25,
+      "unit": "kg"
+    },
+    {
+      "name": "Sucre inverti",
+      "quantity": 0.1,
+      "unit": "kg"
+    },
+    {
+      "name": "Beurre doux",
+      "quantity": 0.15,
+      "unit": "kg"
+    },
+    {
+      "name": "Chocolat blanc lactée 35%",
+      "quantity": 0.6,
+      "unit": "kg"
+    },
+    {
+      "name": "Eau-de-vie de framboise",
+      "quantity": 0.03,
+      "unit": "L"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Porter à ébullition",
+      "description": "Porter à ébullition la pulpe de framboise et le sucre inverti.",
+      "duration": 5
+    },
+    {
+      "title": "Verser sur le chocolat",
+      "description": "Verser le mélange chaud sur le chocolat blanc concassé. Laisser fondre 2 minutes puis lisser délicatement à la spatule.",
+      "duration": 5,
+      "tip": "Émulsionner doucement pour éviter d'incorporer de l'air.",
+      "expertNote": "Le chocolat blanc est plus sensible à la température que le noir ou au lait. Ne pas chauffer la pulpe au-delà de 65 °C pour éviter la déstabilisation du beurre de cacao."
+    },
+    {
+      "title": "Ajouter le beurre et l'alcool",
+      "description": "Lorsque la ganache atteint 28°C, ajouter le beurre en parcelles et l'eau-de-vie de framboise. Mélanger jusqu'à homogénéité.",
+      "duration": 5,
+      "tip": "La température de 28°C est importante pour une texture lisse.",
+      "expertNote": "L'émulsion eau-dans-huile de la ganache nécessite une température stable de 28 °C. Si trop chaude, le beurre fond complètement et la ganace tranche au refroidissement."
+    },
+    {
+      "title": "Réserver",
+      "description": "Filmer au contact et réserver au réfrigérateur minimum 3 heures avant utilisation.",
+      "duration": 180
+    }
+  ],
+  "tips": [
+    "Ne pas trop travailler la ganache pour éviter l'incorporation d'air.",
+    "Le sucre inverti permet d'éviter la cristallisation et apporte du brillant.",
+    "La ganache framboise est idéale pour garnir des entremets ou des tartes."
+  ],
+  "image": "https://images.unsplash.com/photo-1562007908-17c67e878c88?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Casserole",
+    "Cul-de-poule",
+    "Maryse",
+    "Sonde thermique",
+    "Mixeur plongeant"
+  ]
+}

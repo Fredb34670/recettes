@@ -1,0 +1,65 @@
+{
+  "id": "meringue-italienne",
+  "family": "Biscuiterie",
+  "title": "Meringue italienne",
+  "difficulty": "Avancé",
+  "description": "Meringue stable et soyeuse réalisée avec un sucre cuit à 117-121°C versé sur des blancs montés, idéale pour les finitions et entremets.",
+  "prepTime": 25,
+  "cookTime": 10,
+  "restTime": 0,
+  "servings": 30,
+  "calories": 110,
+  "ingredients": [
+    {
+      "name": "Blancs d'œufs",
+      "quantity": 0.5,
+      "unit": "kg"
+    },
+    {
+      "name": "Sucre",
+      "quantity": 1.0,
+      "unit": "kg"
+    },
+    {
+      "name": "Eau",
+      "quantity": 0.35,
+      "unit": "L"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Cuire le sucre",
+      "description": "Porter le sucre et l'eau à ébullition dans une casserole. Cuire jusqu'à 117-121°C (selon l'utilisation souhaitée).",
+      "duration": 8
+    },
+    {
+      "title": "Monter les blancs",
+      "description": "Commencer à monter les blancs d'œufs en neige lorsqu'il le sirop atteint 115°C.",
+      "duration": 3
+    },
+    {
+      "title": "Verser le sirop",
+      "description": "Verser le sirop chaud en filet sur les blancs montés tout en continuant de battre à vitesse moyenne.",
+      "duration": 2
+    },
+    {
+      "title": "Refroidir",
+      "description": "Continuer de battre à vitesse lente jusqu'à complet refroidissement de la meringue (environ 30°C).",
+      "duration": 10
+    }
+  ],
+  "tips": [
+    "Le thermomètre est indispensable : la température du sirop détermine la texture finale",
+    "117°C pour une meringue molle (garniture), 121°C pour une meringue ferme (décoration)",
+    "La meringue italienne est plus stable que la française et ne nécessite pas de cuisson",
+    "Idéale pour les mousses, crèmes au beurre et décorations"
+  ],
+  "image": "https://images.unsplash.com/photo-1535141192574-5d4897c12636?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Casserole",
+    "Cul-de-poule",
+    "Batteur électrique",
+    "Sonde thermique",
+    "Maryse"
+  ]
+}

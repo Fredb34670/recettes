@@ -1,0 +1,86 @@
+{
+  "id": "creme-renversee",
+  "family": "Crèmes",
+  "title": "Crème renversée",
+  "difficulty": "Débutant",
+  "description": "Flan cuit au bain-marie, nappé de caramel, se démoulant facilement pour un dessert classique et réconfortant.",
+  "prepTime": 15,
+  "cookTime": 50,
+  "restTime": 240,
+  "servings": 8,
+  "calories": 280,
+  "ingredients": [
+    {
+      "name": "Lait entier",
+      "quantity": 1.0,
+      "unit": "L"
+    },
+    {
+      "name": "Œufs entiers",
+      "quantity": 0.3,
+      "unit": "kg"
+    },
+    {
+      "name": "Sucre semoule",
+      "quantity": 0.15,
+      "unit": "kg"
+    },
+    {
+      "name": "Gousses de vanille",
+      "quantity": 2.0,
+      "unit": "pièces"
+    },
+    {
+      "name": "Sucre semoule (caramel)",
+      "quantity": 0.2,
+      "unit": "kg"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Préparer le caramel",
+      "description": "Faire fondre 200 g de sucre à sec dans une casserole jusqu'à l'obtention d'un caramel ambré. Répartir immédiatement au fond des moules.",
+      "duration": 10,
+      "tip": "Ne pas toucher le caramel en fusion : il brûle à plus de 160 °C."
+    },
+    {
+      "title": "Faire bouillir le lait vanillé",
+      "description": "Fendre les gousses de vanille, gratter les graines. Porter le lait à ébullition avec les gousses et les graines. Retirer du feu et laisser infuser.",
+      "duration": 10
+    },
+    {
+      "title": "Blanchir les œufs",
+      "description": "Fouetter les œufs entiers avec 150 g de sucre jusqu'à ce que le mélange blanchisse.",
+      "duration": 5
+    },
+    {
+      "title": "Mélanger",
+      "description": "Verser le lait chaud sur le mélange œufs-sucre en remuant doucement. Passer au chinois.",
+      "duration": 5
+    },
+    {
+      "title": "Cuire au bain-marie",
+      "description": "Remplir les moules caramélisés. Cuire au bain-marie à 150 °C pendant 40-50 minutes. La lame d'un couteau doit ressortir sèche.",
+      "duration": 45,
+      "expertNote": "La cuisson au bain-marie doit être douce : si l'eau bout, la crème présente des bulles. La température à cœur idéale est de 82 °C."
+    },
+    {
+      "title": "Démouler",
+      "description": "Laisser refroidir complètement, puis placer au réfrigérateur minimum 4 heures. Démouler en passant une lame fine autour du moule et en retournant sur une assiette.",
+      "duration": 5
+    }
+  ],
+  "tips": [
+    "Ne pas trop cuire : la crème doit rester onctueuse.",
+    "Le caramel doit être ambré, pas trop foncé (amer) ni trop clair (pas assez parfumé).",
+    "Se conserve 3 jours au réfrigérateur."
+  ],
+  "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Casserole",
+    "Cul-de-poule",
+    "Fouet",
+    "Moule à flan",
+    "Chinois"
+  ]
+}

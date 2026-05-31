@@ -1,0 +1,69 @@
+{
+  "id": "genoise",
+  "family": "Biscuiterie",
+  "title": "Génoise",
+  "difficulty": "Intermédiaire",
+  "description": "Recette de base de la génoise, légère et aérée, utilisée pour de nombreux gâteaux et entremets.",
+  "prepTime": 20,
+  "cookTime": 25,
+  "restTime": 0,
+  "servings": 8,
+  "calories": 280,
+  "ingredients": [
+    {
+      "name": "Œufs entiers",
+      "quantity": 0.8,
+      "unit": "kg"
+    },
+    {
+      "name": "Sucre",
+      "quantity": 0.5,
+      "unit": "kg"
+    },
+    {
+      "name": "Farine",
+      "quantity": 0.5,
+      "unit": "kg"
+    },
+    {
+      "name": "Beurre fondu chaud",
+      "quantity": 0.15,
+      "unit": "kg"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Battre les œufs",
+      "description": "Battre les œufs entiers avec le sucre à chaud (50°C) ou à froid pendant 15 minutes jusqu'à ce que le mélange blanchisse et triple de volume.",
+      "duration": 15
+    },
+    {
+      "title": "Incorporer la farine",
+      "description": "Tamiser la farine et l'incorporer délicatement au mélange œufs-sucre à l'aide d'une maryse, en effectuant des mouvements de bas en haut pour ne pas faire retomber l'appareil.",
+      "duration": 3
+    },
+    {
+      "title": "Ajouter le beurre",
+      "description": "Ajouter le beurre fondu chaud en fin de mélange, l'incorporer délicatement.",
+      "duration": 2
+    },
+    {
+      "title": "Cuire",
+      "description": "Verser dans un moule beurré et fariné. Cuire à 180°C pendant 20 à 25 minutes. Vérifier la cuisson avec la pointe d'un couteau.",
+      "duration": 25
+    }
+  ],
+  "tips": [
+    "Le mélange œufs-sucre est prêt quand il forme un ruban en retombant",
+    "Ne pas ouvrir le four pendant les 15 premières minutes de cuisson",
+    "Cette recette supporte de nombreuses variantes : chocolat (remplacer 100g de farine par du cacao), pistache, café, amandes, noix"
+  ],
+  "image": "https://images.unsplash.com/photo-1535141192574-5d4897c12636?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Cul-de-poule",
+    "Fouet",
+    "Maryse",
+    "Moule à manqué",
+    "Tamis"
+  ]
+}

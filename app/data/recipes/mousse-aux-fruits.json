@@ -1,0 +1,85 @@
+{
+  "id": "mousse-aux-fruits",
+  "family": "Mousses",
+  "title": "Mousse aux fruits",
+  "difficulty": "Intermédiaire",
+  "description": "Mousse légère et fruitée réalisée avec une pulpe de fruits et de la crème fouettée.",
+  "prepTime": 20,
+  "cookTime": 0,
+  "restTime": 180,
+  "servings": 6,
+  "calories": 250,
+  "ingredients": [
+    {
+      "name": "Pulpe de fruits",
+      "quantity": 0.25,
+      "unit": "L"
+    },
+    {
+      "name": "Sucre semoule",
+      "quantity": 0.2,
+      "unit": "kg"
+    },
+    {
+      "name": "Jus de citron",
+      "quantity": 0.01,
+      "unit": "L"
+    },
+    {
+      "name": "Gélatine en feuilles",
+      "quantity": 0.006,
+      "unit": "kg"
+    },
+    {
+      "name": "Crème liquide entière 35%",
+      "quantity": 0.375,
+      "unit": "L"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Préparer la base fruits",
+      "description": "Mélanger la pulpe de fruits avec le sucre et le jus de citron.",
+      "duration": 5
+    },
+    {
+      "title": "Faire fondre la gélatine",
+      "description": "Réhydrater la gélatine dans l'eau froide, puis la fondre au micro-ondes ou dans un peu de pulpe chaude.",
+      "duration": 5
+    },
+    {
+      "title": "Assembler",
+      "description": "Incorporer la gélatine fondue à la pulpe de fruits.",
+      "duration": 2
+    },
+    {
+      "title": "Monter la crème",
+      "description": "Monter la crème liquide en chantilly bien ferme.",
+      "duration": 5
+    },
+    {
+      "title": "Incorporer",
+      "description": "Incorporer délicatement la chantilly à la pulpe de fruits à la spatule.",
+      "duration": 3
+    },
+    {
+      "title": "Réserver",
+      "description": "Verser dans des verrines et réfrigérer au moins 3 heures.",
+      "duration": 180
+    }
+  ],
+  "tips": [
+    "La pulpe peut être fraîche ou surgelée, mixer et filtrer pour éliminer les pépins.",
+    "La gélatine doit être bien essorée avant d'être fondue.",
+    "Ajouter un fruit frais coupé pour la décoration."
+  ],
+  "image": "https://images.unsplash.com/photo-1562007908-17c67e878c88?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Casserole",
+    "Cul-de-poule",
+    "Fouet",
+    "Batteur électrique",
+    "Maryse",
+    "Mixeur plongeant"
+  ]
+}

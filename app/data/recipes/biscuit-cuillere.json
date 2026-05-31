@@ -1,0 +1,80 @@
+{
+  "id": "biscuit-cuillere",
+  "family": "Biscuiterie",
+  "title": "Biscuit à la cuillère",
+  "difficulty": "Intermédiaire",
+  "description": "Biscuit léger et aéré utilisé pour les charlottes, tiramisus et autres entremets classiques.",
+  "prepTime": 25,
+  "cookTime": 15,
+  "restTime": 0,
+  "servings": 8,
+  "calories": 220,
+  "ingredients": [
+    {
+      "name": "Farine",
+      "quantity": 0.25,
+      "unit": "kg"
+    },
+    {
+      "name": "Blancs d'œufs",
+      "quantity": 0.3,
+      "unit": "kg"
+    },
+    {
+      "name": "Sucre",
+      "quantity": 0.3,
+      "unit": "kg"
+    },
+    {
+      "name": "Jaunes d'œufs",
+      "quantity": 0.2,
+      "unit": "kg"
+    },
+    {
+      "name": "Fécule",
+      "quantity": 0.05,
+      "unit": "kg"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Monter les blancs",
+      "description": "Monter les blancs d'œufs en neige ferme en ajoutant le sucre progressivement.",
+      "duration": 8
+    },
+    {
+      "title": "Ajouter les jaunes",
+      "description": "Ajouter les jaunes d'œufs délicatement aux blancs montés, en mélangeant doucement à la maryse.",
+      "duration": 2
+    },
+    {
+      "title": "Incorporer les secs",
+      "description": "Tamiser la farine et la fécule ensemble, puis les incorporer délicatement au mélange en soulevant la masse.",
+      "duration": 3
+    },
+    {
+      "title": "Dresser",
+      "description": "Dresser à la poche à douille sur une plaque recouverte de papier cuisson, en formant des biscuits allongés.",
+      "duration": 5
+    },
+    {
+      "title": "Cuire",
+      "description": "Saupoudrer de sucre glace et cuire à 180°C pendant 12 à 15 minutes jusqu'à légère coloration.",
+      "duration": 15
+    }
+  ],
+  "tips": [
+    "Les biscuits doivent être légèrement dorés mais encore souples à la sortie du four",
+    "Pour un résultat parfait, utiliser une poche à douille lisse de 12mm",
+    "Ne pas ouvrir le four en cours de cuisson pour éviter que les biscuits ne retombent"
+  ],
+  "image": "https://images.unsplash.com/photo-1535141192574-5d4897c12636?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Cul-de-poule",
+    "Batteur électrique",
+    "Poche à douille",
+    "Maryse",
+    "Plaque de cuisson",
+    "Tamis"
+  ]
+}

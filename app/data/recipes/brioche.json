@@ -1,0 +1,89 @@
+{
+  "id": "brioche",
+  "family": "Viennoiserie",
+  "title": "Brioche",
+  "difficulty": "Avancé",
+  "description": "Brioche moelleuse et filante au beurre salé, idéale au petit-déjeuner ou au goûter.",
+  "prepTime": 45,
+  "cookTime": 35,
+  "restTime": 150,
+  "servings": 16,
+  "calories": 380,
+  "ingredients": [
+    {
+      "name": "Farine de gruau T45",
+      "quantity": 2.5,
+      "unit": "kg"
+    },
+    {
+      "name": "Beurre salé pommade",
+      "quantity": 0.75,
+      "unit": "kg"
+    },
+    {
+      "name": "Œufs entiers",
+      "quantity": 1.5,
+      "unit": "L"
+    },
+    {
+      "name": "Sucre semoule",
+      "quantity": 0.2,
+      "unit": "kg"
+    },
+    {
+      "name": "Sel",
+      "quantity": 0.037,
+      "unit": "kg"
+    },
+    {
+      "name": "Levure fraîche",
+      "quantity": 0.03,
+      "unit": "kg"
+    },
+    {
+      "name": "Lochrine (crème liquide)",
+      "quantity": 0.125,
+      "unit": "L"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Pétrir",
+      "description": "Mélanger farine, sucre, sel, œufs, lochrine et levure. Pétrir 15 à 20 minutes jusqu'à développement du réseau glutineux.",
+      "duration": 20
+    },
+    {
+      "title": "Ajouter le beurre",
+      "description": "Ajouter le beurre pommade en parcelles en fin de pétrissage. Bien incorporer.",
+      "duration": 5
+    },
+    {
+      "title": "Pointer",
+      "description": "Laisser pointer 1h30 à 2h à température ambiante, la pâte doit doubler de volume.",
+      "duration": 120
+    },
+    {
+      "title": "Mettre au froid",
+      "description": "Dégazer la pâte et la placer au réfrigérateur au moins 4h ou une nuit.",
+      "duration": 240
+    },
+    {
+      "title": "Façonner et cuire",
+      "description": "Façonner les brioches, laisser pousser, dorer à l'œuf et cuire à 170°C pendant 25 à 35 minutes.",
+      "duration": 40
+    }
+  ],
+  "tips": [
+    "Ne pas mettre le beurre trop tôt, il freine le développement du gluten.",
+    "La pâte est très collante, ne pas ajouter de farine supplémentaire.",
+    "Le repos au froid facilite le façonnage et développe les arômes."
+  ],
+  "image": "https://images.unsplash.com/photo-1777627828740-2c3b01e6a6cb?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Robot pâtissier",
+    "Cul-de-poule",
+    "Balance",
+    "Moule à brioche",
+    "Corne à ramasser"
+  ]
+}

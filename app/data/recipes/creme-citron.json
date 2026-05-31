@@ -1,0 +1,84 @@
+{
+  "id": "creme-citron",
+  "family": "Crèmes",
+  "title": "Crème citron pour tartes",
+  "difficulty": "Intermédiaire",
+  "description": "Une crème citron riche et onctueuse, idéale pour garnir tartes et entremets.",
+  "prepTime": 15,
+  "cookTime": 12,
+  "restTime": 120,
+  "servings": 6,
+  "calories": 280,
+  "ingredients": [
+    {
+      "name": "Œufs entiers",
+      "quantity": 0.6,
+      "unit": "kg"
+    },
+    {
+      "name": "Sucre en poudre",
+      "quantity": 0.5,
+      "unit": "kg"
+    },
+    {
+      "name": "Beurre doux",
+      "quantity": 0.25,
+      "unit": "kg"
+    },
+    {
+      "name": "Jus de citron",
+      "quantity": 0.32,
+      "unit": "L"
+    },
+    {
+      "name": "Gélatine en feuilles",
+      "quantity": 0.01,
+      "unit": "kg"
+    },
+    {
+      "name": "Zestes de citron",
+      "quantity": 5,
+      "unit": "pces"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Réhydrater la gélatine",
+      "description": "Tremper les feuilles de gélatine dans un bol d'eau froide pendant 10 minutes.",
+      "duration": 10,
+      "expertNote": "Utiliser de l'eau à moins de 15 °C. Compter 6 à 8 fois le poids de gélatine en eau. Une gélatine bien réhydratée est souple et ne colle pas aux doigts."
+    },
+    {
+      "title": "Cuire la base citron",
+      "description": "Fouetter les œufs avec le sucre. Ajouter le jus de citron et les zestes. Cuire à feu doux en remuant constamment jusqu'à épaississement (82°C).",
+      "duration": 10,
+      "tip": "Remuez sans cesse pour éviter que les œufs ne coagulent trop vite.",
+      "expertNote": "La température cible de 82 °C permet la coagulation des œufs sans les brouiller. À 85 °C les œufs commencent à trancher. Vérifier la nappe sur la spatule."
+    },
+    {
+      "title": "Ajouter la gélatine et le beurre",
+      "description": "Hors du feu, ajouter la gélatine essorée puis le beurre en parcelles. Mixer au plongeoir pour une texture parfaitement lisse.",
+      "duration": 5,
+      "expertNote": "Le mixage au plongeoir (2 min à vitesse moyenne) permet d'obtenir une texture lisse et brillante en émulsionnant le beurre dans la base citron."
+    },
+    {
+      "title": "Réfrigérer",
+      "description": "Verser dans un plat, filmer au contact et réserver au réfrigérateur minimum 2 heures.",
+      "duration": 120
+    }
+  ],
+  "tips": [
+    "Possibilité de remplacer le citron par du fruit de la passion (mêmes proportions).",
+    "Ajoutez 5 zestes de citron pour renforcer le parfum.",
+    "La crème citron se conserve 5 jours au réfrigérateur."
+  ],
+  "image": "https://images.unsplash.com/photo-1519915028121-7d3463d20b13?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Casserole",
+    "Fouet",
+    "Cul-de-poule",
+    "Zesteur",
+    "Presse-agrume",
+    "Chinois"
+  ]
+}

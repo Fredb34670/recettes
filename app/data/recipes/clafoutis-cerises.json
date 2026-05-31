@@ -1,0 +1,92 @@
+{
+  "id": "clafoutis-cerises",
+  "family": "Crèmes",
+  "title": "Clafoutis aux cerises",
+  "difficulty": "Débutant",
+  "description": "Gâteau familial aux cerises, à la texture entre crème et flan, typique de la cuisine française.",
+  "prepTime": 15,
+  "cookTime": 40,
+  "restTime": 0,
+  "servings": 8,
+  "calories": 290,
+  "ingredients": [
+    {
+      "name": "Lait entier",
+      "quantity": 0.35,
+      "unit": "L"
+    },
+    {
+      "name": "Crème entière liquide (30 % MG)",
+      "quantity": 0.35,
+      "unit": "L"
+    },
+    {
+      "name": "Œufs entiers",
+      "quantity": 0.3,
+      "unit": "kg"
+    },
+    {
+      "name": "Sucre semoule",
+      "quantity": 0.15,
+      "unit": "kg"
+    },
+    {
+      "name": "Poudre à crème (farine)",
+      "quantity": 0.03,
+      "unit": "kg"
+    },
+    {
+      "name": "Cerises fraîches",
+      "quantity": 0.7,
+      "unit": "kg"
+    },
+    {
+      "name": "Beurre (pour le moule)",
+      "quantity": 0.02,
+      "unit": "kg"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Préparer l'appareil à clafoutis",
+      "description": "Fouetter les œufs entiers avec le sucre et la poudre à crème jusqu'à obtenir un mélange homogène et légèrement mousseux.",
+      "duration": 5
+    },
+    {
+      "title": "Ajouter le lait et la crème",
+      "description": "Verser le lait et la crème en filet tout en continuant à fouetter doucement. La pâte doit être lisse et fluide.",
+      "duration": 5,
+      "tip": "Si la pâte est trop liquide, ajouter une cuillère de farine supplémentaire."
+    },
+    {
+      "title": "Disposer les cerises",
+      "description": "Beurrer généreusement un moule à gratin. Laver et équeuter les cerises. Les disposer en une seule couche au fond du moule.",
+      "duration": 10,
+      "expertNote": "La tradition limousine ne dénoyaute pas les cerises : le noyau apporte un parfum d'amande. Pour les enfants, les dénoyauter."
+    },
+    {
+      "title": "Verser l'appareil",
+      "description": "Verser l'appareil à clafoutis par-dessus les cerises. La pâte doit recouvrir les fruits aux trois quarts.",
+      "duration": 2
+    },
+    {
+      "title": "Cuire au four",
+      "description": "Enfourner à 180 °C pendant 35 à 40 minutes. Le clafoutis doit être gonflé et doré, mais encore légèrement tremblotant au centre.",
+      "duration": 40,
+      "tip": "Ne pas ouvrir le four pendant les 25 premières minutes de cuisson."
+    }
+  ],
+  "tips": [
+    "Se déguste tiède ou froid, saupoudré de sucre glace.",
+    "Peut être préparé avec d'autres fruits (prunes, abricots, pommes, poires).",
+    "La poudre à crème peut être remplacée par de la farine classique."
+  ],
+  "image": "https://images.unsplash.com/photo-1562007908-17c67e878c88?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Cul-de-poule",
+    "Fouet",
+    "Moule à manqué",
+    "Balance",
+    "Pinceau"
+  ]
+}

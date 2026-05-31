@@ -1,0 +1,74 @@
+{
+  "id": "crumble",
+  "family": "Pâtes",
+  "title": "Crumble (pâte à crumble)",
+  "difficulty": "Débutant",
+  "description": "Pâte à crumble sablée et dorée, composée à parts égales de farine, beurre, sucre et poudre d'amandes. Parsemée sur des fruits avant cuisson pour un dessert croustillant et fondant.",
+  "prepTime": 10,
+  "cookTime": 25,
+  "restTime": 15,
+  "servings": 8,
+  "calories": 350,
+  "ingredients": [
+    {
+      "name": "Farine T55",
+      "quantity": 0.2,
+      "unit": "kg"
+    },
+    {
+      "name": "Beurre doux",
+      "quantity": 0.2,
+      "unit": "kg"
+    },
+    {
+      "name": "Sucre cassonade",
+      "quantity": 0.2,
+      "unit": "kg"
+    },
+    {
+      "name": "Poudre d'amandes",
+      "quantity": 0.2,
+      "unit": "kg"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Sabler tous les ingrédients",
+      "description": "Dans un saladier, mélangez la farine, la cassonade et la poudre d'amandes. Ajoutez le beurre froid coupé en petits dés. Sablez du bout des doigts jusqu'à obtenir une texture de sable grossier avec des morceaux irréguliers.",
+      "duration": 5,
+      "tip": "Ne travaillez pas trop : le crumble doit garder des morceaux de différentes tailles pour un effet croustillant.",
+      "expertNote": "La règle du 1/4, 1/4, 1/4, 1/4 (farine, beurre, sucre, poudre) garantit un crumble parfait à chaque fois."
+    },
+    {
+      "title": "Réserver au frais",
+      "description": "Placez la pâte à crumble 15 minutes au réfrigérateur pour raffermir le beurre avant la cuisson.",
+      "duration": 15,
+      "tip": "Cette étape évite que le crumble ne s'affaisse à la cuisson."
+    },
+    {
+      "title": "Émietter sur les fruits",
+      "description": "Disposez les fruits (pommes, rhubarbe, poires, fruits rouges) dans un plat beurré. Répartissez la pâte à crumble en émiettant grossièrement sur toute la surface des fruits. Ne tassez pas.",
+      "duration": 5,
+      "tip": "Utilisez des fruits légèrement acidulés pour équilibrer le sucré du crumble.",
+      "expertNote": "Les fruits doivent être coupés en morceaux réguliers pour une cuisson homogène. Saupoudrez-les d'un peu de sucre si nécessaire."
+    },
+    {
+      "title": "Cuire au four",
+      "description": "Enfournez à 180°C pendant 20-25 minutes jusqu'à ce que le crumble soit doré et croustillant. Les fruits doivent être fondants et légèrement caramélisés.",
+      "duration": 25,
+      "tip": "Servez tiède avec une boule de glace vanille ou de la crème anglaise.",
+      "expertNote": "La cuisson parfaite est atteinte quand le dessus est bien doré et que les fruits bouillonnent légèrement sur les bords."
+    }
+  ],
+  "tips": [
+    "Ajoutez une pincée de cannelle ou de gingembre dans la pâte pour parfumer le crumble.",
+    "Le crumble se prépare en 5 minutes : c'est le dessert minute par excellence.",
+    "Ajoutez des flocons d'avoine ou des noix concassées pour encore plus de croquant."
+  ],
+  "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Cul-de-poule",
+    "Plat à four",
+    "Balance"
+  ]
+}

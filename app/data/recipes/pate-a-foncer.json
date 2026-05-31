@@ -1,0 +1,86 @@
+{
+  "id": "pate-a-foncer",
+  "family": "Pâtes",
+  "title": "Pâte à foncer",
+  "difficulty": "Débutant",
+  "description": "Pâte enrichie aux jaunes d'œufs, plus friable et savoureuse que la pâte brisée. Idéale pour les tartes fines et les flans.",
+  "prepTime": 15,
+  "cookTime": 25,
+  "restTime": 30,
+  "servings": 8,
+  "calories": 340,
+  "ingredients": [
+    {
+      "name": "Farine T55",
+      "quantity": 0.5,
+      "unit": "kg"
+    },
+    {
+      "name": "Beurre doux",
+      "quantity": 0.25,
+      "unit": "kg"
+    },
+    {
+      "name": "Jaunes d'œufs",
+      "quantity": 0.1,
+      "unit": "kg"
+    },
+    {
+      "name": "Sel fin",
+      "quantity": 0.01,
+      "unit": "kg"
+    },
+    {
+      "name": "Eau ou lait",
+      "quantity": 0.05,
+      "unit": "L"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Sabler la farine et le beurre",
+      "description": "Coupez le beurre froid en dés. Mélangez la farine tamisée et le beurre du bout des doigts jusqu'à obtenir un aspect sablonneux.",
+      "duration": 5,
+      "tip": "Travaillez rapidement pour que le beurre reste froid.",
+      "expertNote": "Cette pâte est une variante de la pâte brisée, enrichie par les jaunes d'œufs qui apportent couleur et friabilité."
+    },
+    {
+      "title": "Ajouter les jaunes et le liquide",
+      "description": "Délayez les jaunes d'œufs dans l'eau ou le lait avec le sel. Versez sur le sablage et mélangez du bout des doigts.",
+      "duration": 3,
+      "tip": "Si les jaunes sont gros, réduisez légèrement le liquide."
+    },
+    {
+      "title": "Fraser la pâte",
+      "description": "Rassemblez la pâte en la fraisant une ou deux fois sur le plan de travail. Formez une boule, filmez au contact et réservez au frais.",
+      "duration": 2,
+      "tip": "Ne fraisez pas trop pour garder la pâte friable."
+    },
+    {
+      "title": "Repos au frais",
+      "description": "Réservez au réfrigérateur pendant 30 minutes minimum avant utilisation.",
+      "duration": 30,
+      "tip": "Ce repos est indispensable pour éviter la rétractation."
+    },
+    {
+      "title": "Cuire",
+      "description": "Abaissez sur 3 mm d'épaisseur, foncez un moule beurré, piquez le fond. Cuire à blanc à 170°C pendant 20-25 minutes.",
+      "duration": 25,
+      "tip": "Cette pâte supporte bien la cuisson à blanc, elle reste friable.",
+      "expertNote": "La présence de jaunes permet une coloration plus homogène et une meilleure tenue."
+    }
+  ],
+  "tips": [
+    "Le lait donne une pâte plus tendre, l'eau une pâte plus croustillante.",
+    "Ajoutez un peu de sucre si vous l'utilisez pour une tarte sucrée.",
+    "Si la pâte est trop friable pour être foncée, ajoutez une cuillère d'eau."
+  ],
+  "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Cul-de-poule",
+    "Rouleau à pâtisserie",
+    "Cercle à tarte",
+    "Fourchette",
+    "Film alimentaire"
+  ]
+}

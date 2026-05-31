@@ -1,0 +1,84 @@
+{
+  "id": "creme-diplomate",
+  "family": "Crèmes",
+  "title": "Crème diplomate",
+  "difficulty": "Intermédiaire",
+  "description": "Crème pâtissière légère enrichie de crème fouettée et gélatinée, utilisée pour les entremets et les charlottes.",
+  "prepTime": 30,
+  "cookTime": 15,
+  "restTime": 240,
+  "servings": 10,
+  "calories": 400,
+  "ingredients": [
+    {
+      "name": "Lait entier",
+      "quantity": 1.0,
+      "unit": "L"
+    },
+    {
+      "name": "Jaunes d'œufs",
+      "quantity": 0.2,
+      "unit": "kg"
+    },
+    {
+      "name": "Sucre semoule",
+      "quantity": 0.2,
+      "unit": "kg"
+    },
+    {
+      "name": "Poudre à crème",
+      "quantity": 0.08,
+      "unit": "kg"
+    },
+    {
+      "name": "Crème entière liquide (30 % MG)",
+      "quantity": 1.0,
+      "unit": "L"
+    },
+    {
+      "name": "Gélatine en feuilles",
+      "quantity": 0.016,
+      "unit": "kg"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Préparer la crème pâtissière à la gélatine",
+      "description": "Réhydrater la gélatine dans l'eau froide. Réaliser une crème pâtissière avec le lait, les jaunes, le sucre et la poudre à crème. Hors du feu, incorporer la gélatine essorée à la crème chaude.",
+      "duration": 15,
+      "expertNote": "La gélatine doit être dissoute dans la crème à au moins 70 °C pour garantir une répartition homogène."
+    },
+    {
+      "title": "Refroidir la crème pâtissière",
+      "description": "Verser la crème pâtissière dans un plat large pour refroidir rapidement. Filmer au contact et placer au réfrigérateur jusqu'à 20-25 °C.",
+      "duration": 15,
+      "tip": "Le film au contact évite la formation d'une croûte en surface."
+    },
+    {
+      "title": "Monter la crème fouettée",
+      "description": "Monter la crème entière bien froide (4 °C) en chantilly ferme. Ne pas ajouter de sucre.",
+      "duration": 10,
+      "expertNote": "La crème doit être à 4 °C, le bol et le fouet également, pour un montage optimal. La crème doit être à 30 % de matière grasse minimum."
+    },
+    {
+      "title": "Incorporer délicatement",
+      "description": "Lisser la crème pâtissière refroidie au fouet pour la détendre. Incorporer la crème fouettée en trois fois, à la spatule, en soulevant délicatement la masse pour ne pas faire retomber l'air.",
+      "duration": 10,
+      "tip": "Les premiers tiers s'incorporent franchement pour détendre, le dernier tiers se plie délicatement."
+    }
+  ],
+  "tips": [
+    "La crème diplomate est idéale pour les charlottes et les entremets en moule à bord amovible.",
+    "Utiliser la crème immédiatement avant qu'elle ne commence à prendre.",
+    "Pour une version fruitée, ajouter une purée de fruits à la crème pâtissière."
+  ],
+  "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Casserole",
+    "Fouet",
+    "Cul-de-poule",
+    "Batteur électrique",
+    "Maryse",
+    "Chinois"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "sauce-chocolat",
+  "family": "Sauces",
+  "title": "Sauce chocolat",
+  "difficulty": "Débutant",
+  "description": "Sauce chocolat onctueuse et brillante, parfaite pour napper desserts et glaces.",
+  "prepTime": 5,
+  "cookTime": 10,
+  "restTime": 0,
+  "servings": 6,
+  "calories": 350,
+  "ingredients": [
+    {
+      "name": "Crème liquide entière",
+      "quantity": 1.0,
+      "unit": "L"
+    },
+    {
+      "name": "Chocolat à 50% de cacao",
+      "quantity": 0.6,
+      "unit": "kg"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Bouillir la crème",
+      "description": "Porter la crème liquide à ébullition dans une casserole.",
+      "duration": 5
+    },
+    {
+      "title": "Ajouter le chocolat",
+      "description": "Hors du feu, ajouter le chocolat concassé et mélanger jusqu'à complète fonte.",
+      "duration": 3
+    },
+    {
+      "title": "Finaliser",
+      "description": "Remettre sur le feu et faire bouillir quelques secondes en remuant.",
+      "duration": 2
+    }
+  ],
+  "tips": [
+    "Utiliser un chocolat de bonne qualité pour un meilleur résultat.",
+    "Ne pas faire bouillir trop longtemps après ajout du chocolat pour éviter qu'il ne tranche."
+  ],
+  "image": "https://images.unsplash.com/photo-1606312619070-d48b4c652a52?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Casserole",
+    "Fouet",
+    "Maryse",
+    "Balance"
+  ]
+}

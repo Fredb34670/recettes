@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: oklch(98.5% 0.008 85);
+  --color-foreground: oklch(25% 0.02 60);
+  --font-sans: "Inter", sans-serif;
+  --font-display: "Playfair Display", serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --color-culinary-bg: oklch(98.5% 0.008 85);
+  --color-culinary-surface: oklch(100% 0 0);
+  --color-culinary-fg: oklch(25% 0.02 60);
+  --color-culinary-muted: oklch(60% 0.02 60);
+  --color-culinary-border: oklch(92% 0.01 80);
+  --color-culinary-accent: oklch(65% 0.15 45);
+  --color-culinary-hover: oklch(70% 0.2 55);
+  --color-culinary-sage: oklch(75% 0.1 130);
+}

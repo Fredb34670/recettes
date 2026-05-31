@@ -1,0 +1,21 @@
+{
+  "name": "Artisan — Recettes",
+  "short_name": "Artisan",
+  "description": "L'excellence pâtissière à portée de main",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fefdfb",
+  "theme_color": "#d97706",
+  "icons": [
+    {
+      "src": "/pwa/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/pwa/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

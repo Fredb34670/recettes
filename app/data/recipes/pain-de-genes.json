@@ -1,0 +1,74 @@
+{
+  "id": "pain-de-genes",
+  "family": "Biscuiterie",
+  "title": "Pain de Gênes",
+  "difficulty": "Intermédiaire",
+  "description": "Gâteau moelleux et dense à la pâte d'amande, spécialité de la ville de Gênes revisitée par la pâtisserie française.",
+  "prepTime": 20,
+  "cookTime": 40,
+  "restTime": 0,
+  "servings": 10,
+  "calories": 350,
+  "ingredients": [
+    {
+      "name": "Pâte d'amande 50%",
+      "quantity": 1.0,
+      "unit": "kg"
+    },
+    {
+      "name": "Œufs entiers",
+      "quantity": 0.65,
+      "unit": "kg"
+    },
+    {
+      "name": "Beurre fondu",
+      "quantity": 0.3,
+      "unit": "kg"
+    },
+    {
+      "name": "Farine",
+      "quantity": 0.15,
+      "unit": "kg"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Détendre la pâte d'amande",
+      "description": "Détendre la pâte d'amande avec les œufs entiers en mélangeant progressivement jusqu'à obtenir une pâte lisse et homogène.",
+      "duration": 8
+    },
+    {
+      "title": "Monter l'appareil",
+      "description": "Monter la préparation au batteur jusqu'à ce qu'elle devienne épaisse et mousseuse (elle forme un ruban).",
+      "duration": 5
+    },
+    {
+      "title": "Ajouter la farine",
+      "description": "Tamiser et incorporer la farine délicatement à l'aide d'une maryse.",
+      "duration": 2
+    },
+    {
+      "title": "Ajouter le beurre",
+      "description": "Ajouter le beurre fondu refroidi et mélanger délicatement.",
+      "duration": 2
+    },
+    {
+      "title": "Cuire",
+      "description": "Verser dans un moule beurré. Cuire à 170°C pendant 35 à 40 minutes. Vérifier la cuisson avec la lame d'un couteau.",
+      "duration": 40
+    }
+  ],
+  "tips": [
+    "La pâte d'amande 50% contient 50% d'amandes et 50% de sucre",
+    "Le pain de Gênes se conserve bien plusieurs jours emballé dans du film alimentaire",
+    "Il peut être utilisé comme base pour des entremets ou dégusté nature"
+  ],
+  "image": "https://images.unsplash.com/photo-1535141192574-5d4897c12636?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Robot pâtissier",
+    "Moule à manqué",
+    "Balance",
+    "Maryse",
+    "Pinceau"
+  ]
+}

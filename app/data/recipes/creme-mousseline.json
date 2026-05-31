@@ -1,0 +1,110 @@
+{
+  "id": "creme-mousseline",
+  "family": "Crèmes",
+  "title": "Crème mousseline",
+  "difficulty": "Intermédiaire",
+  "description": "Crème pâtissière légère enrichie au beurre, utilisée en garniture de gâteaux et entremets.",
+  "prepTime": 30,
+  "cookTime": 15,
+  "restTime": 120,
+  "servings": 8,
+  "calories": 450,
+  "ingredients": [
+    {
+      "name": "Lait entier",
+      "quantity": 1.0,
+      "unit": "L"
+    },
+    {
+      "name": "Jaunes d'œufs",
+      "quantity": 0.2,
+      "unit": "kg"
+    },
+    {
+      "name": "Sucre semoule",
+      "quantity": 0.4,
+      "unit": "kg"
+    },
+    {
+      "name": "Beurre doux",
+      "quantity": 0.5,
+      "unit": "kg"
+    },
+    {
+      "name": "Poudre à crème",
+      "quantity": 0.12,
+      "unit": "kg"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Faire bouillir le lait",
+      "description": "Porter le lait à ébullition dans une casserole. Retirer du feu dès les premiers bouillons.",
+      "duration": 5,
+      "tip": "Utiliser du lait entier pour une crème plus onctueuse."
+    },
+    {
+      "title": "Blanchir les jaunes",
+      "description": "Blanchir les jaunes d'œufs avec le sucre semoule et la poudre à crème jusqu'à ce que le mélange rubane.",
+      "duration": 5
+    },
+    {
+      "title": "Cuire la crème pâtissière",
+      "description": "Verser le lait chaud sur le mélange jaunes-sucre en fouettant. Remettre à cuire sur feu moyen jusqu'à ébullition, sans cesser de remuer. Laisser cuire 2 minutes.",
+      "duration": 10,
+      "expertNote": "La crème pâtissière est cuite lorsqu'elle bout et que la texture épaissit nettement. Poursuivre 30 secondes supplémentaires après l'ébullition pour inactive l'amylase."
+    },
+    {
+      "title": "Ajouter le beurre à chaud",
+      "description": "Hors du feu, incorporer 250 g de beurre coupé en dés à la crème pâtissière encore chaude (60-65 °C). Mélanger jusqu'à complète homogénéisation.",
+      "duration": 5,
+      "expertNote": "L'émulsion beurre-crème pâtissière à chaud donne une texture soyeuse. La température idéale est de 60 °C pour une incorporation parfaite sans risque de séparation."
+    },
+    {
+      "title": "Monter le beurre à froid",
+      "description": "Une fois la crème refroidie à 20-25 °C, incorporer les 250 g de beurre restant pommade en fouettant énergiquement. Lisser au robot pour une texture mousseuse.",
+      "duration": 15,
+      "tip": "Le beurre doit être à température ambiante (20 °C) pour bien s'incorporer."
+    }
+  ],
+  "tips": [
+    "Utiliser un thermomètre pour contrôler les températures, crucial pour la réussite.",
+    "La crème mousseline se conserve 48 h au réfrigérateur.",
+    "Pour une texture plus légère, fouetter au robot après refroidissement complet."
+  ],
+  "variations": [
+    {
+      "name": "Crème aux noix",
+      "description": "Ajouter 150 g de praliné noix à la crème refroidie."
+    },
+    {
+      "name": "Crème au café",
+      "description": "Infuser 50 g de café moulu dans le lait chaud."
+    },
+    {
+      "name": "Crème au praliné",
+      "description": "Incorporer 200 g de praliné en fin de préparation."
+    },
+    {
+      "name": "Crème au chocolat",
+      "description": "Ajouter 200 g de chocolat fondu avec le beurre à chaud."
+    },
+    {
+      "name": "Crème à la pistache",
+      "description": "Ajouter 100 g de pâte de pistache en fin de cuisson."
+    },
+    {
+      "name": "Crème à la vanille",
+      "description": "Infuser 3 gousses de vanille dans le lait avant cuisson."
+    }
+  ],
+  "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Casserole",
+    "Fouet",
+    "Cul-de-poule",
+    "Batteur électrique",
+    "Maryse",
+    "Poche à douille"
+  ]
+}

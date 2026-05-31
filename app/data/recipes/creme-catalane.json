@@ -1,0 +1,92 @@
+{
+  "id": "creme-catalane",
+  "family": "Crèmes",
+  "title": "Crème catalane",
+  "difficulty": "Intermédiaire",
+  "description": "Crème pâtissière légère caramélisée au chalumeau, parfumée à la cannelle et au citron, spécialité catalane.",
+  "prepTime": 20,
+  "cookTime": 15,
+  "restTime": 180,
+  "servings": 6,
+  "calories": 340,
+  "ingredients": [
+    {
+      "name": "Crème entière liquide (30 % MG)",
+      "quantity": 1.0,
+      "unit": "L"
+    },
+    {
+      "name": "Jaunes d'œufs",
+      "quantity": 0.2,
+      "unit": "kg"
+    },
+    {
+      "name": "Œuf entier",
+      "quantity": 0.1,
+      "unit": "kg"
+    },
+    {
+      "name": "Sucre semoule",
+      "quantity": 0.1,
+      "unit": "kg"
+    },
+    {
+      "name": "Poudre à crème (maïzena)",
+      "quantity": 0.03,
+      "unit": "kg"
+    },
+    {
+      "name": "Bâton de cannelle",
+      "quantity": 1.0,
+      "unit": "pièce"
+    },
+    {
+      "name": "Zeste de citron",
+      "quantity": 1.0,
+      "unit": "pièce"
+    },
+    {
+      "name": "Cassonade (caramélisation)",
+      "quantity": 0.05,
+      "unit": "kg"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Infuser la crème",
+      "description": "Porter la crème à ébullition avec le bâton de cannelle et le zeste de citron. Couvrir et laisser infuser 10 minutes hors du feu.",
+      "duration": 15,
+      "tip": "Utiliser un économe pour prélever le zeste sans la partie blanche amère."
+    },
+    {
+      "title": "Préparer la crème pâtissière légère",
+      "description": "Blanchir le jaune, l'œuf entier et le sucre avec la poudre à crème. Verser la crème infusée chaude en fouettant. Remettre à cuire jusqu'à épaississement.",
+      "duration": 10,
+      "expertNote": "Cette crème est plus légère qu'une crème pâtissière classique : la proportion de poudre à crème est réduite."
+    },
+    {
+      "title": "Mettre en plats",
+      "description": "Verser la crème dans des plats en grès ou des ramequins larges et peu profonds. Lisser la surface. Laisser refroidir puis placer au réfrigérateur 3 heures.",
+      "duration": 5
+    },
+    {
+      "title": "Caraméliser",
+      "description": "Au moment de servir, saupoudrer généreusement de cassonade et caraméliser au chalumeau jusqu'à l'obtention d'une fine croûte dorée.",
+      "duration": 5,
+      "tip": "Tourner le chalumeau régulièrement pour une caramélisation uniforme."
+    }
+  ],
+  "tips": [
+    "La tradition catalane ajoute parfois de l'eau de fleur d'oranger.",
+    "Servir tiède ou froide : la croûte de caramel doit être craquante.",
+    "Ne pas confondre avec la crème brûlée : la catalane contient de la fécule et est parfumée à la cannelle."
+  ],
+  "image": "https://images.unsplash.com/photo-1470324161839-ce2bb6fa6bc3?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Casserole",
+    "Fouet",
+    "Cul-de-poule",
+    "Ramequins",
+    "Fer à caraméliser"
+  ]
+}

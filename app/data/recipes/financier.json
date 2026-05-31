@@ -1,0 +1,79 @@
+{
+  "id": "financier",
+  "family": "Biscuiterie",
+  "title": "Financier",
+  "difficulty": "Débutant",
+  "description": "Petit gâteau moelleux aux amandes et au beurre noisette, emblématique de la pâtisserie française.",
+  "prepTime": 15,
+  "cookTime": 20,
+  "restTime": 0,
+  "servings": 20,
+  "calories": 180,
+  "ingredients": [
+    {
+      "name": "Blancs d'œufs",
+      "quantity": 1.25,
+      "unit": "kg"
+    },
+    {
+      "name": "Sucre glace",
+      "quantity": 1.5,
+      "unit": "kg"
+    },
+    {
+      "name": "Poudre d'amandes",
+      "quantity": 0.5,
+      "unit": "kg"
+    },
+    {
+      "name": "Farine",
+      "quantity": 0.5,
+      "unit": "kg"
+    },
+    {
+      "name": "Beurre noisette",
+      "quantity": 1.2,
+      "unit": "kg"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Mélanger les secs",
+      "description": "Tamiser et mélanger ensemble le sucre glace, la poudre d'amandes et la farine.",
+      "duration": 3
+    },
+    {
+      "title": "Ajouter les blancs",
+      "description": "Ajouter les blancs d'œufs au mélange sec et bien mélanger jusqu'à obtention d'une pâte lisse.",
+      "duration": 3
+    },
+    {
+      "title": "Chauffer au bain-marie",
+      "description": "Chauffer la préparation au bain-marie à 50°C en remuant constamment, jusqu'à ce que la pâte soit tiède et homogène.",
+      "duration": 5
+    },
+    {
+      "title": "Ajouter le beurre",
+      "description": "Ajouter le beurre noisette tiède à la préparation et mélanger délicatement.",
+      "duration": 2
+    },
+    {
+      "title": "Cuire",
+      "description": "Verser dans des moules à financiers beurrés. Cuire à 180°C pendant 15 à 20 minutes.",
+      "duration": 20
+    }
+  ],
+  "tips": [
+    "Le beurre noisette apporte toute la saveur : le cuire jusqu'à coloration noisette puis le filtrer",
+    "La pâte peut reposer 24h au frais pour développer les arômes",
+    "Pour des financiers aux fruits rouges, ajouter framboises ou myrtilles avant cuisson"
+  ],
+  "image": "https://images.unsplash.com/photo-1643750182177-60da9d9b360b?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Casserole",
+    "Cul-de-poule",
+    "Fouet",
+    "Moule à financiers",
+    "Maryse"
+  ]
+}
