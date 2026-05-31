@@ -1,0 +1,82 @@
+{
+  "id": "pate-a-madeleine",
+  "family": "Pâtes",
+  "title": "Pâte à madeleine",
+  "difficulty": "Débutant",
+  "description": "Pâte à madeleine traditionnelle, reconnaissable à sa bosse caractéristique. Petits gâteaux moelleux au beurre, parfumés au citron ou à la fleur d'oranger.",
+  "prepTime": 15,
+  "cookTime": 12,
+  "restTime": 60,
+  "servings": 24,
+  "calories": 120,
+  "ingredients": [
+    {
+      "name": "Farine T55",
+      "quantity": 0.5,
+      "unit": "kg"
+    },
+    {
+      "name": "Beurre doux",
+      "quantity": 0.25,
+      "unit": "kg"
+    },
+    {
+      "name": "Œufs entiers",
+      "quantity": 0.4,
+      "unit": "kg"
+    },
+    {
+      "name": "Sucre semoule",
+      "quantity": 0.3,
+      "unit": "kg"
+    },
+    {
+      "name": "Levure chimique",
+      "quantity": 0.015,
+      "unit": "kg"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Blanchir les œufs et le sucre",
+      "description": "Dans la cuve du batteur, fouettez les œufs entiers avec le sucre semoule jusqu'à ce que le mélange blanchisse et devienne mousseux. La texture doit faire le ruban.",
+      "duration": 8,
+      "tip": "Le mélange est prêt quand il forme un ruban qui persiste quelques secondes à la surface.",
+      "expertNote": "Le blanchiment incorpore de l'air dans la pâte, ce qui contribuera à la formation de la bosse."
+    },
+    {
+      "title": "Ajouter la farine et la levure",
+      "description": "Tamisez la farine et la levure au-dessus du mélange œufs-sucre. Incorporez délicatement à la maryse en soulevant la masse pour ne pas faire retomber la préparation.",
+      "duration": 3,
+      "tip": "Soulevez la masse délicatement pour conserver l'air incorporé. La pâte doit rester mousseuse.",
+      "expertNote": "L'incorporation de la farine doit être faite en deux fois pour éviter la formation de grumeaux."
+    },
+    {
+      "title": "Ajouter le beurre fondu refroidi",
+      "description": "Faites fondre le beurre sans le colorer. Laissez-le refroidir à température ambiante puis incorporez-le délicatement à la pâte. Ajoutez le zeste de citron râpé ou la fleur d'oranger.",
+      "duration": 3,
+      "tip": "Le beurre doit être fondu mais tiède pour ne pas cuire les œufs.",
+      "expertNote": "Le beurre noisette (légèrement coloré) apporte une saveur supplémentaire mais change la texture."
+    },
+    {
+      "title": "Cuire les madeleines",
+      "description": "Versez la pâte dans les moules à madeleine beurrés et farinés. Enfournez immédiatement à 220°C pendant 4 minutes, puis baissez à 180°C pour 6-8 minutes. La bosse doit se former dans les premières minutes.",
+      "duration": 12,
+      "tip": "Le choc thermique (four très chaud initialement) est essentiel pour la formation de la bosse.",
+      "expertNote": "La bosse de la madeleine se forme grâce à la différence de cuisson : les bords cuisent plus vite et le cœur en expansion crée la bosse."
+    }
+  ],
+  "tips": [
+    "Un repos de la pâte au frais (1 heure) accentue la formation de la bosse.",
+    "Démoulez les madeleines tièdes pour éviter qu'elles ne ramollissent dans le moule.",
+    "Ne remplissez pas trop les moules : la pâte ne doit pas dépasser les 3/4 du moule."
+  ],
+  "image": "https://images.unsplash.com/photo-1643750182177-60da9d9b360b?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Cul-de-poule",
+    "Fouet",
+    "Moule à madeleines",
+    "Maryse",
+    "Balance"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "macarons-gerbet",
+  "family": "Biscuiterie",
+  "title": "Macarons Gerbet",
+  "difficulty": "Avancé",
+  "description": "Macarons à l'ancienne (méthode Gerbet), coques fines et lisses avec une collerette délicate.",
+  "prepTime": 45,
+  "cookTime": 8,
+  "restTime": 30,
+  "servings": 40,
+  "calories": 90,
+  "ingredients": [
+    {
+      "name": "TPT amandes (poudre d'amandes 250g + sucre glace 200g)",
+      "quantity": 0.5,
+      "unit": "kg"
+    },
+    {
+      "name": "Sucre glace",
+      "quantity": 0.2,
+      "unit": "kg"
+    },
+    {
+      "name": "Blancs d'œufs (pour la meringue)",
+      "quantity": 0.2,
+      "unit": "kg"
+    },
+    {
+      "name": "Blancs d'œufs (supplémentaires)",
+      "quantity": 0.05,
+      "unit": "kg"
+    },
+    {
+      "name": "Sucre semoule",
+      "quantity": 0.05,
+      "unit": "kg"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Tamiser le TPT",
+      "description": "Tamiser ensemble le TPT (poudre d'amandes et sucre glace) et le sucre glace supplémentaire.",
+      "duration": 3
+    },
+    {
+      "title": "Monter les blancs",
+      "description": "Monter les 200g de blancs d'œufs en neige ferme en ajoutant le sucre semoule progressivement.",
+      "duration": 8
+    },
+    {
+      "title": "Ajouter les blancs supplémentaires",
+      "description": "Ajouter les 50g de blancs d'œufs supplémentaires au TPT pour former une pâte.",
+      "duration": 2
+    },
+    {
+      "title": "Macaronner",
+      "description": "Incorporer les blancs montés au TPT en trois fois. Macaronner en écrasant la masse contre le bord du récipient jusqu'à obtenir un ruban qui s'écoule lentement.",
+      "duration": 5
+    },
+    {
+      "title": "Croûter",
+      "description": "Dresser à la poche à douille sur plaque recouverte de papier cuisson. Laisser croûter à l'air libre pendant 30 minutes jusqu'à ce que la surface ne colle plus au doigt.",
+      "duration": 30
+    },
+    {
+      "title": "Cuire",
+      "description": "Cuire à 180°C pendant 8 minutes. Ouvrir le four une fois à mi-cuisson pour évacuer la vapeur.",
+      "duration": 8
+    }
+  ],
+  "tips": [
+    "La qualité du TPT est cruciale : la poudre d'amandes doit être très fine",
+    "Le croûtage est essentiel pour obtenir une belle collerette",
+    "Variantes : chocolat (remplacer 30g de sucre glace par du cacao en poudre), pistache",
+    "Pour une texture parfaite, laisser reposer les coques 24h au frais avant de garnir"
+  ],
+  "image": "https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Cul-de-poule",
+    "Maryse",
+    "Poche à douille",
+    "Plaque de cuisson",
+    "Tamis",
+    "Mixeur"
+  ]
+}

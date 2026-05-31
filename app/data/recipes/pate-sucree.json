@@ -1,0 +1,87 @@
+{
+  "id": "pate-sucree",
+  "family": "Pâtes",
+  "title": "Pâte sucrée",
+  "difficulty": "Débutant",
+  "description": "Pâte sucrée classique, plus riche que la pâte brisée, idéale pour les tartes aux fruits et les desserts. Méthode par crémage ou sablage.",
+  "prepTime": 20,
+  "cookTime": 20,
+  "restTime": 60,
+  "servings": 8,
+  "calories": 380,
+  "ingredients": [
+    {
+      "name": "Farine T55",
+      "quantity": 0.5,
+      "unit": "kg"
+    },
+    {
+      "name": "Beurre doux",
+      "quantity": 0.25,
+      "unit": "kg"
+    },
+    {
+      "name": "Œufs entiers",
+      "quantity": 0.1,
+      "unit": "kg"
+    },
+    {
+      "name": "Sucre semoule",
+      "quantity": 0.25,
+      "unit": "kg"
+    },
+    {
+      "name": "Sel fin",
+      "quantity": 0.005,
+      "unit": "kg"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Crémer le beurre et le sucre",
+      "description": "Sortez le beurre à température ambiante. Dans la cuve du batteur, crémez le beurre pommade avec le sucre semoule et le sel jusqu'à obtenir un mélange homogène et légèrement blanchi.",
+      "duration": 5,
+      "tip": "Le beurre doit être bien pommade mais pas fondu pour une texture optimale.",
+      "expertNote": "La méthode par crémage donne une pâte plus friable et fondante que le sablage."
+    },
+    {
+      "title": "Ajouter l'œuf",
+      "description": "Ajoutez les œufs entiers battus en une ou deux fois. Mélangez à vitesse douce jusqu'à complète incorporation.",
+      "duration": 2,
+      "tip": "Versez les œufs en filet pour une meilleure absorption."
+    },
+    {
+      "title": "Incorporer la farine",
+      "description": "Tamisez la farine au-dessus de la préparation. Incorporez-la délicatement à la maryse ou en dernière vitesse du batteur. Arrêtez dès que la farine est absorbée.",
+      "duration": 3,
+      "tip": "Ne travaillez pas trop la pâte après l'ajout de la farine pour éviter le développement du gluten.",
+      "expertNote": "Une pâte sucrée trop travaillée devient élastique et se rétracte à la cuisson."
+    },
+    {
+      "title": "Repos au frais",
+      "description": "Formez une boule, aplatissez-la en disque, filmez au contact et réservez au réfrigérateur pendant 1 heure minimum.",
+      "duration": 60,
+      "tip": "Le repos au frais est essentiel pour faciliter l'étalement et éviter la rétractation."
+    },
+    {
+      "title": "Cuire à blanc",
+      "description": "Abaissez la pâte sur 3 mm d'épaisseur. Foncer un cercle ou un moule beurré. Piquez le fond à la fourchette. Cuire à blanc à 170°C pendant 15-20 minutes selon la garniture.",
+      "duration": 20,
+      "tip": "Pour une cuisson à blanc parfaite, utilisez des billes de cuisson ou haricots secs sur du papier sulfurisé.",
+      "expertNote": "La cuisson à blanc peut être partielle (précuisson) ou totale selon la garniture choisie."
+    }
+  ],
+  "tips": [
+    "Pour une pâte encore plus friable, remplacez une partie du sucre semoule par du sucre glace.",
+    "Si la pâte se déchire au fonçage, laissez-la tempérer 5 minutes et réparez à la main.",
+    "La pâte sucrée se congèle très bien crue, filmée au contact."
+  ],
+  "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Cul-de-poule",
+    "Rouleau à pâtisserie",
+    "Cercle à tarte",
+    "Balance",
+    "Film alimentaire"
+  ]
+}

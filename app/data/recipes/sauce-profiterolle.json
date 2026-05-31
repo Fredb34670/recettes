@@ -1,0 +1,62 @@
+{
+  "id": "sauce-profiterolle",
+  "family": "Sauces",
+  "title": "Sauce profiterolle",
+  "difficulty": "Intermédiaire",
+  "description": "Sauce chocolat riche et épaisse spécialement conçue pour accompagner les profiteroles.",
+  "prepTime": 5,
+  "cookTime": 15,
+  "restTime": 0,
+  "servings": 8,
+  "calories": 450,
+  "ingredients": [
+    {
+      "name": "Eau",
+      "quantity": 1.4,
+      "unit": "L"
+    },
+    {
+      "name": "Sucre semoule",
+      "quantity": 1.5,
+      "unit": "kg"
+    },
+    {
+      "name": "Crème double",
+      "quantity": 0.8,
+      "unit": "L"
+    },
+    {
+      "name": "Poudre de cacao amer",
+      "quantity": 0.5,
+      "unit": "kg"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Porter l'eau à ébullition",
+      "description": "Faire bouillir l'eau dans une grande casserole.",
+      "duration": 5
+    },
+    {
+      "title": "Ajouter le sucre et le cacao",
+      "description": "Hors du feu, ajouter le sucre et la poudre de cacao tamisée. Fouetter pour dissoudre.",
+      "duration": 3
+    },
+    {
+      "title": "Incorporer la crème",
+      "description": "Ajouter la crème double et remettre sur feu doux. Laisser épaissir quelques minutes en remuant.",
+      "duration": 7
+    }
+  ],
+  "tips": [
+    "Tamiser le cacao pour éviter les grumeaux.",
+    "La sauce épaissit en refroidissant, ajuster la consistance avec de l'eau si nécessaire."
+  ],
+  "image": "https://images.unsplash.com/photo-1756999319115-d05e323161c5?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Casserole",
+    "Fouet",
+    "Maryse",
+    "Balance"
+  ]
+}

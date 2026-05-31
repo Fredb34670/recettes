@@ -1,0 +1,54 @@
+{
+  "id": "coulis-fruits",
+  "family": "Sauces",
+  "title": "Coulis de fruits",
+  "difficulty": "Débutant",
+  "description": "Coulis de fruits frais et acidulé, déclinable selon les saisons et les envies.",
+  "prepTime": 10,
+  "cookTime": 0,
+  "restTime": 0,
+  "servings": 6,
+  "calories": 120,
+  "ingredients": [
+    {
+      "name": "Pulpe de fruits",
+      "quantity": 0.5,
+      "unit": "L"
+    },
+    {
+      "name": "Sucre semoule",
+      "quantity": 0.175,
+      "unit": "kg"
+    },
+    {
+      "name": "Jus de citron",
+      "quantity": 0.005,
+      "unit": "L"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Préparer la pulpe",
+      "description": "Mixer les fruits frais ou surgelés pour obtenir une pulpe lisse. Filtrer si nécessaire.",
+      "duration": 5
+    },
+    {
+      "title": "Mélanger",
+      "description": "À froid, mélanger la pulpe avec le sucre et le jus de citron jusqu'à dissolution complète.",
+      "duration": 5
+    }
+  ],
+  "tips": [
+    "Ne pas faire bouillir pour préserver la couleur et le goût frais des fruits.",
+    "Variantes : fraise, framboise, pêche, cassis, noix de coco, figue.",
+    "Ajuster la quantité de sucre selon l'acidité des fruits (100 à 250g)."
+  ],
+  "image": "https://images.unsplash.com/photo-1562007908-17c67e878c88?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Casserole",
+    "Fouet",
+    "Chinois",
+    "Mixeur plongeant",
+    "Balance"
+  ]
+}

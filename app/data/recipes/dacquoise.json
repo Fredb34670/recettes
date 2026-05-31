@@ -1,0 +1,64 @@
+{
+  "id": "dacquoise",
+  "family": "Biscuiterie",
+  "title": "Dacquoise",
+  "difficulty": "Débutant",
+  "description": "Biscuit moelleux à base de blancs d'œufs et de poudre d'amandes, parfait pour les entremets et les gâteaux.",
+  "prepTime": 15,
+  "cookTime": 30,
+  "restTime": 0,
+  "servings": 8,
+  "calories": 240,
+  "ingredients": [
+    {
+      "name": "Blancs d'œufs",
+      "quantity": 0.5,
+      "unit": "kg"
+    },
+    {
+      "name": "Sucre",
+      "quantity": 0.5,
+      "unit": "kg"
+    },
+    {
+      "name": "Poudre d'amandes",
+      "quantity": 0.5,
+      "unit": "kg"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Monter les blancs",
+      "description": "Monter les blancs d'œufs en neige ferme en ajoutant le sucre progressivement en trois fois.",
+      "duration": 8
+    },
+    {
+      "title": "Incorporer la poudre",
+      "description": "Incorporer délicatement la poudre d'amandes tamisée aux blancs montés à l'aide d'une maryse.",
+      "duration": 3
+    },
+    {
+      "title": "Dresser",
+      "description": "Dresser à la poche à douille sur une plaque recouverte de papier cuisson en formant des cercles ou des bandes.",
+      "duration": 5
+    },
+    {
+      "title": "Cuire",
+      "description": "Cuire à 180-200°C pendant 25 à 30 minutes jusqu'à ce que la surface soit dorée et le biscuit moelleux.",
+      "duration": 30
+    }
+  ],
+  "tips": [
+    "La dacquoise reste volontairement moelleuse à l'intérieur après cuisson",
+    "Variantes possibles : remplacer une partie de la poudre d'amandes par de la noix, du chocolat ou de la pistache",
+    "Saupoudrer de sucre glace avant cuisson pour un aspect brillant"
+  ],
+  "image": "https://images.unsplash.com/photo-1535141192574-5d4897c12636?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Cul-de-poule",
+    "Batteur électrique",
+    "Maryse",
+    "Poche à douille",
+    "Plaque de cuisson"
+  ]
+}

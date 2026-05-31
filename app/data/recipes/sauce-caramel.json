@@ -1,0 +1,69 @@
+{
+  "id": "sauce-caramel",
+  "family": "Sauces",
+  "title": "Sauce caramel",
+  "difficulty": "Intermédiaire",
+  "description": "Caramel onctueux au beurre salé, idéal pour accompagner crêpes, glaces et desserts.",
+  "prepTime": 5,
+  "cookTime": 20,
+  "restTime": 0,
+  "servings": 8,
+  "calories": 400,
+  "ingredients": [
+    {
+      "name": "Eau",
+      "quantity": 0.13,
+      "unit": "L"
+    },
+    {
+      "name": "Sucre semoule",
+      "quantity": 0.4,
+      "unit": "kg"
+    },
+    {
+      "name": "Glucose",
+      "quantity": 0.1,
+      "unit": "kg"
+    },
+    {
+      "name": "Crème liquide entière",
+      "quantity": 0.6,
+      "unit": "L"
+    },
+    {
+      "name": "Beurre salé",
+      "quantity": 0.05,
+      "unit": "kg"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Cuire le caramel",
+      "description": "Mélanger l'eau, le sucre et le glucose. Cuire à feu moyen jusqu'à obtention d'un caramel blond.",
+      "duration": 15
+    },
+    {
+      "title": "Déglacer",
+      "description": "Hors du feu, verser la crème chaude en filet tout en remuant. Attention aux projections.",
+      "duration": 3
+    },
+    {
+      "title": "Rectifier",
+      "description": "Ajouter le beurre salé et mélanger. Rectifier la consistance avec un peu d'eau si nécessaire.",
+      "duration": 2
+    }
+  ],
+  "tips": [
+    "Ne pas remuer le sucre en début de cuisson pour éviter qu'il cristallise.",
+    "La crème doit être chaude pour éviter le choc thermique.",
+    "Conserver au réfrigérateur dans un pot hermétique."
+  ],
+  "image": "https://images.unsplash.com/photo-1606312619070-d48b4c652a52?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Casserole",
+    "Spatule Exoglass",
+    "Fouet",
+    "Chinois",
+    "Balance"
+  ]
+}

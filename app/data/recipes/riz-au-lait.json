@@ -1,0 +1,74 @@
+{
+  "id": "riz-au-lait",
+  "family": "Crèmes",
+  "title": "Riz au lait",
+  "difficulty": "Intermédiaire",
+  "description": "Riz au lait crémeux et parfumé à la vanille, dessert réconfortant par excellence.",
+  "prepTime": 5,
+  "cookTime": 35,
+  "restTime": 0,
+  "servings": 6,
+  "calories": 280,
+  "ingredients": [
+    {
+      "name": "Lait entier",
+      "quantity": 1.0,
+      "unit": "L"
+    },
+    {
+      "name": "Riz rond",
+      "quantity": 0.25,
+      "unit": "kg"
+    },
+    {
+      "name": "Sucre semoule",
+      "quantity": 0.1,
+      "unit": "kg"
+    },
+    {
+      "name": "Gousse de vanille",
+      "quantity": 1.0,
+      "unit": "pièce"
+    },
+    {
+      "name": "Sel",
+      "quantity": 1.0,
+      "unit": "pincée"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Laver le riz",
+      "description": "Laver le riz à l'eau froide pour retirer l'excédent d'amidon.",
+      "duration": 2
+    },
+    {
+      "title": "Blanchir",
+      "description": "Plonger le riz dans l'eau bouillante 2 minutes, puis égoutter.",
+      "duration": 3
+    },
+    {
+      "title": "Cuire le riz au lait",
+      "description": "Verser le riz dans le lait bouillant avec la vanille fendue et grattée et le sel. Cuire à frémissement 25 à 35 minutes en remuant régulièrement.",
+      "duration": 30
+    },
+    {
+      "title": "Sucrer",
+      "description": "Ajouter le sucre en fin de cuisson et mélanger. Laisser refroidir avant de servir.",
+      "duration": 2
+    }
+  ],
+  "tips": [
+    "Utiliser du riz rond (riz à dessert) pour un résultat crémeux.",
+    "Remuer régulièrement en fin de cuisson pour éviter que le riz n'accroche.",
+    "Servir tiède ou froid, éventuellement saupoudré de cannelle."
+  ],
+  "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Casserole",
+    "Spatule",
+    "Chinois",
+    "Balance",
+    "Ramequins"
+  ]
+}

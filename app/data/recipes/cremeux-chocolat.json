@@ -1,0 +1,72 @@
+{
+  "id": "cremeux-chocolat",
+  "family": "Crèmes",
+  "title": "Crèmeux au chocolat",
+  "difficulty": "Intermédiaire",
+  "description": "Crème anglaise enrichie au chocolat noir, d'une texture intense et soyeuse, parfaite en entremet ou en verrine.",
+  "prepTime": 15,
+  "cookTime": 15,
+  "restTime": 240,
+  "servings": 8,
+  "calories": 520,
+  "ingredients": [
+    {
+      "name": "Lait entier",
+      "quantity": 0.5,
+      "unit": "L"
+    },
+    {
+      "name": "Crème entière liquide (30 % MG)",
+      "quantity": 0.5,
+      "unit": "L"
+    },
+    {
+      "name": "Jaunes d'œufs",
+      "quantity": 0.32,
+      "unit": "kg"
+    },
+    {
+      "name": "Sucre semoule",
+      "quantity": 0.17,
+      "unit": "kg"
+    },
+    {
+      "name": "Chocolat noir 70 % de cacao",
+      "quantity": 0.6,
+      "unit": "kg"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Préparer la crème anglaise",
+      "description": "Porter le lait et la crème à ébullition. Blanchir les jaunes avec le sucre. Verser le liquide chaud sur les jaunes, remettre à chauffer doucement en remuant jusqu'à 82-85 °C (à la nappe).",
+      "duration": 15,
+      "expertNote": "Ne pas dépasser 85 °C sous peine de voir les jaunes coaguler. La crème doit napper la cuillère."
+    },
+    {
+      "title": "Ajouter le chocolat",
+      "description": "Hors du feu, ajouter le chocolat concassé à la crème anglaise bien chaude. Laisser fondre 1 minute, puis mélanger doucement à la spatule jusqu'à obtention d'une crème lisse et brillante.",
+      "duration": 5,
+      "tip": "Utiliser un chocolat de couverture de qualité pour un résultat professionnel."
+    },
+    {
+      "title": "Lisser et réserver",
+      "description": "Passer la crème au chinois pour éliminer les éventuels grumeaux. Verser dans des verrines ou un moule. Lisser la surface et placer au réfrigérateur minimum 4 heures.",
+      "duration": 5,
+      "expertNote": "Au contact du chocolat, la crème anglaise épaissit déjà : travailler rapidement pour une répartition homogène."
+    }
+  ],
+  "tips": [
+    "Le crémeux au chocolat se conserve 3-4 jours au réfrigérateur.",
+    "Servir avec une chantilly légère ou un coulis de fruits rouges pour contraster.",
+    "Le choix du chocolat est crucial : un chocolat à 70 % donne l'équilibre idéal entre puissance et onctuosité."
+  ],
+  "image": "https://images.unsplash.com/photo-1606312619070-d48b4c652a52?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Casserole",
+    "Cul-de-poule",
+    "Fouet",
+    "Mixeur plongeant",
+    "Sonde thermique"
+  ]
+}

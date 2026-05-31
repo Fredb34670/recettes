@@ -1,0 +1,94 @@
+{
+  "id": "pate-a-cake",
+  "family": "Pâtes",
+  "title": "Pâte à cake",
+  "difficulty": "Débutant",
+  "description": "Pâte dense et moelleuse aux fruits secs parfumée au rhum. Base des cakes classiques aux raisins, fruits confits ou chocolat. Se conserve parfaitement plusieurs jours.",
+  "prepTime": 20,
+  "cookTime": 50,
+  "restTime": 0,
+  "servings": 16,
+  "calories": 380,
+  "ingredients": [
+    {
+      "name": "Farine T55",
+      "quantity": 1.4,
+      "unit": "kg"
+    },
+    {
+      "name": "Beurre doux",
+      "quantity": 1.0,
+      "unit": "kg"
+    },
+    {
+      "name": "Œufs entiers",
+      "quantity": 1.0,
+      "unit": "kg"
+    },
+    {
+      "name": "Sucre glace",
+      "quantity": 1.0,
+      "unit": "kg"
+    },
+    {
+      "name": "Raisins secs",
+      "quantity": 0.6,
+      "unit": "kg"
+    },
+    {
+      "name": "Levure chimique",
+      "quantity": 0.015,
+      "unit": "kg"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Crémer le beurre et le sucre",
+      "description": "Sortez le beurre à température ambiante. Dans la cuve du batteur avec la feuille, crémez le beurre pommade avec le sucre glace jusqu'à obtenir un mélange mousseux et blanchi.",
+      "duration": 5,
+      "tip": "Le beurre doit être pommade mais pas fondu pour une texture parfaite.",
+      "expertNote": "Le sucre glace se dissout plus facilement que le sucre semoule, donnant une texture plus fine."
+    },
+    {
+      "title": "Ajouter les œufs",
+      "description": "Ajoutez les œufs un par un en mélangeant à vitesse douce entre chaque ajout. Le mélange doit être homogène et lisse.",
+      "duration": 5,
+      "tip": "Si le mélange tranche (se sépare), ajoutez une cuillère de farine pour le stabiliser.",
+      "expertNote": "Les œufs doivent être à température ambiante pour ne pas figer le beurre et éviter le tranchage."
+    },
+    {
+      "title": "Incorporer la farine et la levure",
+      "description": "Tamisez la farine et la levure chimique ensemble. Incorporez-les délicatement à la maryse en soulevant la masse. Ne mélangez pas trop.",
+      "duration": 3,
+      "tip": "La farine doit être incorporée en deux fois pour éviter les grumeaux.",
+      "expertNote": "Le mouvement de la maryse doit être circulaire en soulevant la pâte pour conserver l'air incorporé."
+    },
+    {
+      "title": "Ajouter les raisins secs",
+      "description": "Farinez légèrement les raisins secs et incorporez-les délicatement à la pâte. Ajoutez éventuellement le rhum et les fruits confits.",
+      "duration": 2,
+      "tip": "Fariner les raisins évite qu'ils tombent au fond du moule pendant la cuisson.",
+      "expertNote": "Les raisins doivent être préalablement trempés dans du rhum ou de l'eau chaude pour les réhydrater."
+    },
+    {
+      "title": "Cuire au four",
+      "description": "Versez la pâte dans des moules à cake beurrés et farinés. Cuire à 170°C pendant 45-50 minutes. Vérifiez la cuisson avec la lame d'un couteau qui doit ressortir sèche.",
+      "duration": 50,
+      "tip": "Si le dessus colore trop vite, couvrez d'une feuille d'aluminium.",
+      "expertNote": "Laissez le cake refroidir 10 minutes dans le moule avant de démouler sur une grille."
+    }
+  ],
+  "tips": [
+    "Le cake est meilleur le lendemain, emballé dans du film alimentaire.",
+    "Ajoutez des épices (cannelle, muscade) ou du zeste d'agrume pour varier les parfums.",
+    "Pour un cake bien bombé, faites une incision au milieu de la pâte crue avant d'enfourner."
+  ],
+  "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Cul-de-poule",
+    "Fouet",
+    "Moule à cake",
+    "Maryse",
+    "Tamis"
+  ]
+}

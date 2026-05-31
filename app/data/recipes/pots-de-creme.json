@@ -1,0 +1,94 @@
+{
+  "id": "pots-de-creme",
+  "family": "Crèmes",
+  "title": "Pots de crème",
+  "difficulty": "Débutant",
+  "description": "Petites crèmes cuites au bain-marie, d'une texture fine et soyeuse, aux multiples parfums.",
+  "prepTime": 10,
+  "cookTime": 45,
+  "restTime": 180,
+  "servings": 6,
+  "calories": 240,
+  "ingredients": [
+    {
+      "name": "Lait entier",
+      "quantity": 1.0,
+      "unit": "L"
+    },
+    {
+      "name": "Jaunes d'œufs",
+      "quantity": 0.16,
+      "unit": "kg"
+    },
+    {
+      "name": "Sucre semoule",
+      "quantity": 0.13,
+      "unit": "kg"
+    },
+    {
+      "name": "Gousses de vanille",
+      "quantity": 2.0,
+      "unit": "pièces"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Faire bouillir le lait vanillé",
+      "description": "Fendre les gousses de vanille et gratter les graines. Porter le lait à ébullition avec les gousses et les graines. Couvrir et laisser infuser 10 minutes.",
+      "duration": 15
+    },
+    {
+      "title": "Blanchir les jaunes",
+      "description": "Fouetter les jaunes avec le sucre jusqu'à ce que le mélange blanchisse et forme un ruban.",
+      "duration": 5
+    },
+    {
+      "title": "Mélanger",
+      "description": "Verser le lait chaud sur les jaunes blanchis en fouettant doucement. Passer au chinois pour une texture parfaitement lisse.",
+      "duration": 5
+    },
+    {
+      "title": "Remplir les pots",
+      "description": "Verser la préparation dans des petits pots en grès ou des ramequins. Écumer la mousse en surface pour une texture lisse.",
+      "duration": 5,
+      "tip": "Tapoter légèrement les pots sur le plan de travail pour faire remonter les bulles d'air."
+    },
+    {
+      "title": "Cuire au bain-marie",
+      "description": "Disposer les pots dans un plat allant au four. Verser de l'eau tiède à mi-hauteur. Cuire à 140 °C pendant 40-45 minutes. Les crèmes doivent être prises mais encore tremblotantes.",
+      "duration": 45,
+      "expertNote": "La cuisson à 140 °C est idéale : une température plus élevée ferait bouillir l'eau et donnerait une texture trouée aux crèmes."
+    }
+  ],
+  "tips": [
+    "Servir frais, nature ou accompagné d'un biscuit.",
+    "Se conserve 3 jours au réfrigérateur, filmé au contact.",
+    "Le pot de crème est la base la plus simple de la pâtissière : bien maîtriser cette recette avant d'aborder les autres."
+  ],
+  "variations": [
+    {
+      "name": "Pots de crème au chocolat",
+      "description": "Ajouter 200 g de chocolat noir fondu au lait chaud avant de mélanger aux jaunes."
+    },
+    {
+      "name": "Pots de crème au café",
+      "description": "Infuser 40 g de café moulu dans le lait chaud pendant l'infusion vanille."
+    },
+    {
+      "name": "Pots de crème à l'orange",
+      "description": "Ajouter le zeste d'une orange et 2 cuillères de Grand Marnier."
+    },
+    {
+      "name": "Pots de crème à la vanille",
+      "description": "Recette de base avec 3 gousses de vanille pour un parfum plus intense."
+    }
+  ],
+  "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Casserole",
+    "Cul-de-poule",
+    "Fouet",
+    "Ramequins",
+    "Chinois"
+  ]
+}

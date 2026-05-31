@@ -1,0 +1,59 @@
+{
+  "id": "ganache-classique",
+  "family": "Ganaches",
+  "title": "Ganache classique",
+  "difficulty": "Intermédiaire",
+  "description": "Ganache onctueuse au chocolat, base incontournable pour garnitures et nappages.",
+  "prepTime": 5,
+  "cookTime": 10,
+  "restTime": 0,
+  "servings": 6,
+  "calories": 380,
+  "ingredients": [
+    {
+      "name": "Crème liquide entière",
+      "quantity": 0.4,
+      "unit": "L"
+    },
+    {
+      "name": "Beurre doux",
+      "quantity": 0.1,
+      "unit": "kg"
+    },
+    {
+      "name": "Chocolat à 50% de cacao",
+      "quantity": 0.5,
+      "unit": "kg"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Faire bouillir la crème",
+      "description": "Porter la crème à ébullition dans une casserole.",
+      "duration": 5
+    },
+    {
+      "title": "Verser sur le chocolat",
+      "description": "Verser la crème chaude sur le chocolat concassé. Laisser reposer 1 minute puis mélanger doucement.",
+      "duration": 3
+    },
+    {
+      "title": "Ajouter le beurre",
+      "description": "Ajouter le beurre coupé en dés et mélanger jusqu'à obtention d'une ganache lisse et brillante.",
+      "duration": 2
+    }
+  ],
+  "tips": [
+    "Ne pas trop travailler la ganache pour éviter d'incorporer de l'air.",
+    "Utiliser un chocolat de couverture pour un résultat professionnel.",
+    "La ganache se conserve plusieurs jours au réfrigérateur."
+  ],
+  "image": "https://images.unsplash.com/photo-1606312619070-d48b4c652a52?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Casserole",
+    "Cul-de-poule",
+    "Maryse",
+    "Balance",
+    "Mixeur plongeant"
+  ]
+}

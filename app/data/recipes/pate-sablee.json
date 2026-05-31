@@ -1,0 +1,82 @@
+{
+  "id": "pate-sablee",
+  "family": "Pâtes",
+  "title": "Pâte sablée",
+  "difficulty": "Débutant",
+  "description": "Pâte friable et croustillante obtenue par la méthode du sablage ou du crémage. La farine est imperméabilisée par une pellicule de matière grasse pour éviter la formation du corps. Ingrédients pour 500 g de farine.",
+  "prepTime": 20,
+  "cookTime": 18,
+  "restTime": 60,
+  "servings": 8,
+  "calories": 250,
+  "ingredients": [
+    {
+      "name": "Farine T55",
+      "quantity": 0.5,
+      "unit": "kg"
+    },
+    {
+      "name": "Beurre doux",
+      "quantity": 0.25,
+      "unit": "kg"
+    },
+    {
+      "name": "Œufs entiers",
+      "quantity": 0.1,
+      "unit": "kg"
+    },
+    {
+      "name": "Sucre semoule",
+      "quantity": 0.125,
+      "unit": "kg"
+    },
+    {
+      "name": "Sel fin",
+      "quantity": 0.005,
+      "unit": "kg"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Sabler la farine et le beurre",
+      "description": "Du bout des doigts ou au robot, sabler la farine avec le beurre froid coupé en dés jusqu'à obtenir une texture de sable grossier.",
+      "duration": 5,
+      "tip": "Le beurre doit être froid mais pas dur. Travaillez rapidement pour ne pas chauffer la pâte.",
+      "expertNote": "Le sablage peut être réalisé au robot avec la feuille (vitesse 1-2). La texture finale doit ressembler à du sable de plage humide — pas de morceaux de beurre visibles."
+    },
+    {
+      "title": "Ajouter les œufs et le sucre",
+      "description": "Ajouter les œufs, le sucre et le sel. Fraser jusqu'à disparition de toute trace de farine sans travailler la pâte.",
+      "duration": 5,
+      "tip": "Ne pétrissez pas trop pour éviter le développement du gluten.",
+      "expertNote": "Fraiser = écraser la pâte avec la paume de la main sur le plan de travail pour amalgamer sans pétrir. 2 à 3 passages suffisent. La pâte ne doit jamais devenir élastique."
+    },
+    {
+      "title": "Réserver au frais",
+      "description": "Envelopper la pâte dans un film étirable et réserver au réfrigérateur au moins 1 heure.",
+      "duration": 60,
+      "tip": "Le repos au froid est essentiel pour éviter le retrait à la cuisson."
+    },
+    {
+      "title": "Cuire à blanc",
+      "description": "Étaler la pâte sur 3 mm d'épaisseur, foncer le cercle, piquer à la fourchette et cuire à 170°C pendant 18 minutes environ.",
+      "duration": 18,
+      "tip": "Utilisez des billes de cuisson pour éviter que la pâte ne gonfle.",
+      "expertNote": "Cuisson à blanc : beurrer le cercle, foncer, piquer, poser un papier sulfurisé et des billes de cuisson (ou haricots secs). Retirer les billes à mi-cuisson pour sécher le fond."
+    }
+  ],
+  "tips": [
+    "Deux méthodes possibles : par sablage (texture sableuse) ou par crémage (texture plus homogène).",
+    "Pour une pâte sucrée, utilisez 0.250 kg de sucre (proportions doubles).",
+    "La pâte sablée peut être parfumée à la vanille, au citron ou aux amandes.",
+    "Se conserve 48h au réfrigérateur ou 1 mois au congélateur."
+  ],
+  "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Cul-de-poule",
+    "Rouleau à pâtisserie",
+    "Cercle à tarte",
+    "Balance",
+    "Film alimentaire"
+  ]
+}

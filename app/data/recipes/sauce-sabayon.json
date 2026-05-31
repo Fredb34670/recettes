@@ -1,0 +1,57 @@
+{
+  "id": "sauce-sabayon",
+  "family": "Sauces",
+  "title": "Sauce sabayon",
+  "difficulty": "Intermédiaire",
+  "description": "Sabayon léger et mousseux au champagne, classique des desserts de fête.",
+  "prepTime": 10,
+  "cookTime": 15,
+  "restTime": 0,
+  "servings": 6,
+  "calories": 280,
+  "ingredients": [
+    {
+      "name": "Jaunes d'œufs",
+      "quantity": 0.125,
+      "unit": "kg"
+    },
+    {
+      "name": "Sucre semoule",
+      "quantity": 0.25,
+      "unit": "kg"
+    },
+    {
+      "name": "Champagne brut",
+      "quantity": 0.25,
+      "unit": "L"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Blanchir",
+      "description": "Fouetter les jaunes avec le sucre jusqu'à ce que le mélange blanchisse et devienne mousseux.",
+      "duration": 5
+    },
+    {
+      "title": "Ajouter le champagne",
+      "description": "Incorporer le champagne en filet tout en continuant de fouetter.",
+      "duration": 2
+    },
+    {
+      "title": "Monter sur le feu",
+      "description": "Cuire au bain-marie en fouettant sans cesse jusqu'à ce que la sauce épaississe et double de volume.",
+      "duration": 8
+    }
+  ],
+  "tips": [
+    "Ne pas dépasser 85°C pour éviter que les œufs ne cuisent.",
+    "Servir immédiatement sur un dessert chaud ou froid.",
+    "Peut être aromatisé avec un vin doux ou du marsala."
+  ],
+  "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Cul-de-poule",
+    "Fouet",
+    "Balance"
+  ]
+}

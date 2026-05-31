@@ -1,0 +1,74 @@
+{
+  "id": "langues-de-chat",
+  "family": "Biscuiterie",
+  "title": "Langues de chat",
+  "difficulty": "Débutant",
+  "description": "Biscuits fins et allongés, croustillants à l'extérieur et fondants à l'intérieur, parfaits pour accompagner crèmes et glaces.",
+  "prepTime": 15,
+  "cookTime": 10,
+  "restTime": 0,
+  "servings": 30,
+  "calories": 90,
+  "ingredients": [
+    {
+      "name": "Farine",
+      "quantity": 0.31,
+      "unit": "kg"
+    },
+    {
+      "name": "Beurre",
+      "quantity": 0.25,
+      "unit": "kg"
+    },
+    {
+      "name": "Blancs d'œufs",
+      "quantity": 0.18,
+      "unit": "kg"
+    },
+    {
+      "name": "Sucre glace",
+      "quantity": 0.325,
+      "unit": "kg"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Crémer le beurre",
+      "description": "Travailler le beurre ramolli avec le sucre glace tamisé jusqu'à obtenir un mélange crémeux et homogène.",
+      "duration": 5
+    },
+    {
+      "title": "Ajouter les blancs",
+      "description": "Ajouter les blancs d'œufs progressivement en mélangeant bien à chaque ajout.",
+      "duration": 3
+    },
+    {
+      "title": "Incorporer la farine",
+      "description": "Tamiser et incorporer la farine délicatement à la préparation.",
+      "duration": 2
+    },
+    {
+      "title": "Dresser",
+      "description": "Dresser à la poche à douille en formant des bandes de 8 à 10 cm de long sur une plaque recouverte de papier cuisson.",
+      "duration": 5
+    },
+    {
+      "title": "Cuire",
+      "description": "Cuire à 180°C pendant 8 à 10 minutes. Les biscuits doivent être dorés sur les bords et clairs au centre.",
+      "duration": 10
+    }
+  ],
+  "tips": [
+    "Le beurre doit être à température ambiante, ni trop mou ni trop froid",
+    "Bien espacer les biscuits sur la plaque car ils s'étalent à la cuisson",
+    "La pâte doit être lisse et homogène sans grumeaux"
+  ],
+  "image": "https://images.unsplash.com/photo-1643750182177-60da9d9b360b?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Cul-de-poule",
+    "Fouet",
+    "Poche à douille",
+    "Plaque de cuisson",
+    "Maryse"
+  ]
+}

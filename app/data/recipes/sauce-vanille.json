@@ -1,0 +1,63 @@
+{
+  "id": "sauce-vanille",
+  "family": "Sauces",
+  "title": "Sauce vanille",
+  "difficulty": "Intermédiaire",
+  "description": "Crème anglaise à la vanille, onctueuse et parfumée, indispensable en pâtisserie.",
+  "prepTime": 10,
+  "cookTime": 15,
+  "restTime": 0,
+  "servings": 6,
+  "calories": 200,
+  "ingredients": [
+    {
+      "name": "Lait entier",
+      "quantity": 1.0,
+      "unit": "L"
+    },
+    {
+      "name": "Jaunes d'œufs",
+      "quantity": 0.25,
+      "unit": "kg"
+    },
+    {
+      "name": "Sucre semoule",
+      "quantity": 0.15,
+      "unit": "kg"
+    },
+    {
+      "name": "Gousse de vanille",
+      "quantity": 1.0,
+      "unit": "pièce"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Infuser le lait",
+      "description": "Faire chauffer le lait avec la gousse de vanille fendue et grattée. Laisser infuser hors du feu.",
+      "duration": 10
+    },
+    {
+      "title": "Blanchir les jaunes",
+      "description": "Fouetter les jaunes avec le sucre jusqu'à ce que le mélange blanchisse.",
+      "duration": 3
+    },
+    {
+      "title": "Cuire la crème",
+      "description": "Verser le lait chaud sur les jaunes blanchis. Remettre sur feu doux et cuire à la nappe (85°C) sans cesser de remuer.",
+      "duration": 7
+    }
+  ],
+  "tips": [
+    "Ne pas dépasser 85°C sous peine de voir les œufs coaguler.",
+    "La crème est cuite quand elle nappe le dos d'une cuillère.",
+    "Filtrer au chinois pour un résultat parfaitement lisse."
+  ],
+  "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Casserole",
+    "Fouet",
+    "Chinois",
+    "Sonde thermique"
+  ]
+}

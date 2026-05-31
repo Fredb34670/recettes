@@ -1,0 +1,77 @@
+{
+  "id": "creme-anglaise",
+  "family": "Sauces",
+  "title": "Crème anglaise",
+  "difficulty": "Avancé",
+  "description": "Préparation de couleur jaune, semi-liquide réalisée à partir d'un mélange de lait, de sucre et de jaunes d'œufs. Obtenue à chaud par coagulation contrôlée des jaunes entre 82°C et 85°C.",
+  "prepTime": 10,
+  "cookTime": 15,
+  "restTime": 60,
+  "servings": 8,
+  "calories": 180,
+  "ingredients": [
+    {
+      "name": "Lait entier",
+      "quantity": 1.0,
+      "unit": "L"
+    },
+    {
+      "name": "Jaunes d'œufs",
+      "quantity": 0.2,
+      "unit": "kg"
+    },
+    {
+      "name": "Sucre en poudre",
+      "quantity": 0.25,
+      "unit": "kg"
+    },
+    {
+      "name": "Gousses de vanille",
+      "quantity": 2,
+      "unit": "pces"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Infuser la vanille",
+      "description": "Fendre les gousses de vanille et gratter les graines. Porter le lait à ébullition avec les gousses et les graines. Laisser infuser hors du feu 15 minutes.",
+      "duration": 20,
+      "tip": "L'infusion prolongée donne un parfum plus intense.",
+      "expertNote": "La vanille épuisée peut être séchée et mixée avec du sucre pour obtenir du sucre vanillé maison."
+    },
+    {
+      "title": "Blanchir les jaunes",
+      "description": "Fouetter les jaunes avec le sucre jusqu'à ce que le mélange blanchisse et forme le ruban.",
+      "duration": 5
+    },
+    {
+      "title": "Cuire la crème",
+      "description": "Verser le lait chaud sur les jaunes en fouettant. Remettre sur feu doux et cuire à 82-85°C en remuant constamment à la spatule. La crème est cuite quand elle nappe le dos de la cuillère.",
+      "duration": 10,
+      "tip": "Ne dépassez pas 85°C sous peine de voir les œufs coaguler et former des grumeaux.",
+      "expertNote": "La coagulation des jaunes commence à 65 °C mais l'épaississement n'est sensible qu'à partir de 82 °C. Test de la nappe : passer le doigt sur la spatule — la trace doit rester nette sans se refermer."
+    },
+    {
+      "title": "Refroidir",
+      "description": "Passer la crème au chinois fin. Refroidir rapidement sur un bain de glace en remuant.",
+      "duration": 10,
+      "tip": "Le refroidissement rapide évite la prolifération bactérienne.",
+      "expertNote": "En laboratoire, la température cœur doit passer sous les 10 °C en moins de 2 heures. La crème anglaise est un milieu favorable aux staphylocoques — ne pas laisser traîner à température ambiante."
+    }
+  ],
+  "tips": [
+    "Si la crème dépasse 85°C, les œufs tournent et forment des grumeaux.",
+    "Pour rattraper une crème anglaise grumeleuse, mixez-la au plongeoir et passez-la au chinois.",
+    "La crème anglaise se conserve 48h au réfrigérateur.",
+    "La quantité de jaunes peut varier de 0.160 à 0.400 kg par litre selon la richesse désirée."
+  ],
+  "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Casserole",
+    "Cul-de-poule",
+    "Fouet",
+    "Spatule Exoglass",
+    "Sonde thermique",
+    "Chinois"
+  ]
+}

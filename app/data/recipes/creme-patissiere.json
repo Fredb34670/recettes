@@ -1,0 +1,78 @@
+{
+  "id": "creme-patissiere",
+  "family": "Crèmes",
+  "title": "Crème pâtissière",
+  "difficulty": "Intermédiaire",
+  "description": "Crème cuite réalisée à partir d'un mélange de lait, de jaunes d'œufs, de sucre et de poudre à crème. L'épaississement obtenu par la chaleur permet diverses utilisations après refroidissement comme garniture de pâtisseries.",
+  "prepTime": 15,
+  "cookTime": 10,
+  "restTime": 60,
+  "servings": 8,
+  "calories": 210,
+  "ingredients": [
+    {
+      "name": "Lait entier",
+      "quantity": 1.0,
+      "unit": "L"
+    },
+    {
+      "name": "Jaunes d'œufs",
+      "quantity": 0.16,
+      "unit": "kg"
+    },
+    {
+      "name": "Sucre en poudre",
+      "quantity": 0.18,
+      "unit": "kg"
+    },
+    {
+      "name": "Poudre à crème",
+      "quantity": 0.09,
+      "unit": "kg"
+    },
+    {
+      "name": "Gousse de vanille",
+      "quantity": 1,
+      "unit": "pce"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Faire bouillir le lait",
+      "description": "Porter le lait à ébullition avec la gousse de vanille fendue et grattée.",
+      "duration": 5,
+      "expertNote": "Le rapport jaunes/lait est de 160 g pour 1 L. Remplacer 20 % du lait par de la crème liquide donne une texture plus onctueuse."
+    },
+    {
+      "title": "Blanchir les jaunes",
+      "description": "Fouetter les jaunes avec le sucre et la poudre à crème jusqu'à ce que le mélange blanchisse.",
+      "duration": 5,
+      "expertNote": "La poudre à crème peut être remplacée par un mélange 50/50 farine T55 et fécule de maïs."
+    },
+    {
+      "title": "Cuire la crème",
+      "description": "Verser le lait chaud sur le mélange jaunes-sucre en fouettant. Remettre sur le feu et cuire jusqu'à épaississement, sans cesser de remuer. Faire bouillir 2 minutes pour cuire la poudre à crème.",
+      "duration": 8,
+      "tip": "Ne cessez pas de remuer pour éviter les grumeaux.",
+      "expertNote": "La température cible est 85 °C pour une épaississement optimal. Si la crème n'a pas bouilli au moins 2 minutes, la poudre à crème reste crue."
+    },
+    {
+      "title": "Refroidir",
+      "description": "Verser la crème dans un plat, filmer au contact et laisser refroidir.",
+      "duration": 60
+    }
+  ],
+  "tips": [
+    "La crème pâtissière se conserve 48h au réfrigérateur filmée au contact.",
+    "Les proportions de base varient selon l'emploi : plus de jaunes pour une crème plus riche.",
+    "Pour une crème pâtissière au chocolat : ajouter 0.450 kg de couverture et 0.060 kg de cacao pâte."
+  ],
+  "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Casserole",
+    "Fouet",
+    "Cul-de-poule",
+    "Plaque",
+    "Film alimentaire"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "meringue-francaise",
+  "family": "Biscuiterie",
+  "title": "Meringue française",
+  "difficulty": "Débutant",
+  "description": "Meringue légère et croustillante à base de blancs d'œufs montés en neige et de sucre, cuite lentement.",
+  "prepTime": 20,
+  "cookTime": 120,
+  "restTime": 0,
+  "servings": 30,
+  "calories": 85,
+  "ingredients": [
+    {
+      "name": "Blancs d'œufs",
+      "quantity": 0.5,
+      "unit": "kg"
+    },
+    {
+      "name": "Sucre semoule",
+      "quantity": 0.75,
+      "unit": "kg"
+    },
+    {
+      "name": "Sucre glace",
+      "quantity": 0.25,
+      "unit": "kg"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Monter les blancs",
+      "description": "Monter les blancs d'œufs en neige ferme. Ajouter le sucre semoule progressivement en trois fois, en continuant de battre jusqu'à obtenir une meringue brillante et ferme.",
+      "duration": 10
+    },
+    {
+      "title": "Incorporer le sucre glace",
+      "description": "Incorporer délicatement le sucre glace tamisé à la maryse, en soulevant la masse.",
+      "duration": 3
+    },
+    {
+      "title": "Dresser",
+      "description": "Dresser à la poche à douille sur une plaque recouverte de papier cuisson en formant des petits dômes ou des formes désirées.",
+      "duration": 5
+    },
+    {
+      "title": "Cuire",
+      "description": "Cuire à 130°C pendant 2 heures. Les meringues doivent être sèches à l'intérieur et légèrement dorées à l'extérieur.",
+      "duration": 120
+    }
+  ],
+  "tips": [
+    "Les blancs doivent être à température ambiante pour bien monter",
+    "Cuire à température basse et longue pour des meringues bien sèches et croustillantes",
+    "Variantes : ajouter du cacao en poudre (80g), de la noix de coco râpée ou des amandes effilées",
+    "Conserver dans une boîte hermétique à l'abri de l'humidité"
+  ],
+  "image": "https://images.unsplash.com/photo-1535141192574-5d4897c12636?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Cul-de-poule",
+    "Batteur électrique",
+    "Maryse",
+    "Poche à douille",
+    "Plaque de cuisson"
+  ]
+}

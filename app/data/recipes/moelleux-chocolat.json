@@ -1,0 +1,80 @@
+{
+  "id": "moelleux-chocolat",
+  "family": "Biscuiterie",
+  "title": "Moelleux au chocolat",
+  "difficulty": "Intermédiaire",
+  "description": "Gâteau au chocolat intense et fondant, avec un cœur coulant optionnel. Un grand classique de la pâtisserie.",
+  "prepTime": 15,
+  "cookTime": 9,
+  "restTime": 0,
+  "servings": 8,
+  "calories": 380,
+  "ingredients": [
+    {
+      "name": "Chocolat 65%",
+      "quantity": 0.25,
+      "unit": "kg"
+    },
+    {
+      "name": "Beurre",
+      "quantity": 0.225,
+      "unit": "kg"
+    },
+    {
+      "name": "Œufs entiers",
+      "quantity": 0.375,
+      "unit": "kg"
+    },
+    {
+      "name": "Sucre",
+      "quantity": 0.3,
+      "unit": "kg"
+    },
+    {
+      "name": "Farine",
+      "quantity": 0.1,
+      "unit": "kg"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Fondre le chocolat",
+      "description": "Fondre le chocolat et le beurre ensemble au bain-marie ou au micro-ondes. Mélanger jusqu'à obtenir une préparation lisse.",
+      "duration": 5
+    },
+    {
+      "title": "Blanchir les œufs",
+      "description": "Blanchir les œufs entiers avec le sucre jusqu'à ce que le mélange double de volume et blanchisse.",
+      "duration": 5
+    },
+    {
+      "title": "Ajouter la farine",
+      "description": "Ajouter la farine tamisée au mélange œufs-sucre et mélanger délicatement.",
+      "duration": 2
+    },
+    {
+      "title": "Mélanger",
+      "description": "Incorporer le mélange chocolat-beurre fondu à la préparation. Mélanger jusqu'à obtention d'une pâte homogène.",
+      "duration": 2
+    },
+    {
+      "title": "Cuire",
+      "description": "Verser dans des moules individuels beurrés. Cuire à 190°C pendant 9 minutes pour un cœur fondant.",
+      "duration": 9
+    }
+  ],
+  "tips": [
+    "Utiliser un chocolat de bonne qualité à 65% de cacao pour un résultat optimal",
+    "Variante coulant : cuire à 220°C pendant 10 minutes pour un cœur encore plus liquide",
+    "Démouler tiède et servir immédiatement accompagné d'une boule de glace vanille",
+    "Ne pas trop cuire sous peine de perdre l'effet coulant"
+  ],
+  "image": "https://images.unsplash.com/photo-1606312619070-d48b4c652a52?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Cul-de-poule",
+    "Fouet",
+    "Moules individuels",
+    "Balance",
+    "Maryse"
+  ]
+}

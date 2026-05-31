@@ -1,0 +1,85 @@
+{
+  "id": "pate-crepes",
+  "family": "Pâtes",
+  "title": "Pâte à crêpes",
+  "difficulty": "Débutant",
+  "description": "Pâte liquide légère et fine pour crêpes, base des desserts français. Se parfume au rhum, à la fleur d'oranger ou à la vanille.",
+  "prepTime": 10,
+  "cookTime": 20,
+  "restTime": 30,
+  "servings": 16,
+  "calories": 180,
+  "ingredients": [
+    {
+      "name": "Farine T55",
+      "quantity": 0.5,
+      "unit": "kg"
+    },
+    {
+      "name": "Lait entier",
+      "quantity": 1.0,
+      "unit": "L"
+    },
+    {
+      "name": "Œufs entiers",
+      "quantity": 0.5,
+      "unit": "kg"
+    },
+    {
+      "name": "Sucre semoule",
+      "quantity": 0.06,
+      "unit": "kg"
+    },
+    {
+      "name": "Beurre fondu",
+      "quantity": 0.1,
+      "unit": "kg"
+    },
+    {
+      "name": "Sel fin",
+      "quantity": 0.005,
+      "unit": "kg"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Mélanger la farine, les œufs, le sucre et le sel",
+      "description": "Dans un grand saladier, versez la farine tamisée en puits. Ajoutez les œufs, le sucre et le sel au centre. Mélangez au fouet en partant du centre, en incorporant la farine progressivement.",
+      "duration": 5,
+      "tip": "Commencer par les œufs au centre du puits évite les grumeaux."
+    },
+    {
+      "title": "Ajouter le lait progressivement",
+      "description": "Versez le lait en filet tout en fouettant énergiquement. La pâte doit devenir lisse et fluide. Ajoutez le beurre fondu et le parfum choisi (rhum, fleur d'oranger, vanille).",
+      "duration": 3,
+      "tip": "Si des grumeaux persistent, passez la pâte au chinois.",
+      "expertNote": "L'ajout progressif du lait permet d'éviter la formation de grumeaux et d'obtenir une pâte parfaitement lisse."
+    },
+    {
+      "title": "Reposer la pâte",
+      "description": "Laissez reposer la pâte 30 minutes à température ambiante. Cela permet à la farine de s'hydrater et au gluten de se détendre.",
+      "duration": 30,
+      "tip": "Pendant le repos, le gluten se détend : les crêpes seront plus moelleuses et se déchireront moins."
+    },
+    {
+      "title": "Cuire les crêpes",
+      "description": "Faites chauffer une poêle antiadhésive avec un peu de beurre. Versez une louche de pâte, inclinez la poêle pour répartir. Cuisez 1 à 2 minutes par face jusqu'à coloration dorée.",
+      "duration": 20,
+      "tip": "La première crêpe est souvent ratée, c'est normal. Elle sert à 'assaisonner' la poêle.",
+      "expertNote": "Le geste d'inclinaison de la poêle détermine l'épaisseur : rapide et fluide pour des crêpes fines."
+    }
+  ],
+  "tips": [
+    "Ajoutez un peu de bière blonde dans la pâte pour des crêpes plus légères.",
+    "Pour des crêpes sucrées, parfumez la pâte avec un sachet de sucre vanillé.",
+    "Les crêpes se conservent empilées au frais, recouvertes d'un linge humide."
+  ],
+  "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Cul-de-poule",
+    "Fouet",
+    "Louche",
+    "Poêle à crêpes",
+    "Spatule"
+  ]
+}

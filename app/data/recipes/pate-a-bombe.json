@@ -1,0 +1,54 @@
+{
+  "id": "pate-a-bombe",
+  "family": "Appareils",
+  "title": "Pâte à bombe",
+  "difficulty": "Intermédiaire",
+  "description": "Base mousseuse réalisée avec des jaunes d'œufs montés au sirop de sucre cuit, utilisée dans de nombreuses préparations.",
+  "prepTime": 10,
+  "cookTime": 10,
+  "restTime": 0,
+  "servings": 8,
+  "calories": 350,
+  "ingredients": [
+    {
+      "name": "Jaunes d'œufs",
+      "quantity": 0.5,
+      "unit": "kg"
+    },
+    {
+      "name": "Sucre semoule",
+      "quantity": 0.5,
+      "unit": "kg"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Cuire le sucre",
+      "description": "Cuire le sucre avec un peu d'eau jusqu'à 120°C (grand boulé).",
+      "duration": 10
+    },
+    {
+      "title": "Verser sur les jaunes",
+      "description": "Verser le sirop chaud en filet sur les jaunes tout en fouettant.",
+      "duration": 3
+    },
+    {
+      "title": "Monter jusqu'à refroidissement",
+      "description": "Continuer de fouetter jusqu'à complet refroidissement du mélange. La pâte doit être épaisse et légère.",
+      "duration": 10
+    }
+  ],
+  "tips": [
+    "Utilisée comme base pour la crème au beurre, les mousses et les parfaits glacés.",
+    "Le sucre doit être à bonne température (120°C) pour pocher les jaunes.",
+    "Fouetter sans interruption pour obtenir une texture homogène."
+  ],
+  "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&q=80&w=800",
+  "tools": [
+    "Casserole",
+    "Cul-de-poule",
+    "Batteur électrique",
+    "Sonde thermique",
+    "Maryse"
+  ]
+}
