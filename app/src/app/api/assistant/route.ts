@@ -10,6 +10,12 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: "Message manquant" }, { status: 400 })
     }
 
+    if (typeof message !== "string") {
+      return NextResponse.json({
+        reply: "⚠️ L'assistant ne traite que des questions textes. Les images ne sont pas supportées.",
+      })
+    }
+
     const apiKey = process.env.GEMINI_API_KEY
     if (!apiKey) {
       return NextResponse.json({
