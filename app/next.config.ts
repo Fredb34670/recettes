@@ -1,5 +1,6 @@
 import type { NextConfig } from "next";
 import withPWAInit from "next-pwa";
+import path from "path";
 
 const withPWA = withPWAInit({
   dest: "public",
@@ -9,10 +10,11 @@ const withPWA = withPWAInit({
 });
 
 const nextConfig: NextConfig = {
+  distDir: "../.next",
   images: {
     formats: ["image/avif", "image/webp"],
   },
-  outputFileTracingRoot: __dirname,
+  outputFileTracingRoot: path.resolve(__dirname, ".."),
   webpack: (config) => {
     return config;
   },
