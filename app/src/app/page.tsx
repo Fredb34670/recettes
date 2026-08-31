@@ -76,12 +76,13 @@ export default function Home() {
       {featured && (
         <Link
           href={`/recipes/${featured.id}`}
-          className="block mb-12 rounded-2xl overflow-hidden relative group cursor-pointer h-[300px] md:h-[400px]"
+          className="block mb-12 rounded-2xl overflow-hidden relative group cursor-pointer"
         >
           <img
             src={featured.image}
             alt={featured.title}
-            className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+            className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105"
+            style={{ maxHeight: "400px", objectFit: "cover" }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-stone-900/80 via-transparent to-transparent p-6 md:p-8 flex flex-col justify-end">
             <span className="inline-block w-fit bg-amber-600 text-white px-3 py-1 rounded-full text-[10px] font-bold mb-3 uppercase tracking-widest">

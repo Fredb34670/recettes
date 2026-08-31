@@ -16,6 +16,8 @@ export function SearchBar() {
         placeholder="Recette, +lait, -oeuf, 20mn..."
         value={searchQuery}
         onChange={(e) => setSearchQuery(e.target.value)}
+        aria-label="Rechercher une recette"
+        aria-describedby="search-help"
         className="w-full pl-11 pr-11 py-3 rounded-xl border border-stone-200 bg-white text-sm focus:outline-none focus:ring-2 focus:ring-amber-500/20 focus:border-amber-500 transition-all"
       />
       <button 
@@ -24,12 +26,14 @@ export function SearchBar() {
         onMouseLeave={() => setShowHelp(false)}
         onClick={() => setShowHelp(!showHelp)}
         type="button"
+        aria-label="Aide sur la recherche"
+        aria-expanded={showHelp}
       >
         <HelpCircle size={18} />
       </button>
 
       {showHelp && (
-        <div className="absolute top-full left-0 right-0 mt-2 p-4 bg-stone-800 text-white text-xs rounded-xl shadow-xl z-50 animate-in fade-in zoom-in-95 duration-200">
+        <div id="search-help" className="absolute top-full left-0 right-0 mt-2 p-4 bg-stone-800 text-white text-xs rounded-xl shadow-xl z-50 animate-in fade-in zoom-in-95 duration-200">
           <p className="font-bold mb-2 text-amber-400">Astuces de recherche :</p>
           <ul className="space-y-1.5 opacity-90">
             <li>• <code className="text-amber-200">20mn</code> : recettes de 20 min précisément</li>

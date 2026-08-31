@@ -37,7 +37,7 @@
       "title": "Verser sur le chocolat",
       "description": "Verser la crème chaude sur le chocolat concassé. Laisser reposer 1 minute puis mélanger doucement.",
       "duration": 3,
-      "gestureVideo": ""
+      "gestureVideo": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     },
     {
       "title": "Ajouter le beurre",
@@ -51,7 +51,7 @@
     "Utiliser un chocolat de couverture pour un résultat professionnel.",
     "La ganache se conserve plusieurs jours au réfrigérateur."
   ],
-  "image": "https://images.unsplash.com/photo-1606312619070-d48b4c652a52?auto=format&fit=crop&q=80&w=800",
+  "image": "/images/recipes/ganache-classique.jpg",
   "tools": [
     "Casserole",
     "Cul-de-poule",
@@ -62,22 +62,22 @@
   "materialVideo": "https://media.giphy.com/media/xT0xeMAk74pG30f3Mc/giphy.mp4",
   "technicalSpecs": [
     {
-      "label": "Viscosité",
-      "description": "Fluidité idéale pour le pochage",
-      "unit": "Pa·s",
-      "value": "2.5"
+      "label": "Ratio chocolat/crème",
+      "value": "2:1",
+      "unit": "",
+      "description": "2 parts de chocolat pour 1 part de crème pour une ganache ferme."
     },
     {
       "label": "Point de fusion",
-      "description": "Température de fonte en bouche",
+      "value": "34-36",
       "unit": "°C",
-      "value": "32"
+      "description": "Température de cristallisation du beurre de cacao."
     },
     {
-      "label": "Cristallisation",
-      "description": "Stabilité du beurre de cacao",
-      "unit": "Type",
-      "value": "V"
+      "label": "Tenue au froid",
+      "value": "20-25",
+      "unit": "°C",
+      "description": "Température idéale de prise au réfrigérateur."
     }
   ]
 }

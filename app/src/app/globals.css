@@ -3,9 +3,9 @@
 @theme inline {
   --color-background: oklch(98.5% 0.008 85);
   --color-foreground: oklch(25% 0.02 60);
-  --font-sans: "Inter", sans-serif;
-  --font-display: "Playfair Display", serif;
-  --font-mono: "JetBrains Mono", monospace;
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-playfair);
+  --font-mono: var(--font-jetbrains);
   --color-culinary-bg: oklch(98.5% 0.008 85);
   --color-culinary-surface: oklch(100% 0 0);
   --color-culinary-fg: oklch(25% 0.02 60);
@@ -14,4 +14,41 @@
   --color-culinary-accent: oklch(65% 0.15 45);
   --color-culinary-hover: oklch(70% 0.2 55);
   --color-culinary-sage: oklch(75% 0.1 130);
+}
+
+@media print {
+  aside,
+  .mobile-header,
+  button,
+  .no-print {
+    display: none !important;
+  }
+
+  main {
+    padding: 0 !important;
+    overflow: visible !important;
+  }
+
+  body {
+    background: white !important;
+  }
+
+  .print-only {
+    display: block !important;
+  }
+
+  h1, h2, h3 {
+    color: #1c1917 !important;
+    font-family: var(--font-display), serif !important;
+  }
+
+  img {
+    max-height: 300px !important;
+    object-fit: cover;
+  }
+
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
 }

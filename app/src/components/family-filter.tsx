@@ -10,6 +10,7 @@ export function FamilyFilter() {
     <div className="flex flex-wrap gap-2">
       <button
         onClick={() => setSelectedFamily(null)}
+        aria-pressed={!selectedFamily}
         className={`text-xs font-bold uppercase tracking-widest px-3 py-1.5 rounded-full border transition-all ${
           !selectedFamily
             ? "bg-amber-600 text-white border-amber-600"
@@ -22,6 +23,7 @@ export function FamilyFilter() {
         <button
           key={family}
           onClick={() => setSelectedFamily(family)}
+          aria-pressed={selectedFamily === family}
           className={`text-xs font-bold uppercase tracking-widest px-3 py-1.5 rounded-full border transition-all ${
             selectedFamily === family
               ? "bg-amber-600 text-white border-amber-600"

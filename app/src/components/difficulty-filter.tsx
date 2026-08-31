@@ -16,6 +16,7 @@ export function DifficultyFilter() {
     <div className="flex flex-wrap gap-2">
       <button
         onClick={() => setSelectedDifficulty(null)}
+        aria-pressed={!selectedDifficulty}
         className={`text-xs font-bold uppercase tracking-widest px-3 py-1.5 rounded-full border transition-all ${
           !selectedDifficulty
             ? "bg-amber-600 text-white border-amber-600"
@@ -28,6 +29,7 @@ export function DifficultyFilter() {
         <button
           key={d.value}
           onClick={() => setSelectedDifficulty(d.value)}
+          aria-pressed={selectedDifficulty === d.value}
           className={`text-xs font-bold uppercase tracking-widest px-3 py-1.5 rounded-full border transition-all flex items-center gap-1 ${
             selectedDifficulty === d.value
               ? "bg-amber-600 text-white border-amber-600"

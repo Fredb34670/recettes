@@ -36,7 +36,7 @@
       "title": "Battre les œufs",
       "description": "Battre les œufs entiers avec le sucre à chaud (50°C) ou à froid pendant 15 minutes jusqu'à ce que le mélange blanchisse et triple de volume.",
       "duration": 15,
-      "gestureVideo": ""
+      "gestureVideo": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     },
     {
       "title": "Incorporer la farine",
@@ -62,7 +62,7 @@
     "Ne pas ouvrir le four pendant les 15 premières minutes de cuisson",
     "Cette recette supporte de nombreuses variantes : chocolat (remplacer 100g de farine par du cacao), pistache, café, amandes, noix"
   ],
-  "image": "https://images.unsplash.com/photo-1535141192574-5d4897c12636?auto=format&fit=crop&q=80&w=800",
+  "image": "/images/recipes/genoise.jpg",
   "tools": [
     "Cul-de-poule",
     "Fouet",
@@ -71,5 +71,24 @@
     "Tamis"
   ],
   "materialVideo": "",
-  "technicalSpecs": []
+  "technicalSpecs": [
+    {
+      "label": "Ratio œufs/sucre",
+      "value": "3:2",
+      "unit": "",
+      "description": "3 jaunes pour 2 parts de sucre pour une génoise aérienne."
+    },
+    {
+      "label": "Température de prise",
+      "value": "70-75",
+      "unit": "°C",
+      "description": "Température pour une génoise moelleuse sans séchage."
+    },
+    {
+      "label": "Temps de cuisson",
+      "value": "25-30",
+      "unit": "min",
+      "description": "Durée de cuisson pour une génoise bien aérée."
+    }
+  ]
 }

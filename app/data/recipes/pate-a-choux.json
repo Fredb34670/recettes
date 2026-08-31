@@ -48,7 +48,7 @@
       "duration": 5,
       "tip": "Utilisez une casserole à fond épais pour une cuisson homogène.",
       "expertNote": "Le mélange eau-lait apporte du moelleux et une meilleure coloration. Le lait seul donnerait une pâte trop lourde.",
-      "gestureVideo": ""
+      "gestureVideo": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     },
     {
       "title": "Ajouter la farine d'un coup",
@@ -96,7 +96,7 @@
     "Les choux cuits se conservent 24h dans une boîte hermétique. Garnissez-les au dernier moment.",
     "Pour des choux extra-légers, remplacez 25% de la farine par de la farine fluide."
   ],
-  "image": "https://images.unsplash.com/photo-1756999319115-d05e323161c5?auto=format&fit=crop&q=80&w=800",
+  "image": "/images/recipes/pate-a-choux.jpg",
   "tools": [
     "Casserole",
     "Spatule Exoglass",
@@ -107,16 +107,22 @@
   "materialVideo": "https://media.giphy.com/media/l0HlS66H7J6uUvOda/giphy.mp4",
   "technicalSpecs": [
     {
-      "description": "Essentiel pour le développement en vapeur",
+      "label": "Hydratation farine",
+      "value": "75-80",
       "unit": "%",
-      "label": "Taux d'humidité",
-      "value": "12"
+      "description": "Pourcentage d'eau par rapport au poids de farine pour un choux léger."
     },
     {
-      "description": "Température de prise des œufs",
+      "label": "Évaporation eau",
+      "value": "50",
+      "unit": "%",
+      "description": "Eau évaporée lors de la cuisson pour créer la cavité."
+    },
+    {
+      "label": "Température de cuisson",
+      "value": "200",
       "unit": "°C",
-      "label": "Coagulation",
-      "value": "85"
+      "description": "Température pour un choux doré et croustillant."
     }
   ]
 }

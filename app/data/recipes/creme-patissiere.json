@@ -42,7 +42,7 @@
       "description": "Porter le lait à ébullition avec la gousse de vanille fendue et grattée.",
       "duration": 5,
       "expertNote": "Le rapport jaunes/lait est de 160 g pour 1 L. Remplacer 20 % du lait par de la crème liquide donne une texture plus onctueuse.",
-      "gestureVideo": ""
+      "gestureVideo": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     },
     {
       "title": "Blanchir les jaunes",
@@ -71,7 +71,7 @@
     "Les proportions de base varient selon l'emploi : plus de jaunes pour une crème plus riche.",
     "Pour une crème pâtissière au chocolat : ajouter 0.450 kg de couverture et 0.060 kg de cacao pâte."
   ],
-  "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&q=80&w=800",
+  "image": "/images/recipes/creme-patissiere.jpg",
   "tools": [
     "Casserole",
     "Fouet",
@@ -80,5 +80,24 @@
     "Film alimentaire"
   ],
   "materialVideo": "",
-  "technicalSpecs": []
+  "technicalSpecs": [
+    {
+      "label": "Température d'épaississement",
+      "value": "82-85",
+      "unit": "°C",
+      "description": "Température de gelification de l'amidon (maïzena) dans la crème."
+    },
+    {
+      "label": "Ratio lait/jaunes",
+      "value": "4:1",
+      "unit": "",
+      "description": "4 parts de lait pour 1 part de jaune d'œuf pour une crème ferme."
+    },
+    {
+      "label": "Protéines coagulées",
+      "value": "< 5",
+      "unit": "%",
+      "description": "Pourcentage de protéines coagulées acceptable pour une texture lisse."
+    }
+  ]
 }

@@ -6,6 +6,7 @@ import type { Recipe } from "@/types/recipe"
 import { getFamilyColor, getFamilyIcon } from "@/lib/families"
 import { getDifficultyStars } from "@/lib/difficulty"
 import { useAppStore } from "@/lib/store"
+import { RecipeImage } from "@/components/recipe-image"
 
 export function RecipeCard({ recipe }: { recipe: Recipe }) {
   const stars = getDifficultyStars(recipe.difficulty)
@@ -19,10 +20,12 @@ export function RecipeCard({ recipe }: { recipe: Recipe }) {
       className="group block rounded-2xl bg-white border border-stone-200 overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 relative"
     >
       <div className="h-48 overflow-hidden relative">
-        <img
+        <RecipeImage
           src={recipe.image}
           alt={recipe.title}
-          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+          fill
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+          className="group-hover:scale-105 transition-transform duration-700"
         />
         {hydrated && (
           <button
@@ -30,7 +33,9 @@ export function RecipeCard({ recipe }: { recipe: Recipe }) {
               e.preventDefault()
               toggleFavorite(recipe.id)
             }}
-            className={`absolute top-3 right-3 p-2 rounded-full backdrop-blur-md transition-all ${
+            aria-label={isFavorite ? `Retirer ${recipe.title} des favoris` : `Ajouter ${recipe.title} aux favoris`}
+            aria-pressed={isFavorite}
+            className={`absolute top-3 right-3 p-2 rounded-full backdrop-blur-md transition-all z-10 ${
               isFavorite 
                 ? "bg-rose-500/90 text-white" 
                 : "bg-white/70 text-stone-500 hover:text-rose-500"

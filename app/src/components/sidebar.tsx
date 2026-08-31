@@ -22,7 +22,7 @@ function SidebarNav() {
 
   return (
     <>
-      <nav className="flex-1 space-y-2">
+      <nav className="flex-1 space-y-2" aria-label="Navigation principale">
         {navItems.map((item) => {
           const isFavsLink = item.href.includes("favorites")
           const isActive = isFavsLink 
@@ -36,6 +36,7 @@ function SidebarNav() {
             <Link
               key={item.href}
               href={item.href}
+              aria-current={isActive ? "page" : undefined}
               className={`w-full flex items-center gap-3 p-3 rounded-xl transition-all ${
                 isActive
                   ? "bg-amber-600 text-white shadow-lg shadow-amber-600/20"
@@ -56,6 +57,8 @@ function SidebarNav() {
 
       <button
         onClick={toggleMode}
+        aria-label="Basculer entre le mode débutant et expert"
+        aria-pressed={hydrated && mode === "expert"}
         className="w-full flex items-center gap-3 p-3 rounded-xl transition-all text-stone-600 hover:bg-stone-100 mb-3"
       >
         {hydrated && mode === "expert" ? (

@@ -42,7 +42,7 @@
       "description": "Fendre les gousses de vanille, gratter les graines. Porter le lait, la crème, les gousses et les graines à ébullition. Couvrir et laisser infuser 15-20 minutes hors du feu.",
       "duration": 20,
       "tip": "Ne pas jeter les gousses après infusion : rincer et sécher pour faire du sucre vanillé.",
-      "gestureVideo": ""
+      "gestureVideo": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     },
     {
       "title": "Blanchir les jaunes",
@@ -76,7 +76,7 @@
     "Utiliser une cassonade blonde pour le caramel : elle fond mieux que le sucre blanc.",
     "Le bain-marie doit être tiède (50-60 °C) au début de la cuisson."
   ],
-  "image": "https://images.unsplash.com/photo-1470324161839-ce2bb6fa6bc3?auto=format&fit=crop&q=80&w=800",
+  "image": "/images/recipes/creme-brulee.jpg",
   "tools": [
     "Casserole",
     "Cul-de-poule",
@@ -85,5 +85,24 @@
     "Chalumeau"
   ],
   "materialVideo": "",
-  "technicalSpecs": []
+  "technicalSpecs": [
+    {
+      "label": "Température de prise",
+      "value": "78",
+      "unit": "°C",
+      "description": "Température à cœur pour une texture crémeuse sans coagulation des œufs."
+    },
+    {
+      "label": "Ratio œufs/crème",
+      "value": "3:1",
+      "unit": "",
+      "description": "3 jaunes pour 250g de crème, équilibre entre structure et onctuosité."
+    },
+    {
+      "label": "Caramélisation sucre",
+      "value": "170",
+      "unit": "°C",
+      "description": "Point de caramelisation du saccharose pour le croûte dorée et croustillante."
+    }
+  ]
 }

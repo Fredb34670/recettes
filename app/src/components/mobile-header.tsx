@@ -21,7 +21,7 @@ function MobileNav() {
   ]
 
   return (
-    <nav className="lg:hidden fixed bottom-0 left-0 right-0 z-40 bg-white/90 backdrop-blur-md border-t border-stone-200 flex items-center justify-around py-2">
+    <nav className="lg:hidden fixed bottom-0 left-0 right-0 z-40 bg-white/90 backdrop-blur-md border-t border-stone-200 flex items-center justify-around py-2" aria-label="Navigation mobile">
       {navItems.map((item) => {
         const isFavsLink = item.href.includes("favorites")
         const isActive = isFavsLink 
@@ -35,6 +35,7 @@ function MobileNav() {
           <Link
             key={item.href}
             href={item.href}
+            aria-current={isActive ? "page" : undefined}
             className={`flex flex-col items-center gap-0.5 px-4 py-1 rounded-xl transition-all relative ${
               isActive ? "text-amber-600" : "text-stone-400"
             }`}
@@ -51,6 +52,8 @@ function MobileNav() {
       })}
       <button
         onClick={toggleMode}
+        aria-label="Basculer entre le mode débutant et expert"
+        aria-pressed={hydrated && mode === "expert"}
         className="flex flex-col items-center gap-0.5 px-4 py-1 rounded-xl transition-all"
       >
         {hydrated && mode === "expert" ? (

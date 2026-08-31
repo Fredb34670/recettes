@@ -41,7 +41,7 @@
       "title": "Tamiser le TPT",
       "description": "Tamiser ensemble le TPT (poudre d'amandes et sucre glace) et le sucre glace supplémentaire.",
       "duration": 3,
-      "gestureVideo": ""
+      "gestureVideo": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     },
     {
       "title": "Monter les blancs",
@@ -80,7 +80,7 @@
     "Variantes : chocolat (remplacer 30g de sucre glace par du cacao en poudre), pistache",
     "Pour une texture parfaite, laisser reposer les coques 24h au frais avant de garnir"
   ],
-  "image": "https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&q=80&w=800",
+  "image": "/images/recipes/macarons-gerbet.jpg",
   "tools": [
     "Cul-de-poule",
     "Maryse",
@@ -90,5 +90,24 @@
     "Mixeur"
   ],
   "materialVideo": "",
-  "technicalSpecs": []
+  "technicalSpecs": [
+    {
+      "label": "Ratio amandes/sucre glace",
+      "value": "1:1",
+      "unit": "",
+      "description": "Quantités égales pour la poudre d'amande et le sucre glace."
+    },
+    {
+      "label": "Maturation coques",
+      "value": "24",
+      "unit": "h",
+      "description": "Temps de repos avant cuisson pour former la collerette."
+    },
+    {
+      "label": "Température cuisson",
+      "value": "150",
+      "unit": "°C",
+      "description": "Température basse pour préserver les couleurs et la texture."
+    }
+  ]
 }

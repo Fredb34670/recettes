@@ -37,7 +37,7 @@
       "description": "Faire fondre le chocolat noir au bain-marie. Laisser tiédir à 40°C.",
       "duration": 8,
       "tip": "Ne pas chauffer le chocolat au-dessus de 50°C.",
-      "gestureVideo": ""
+      "gestureVideo": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     },
     {
       "title": "Préparer l'appareil à bombe",
@@ -80,7 +80,7 @@
     "La mousse peut être parfumée au café, au praliné ou à la pistache.",
     "Se conserve 48h au réfrigérateur."
   ],
-  "image": "https://images.unsplash.com/photo-1606312619070-d48b4c652a52?auto=format&fit=crop&q=80&w=800",
+  "image": "/images/recipes/mousse-chocolat-noir.jpg",
   "tools": [
     "Cul-de-poule",
     "Fouet",
@@ -91,16 +91,22 @@
   "materialVideo": "https://media.giphy.com/media/3o7TKDkpkG6QH58D3W/giphy.mp4",
   "technicalSpecs": [
     {
-      "description": "Volume d'air incorporé",
-      "unit": "%",
-      "label": "Foisonnement",
-      "value": "200"
+      "label": "Température de fusion",
+      "value": "45-50",
+      "unit": "°C",
+      "description": "Température de travail du chocolat noir pour une mousse aérienne."
     },
     {
-      "description": "Légèreté de la structure",
-      "unit": "g/cm3",
-      "label": "Densité",
-      "value": "0.45"
+      "label": "Ratio chocolat/œufs",
+      "value": "2:1",
+      "unit": "",
+      "description": "2 parts de chocolat pour 1 part d'œuf pour une mousse dense."
+    },
+    {
+      "label": "Air incorporé",
+      "value": "30-40",
+      "unit": "%",
+      "description": "Pourcentage d'air incorporé par le fouet pour la légèreté."
     }
   ]
 }
