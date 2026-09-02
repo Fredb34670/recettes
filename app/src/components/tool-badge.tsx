@@ -35,7 +35,7 @@ export function ToolBadge({ name }: ToolBadgeProps) {
               <img 
                 src={imageUrl} 
                 alt={name} 
-                className="w-full h-full object-cover rounded-xl"
+                className="w-full h-full object-contain rounded-xl bg-stone-50"
                 onError={() => setHasError(true)}
               />
               <div className="absolute inset-x-1 bottom-1 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-3 rounded-b-xl flex items-end">
