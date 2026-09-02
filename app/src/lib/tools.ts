@@ -16,7 +16,7 @@ export const toolImages: Record<string, string> = {
   "Louche": "https://files.meilleurduchef.com/mdc/photo/produit/mfr/louche-monobloc-7/louche-monobloc-7-1-cat-320.jpg",
   "Maryse": "https://files.meilleurduchef.com/mdc/photo/produit/deg/maryse-silicone-25cm/maryse-silicone-25cm-1-cat-320.jpg",
   "Mixeur": "https://files.meilleurduchef.com/mdc/photo/produit/mfr/mixeur-plongeant-junior-225/mixeur-plongeant-junior-225-1-cat-320.jpg",
-  "Mixeur plongeant": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?auto=format&fit=crop&w=800&q=80",
+  "Mixeur plongeant": "https://files.meilleurduchef.com/mdc/photo/produit/emi/mixeur-bamix-m160-one-blanc/mixeur-bamix-m160-one-blanc-1-zoom.jpg",
   "Moule à brioche": "https://files.meilleurduchef.com/mdc/photo/produit/mfr/moule-brioche-exopan-10/moule-brioche-exopan-10-1-cat-320.jpg",
   "Moule à cake": "https://files.meilleurduchef.com/mdc/photo/produit/mfe/moule-cake-fer-blanc-12/moule-cake-fer-blanc-12-1-cat-320.jpg",
   "Moule à financiers": "https://files.meilleurduchef.com/mdc/photo/produit/mfr/moule-financier-exoglass/moule-financier-exoglass-1-cat-320.jpg",
