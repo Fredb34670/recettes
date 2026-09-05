@@ -79,8 +79,8 @@ export default function Home() {
           className="block mb-12 rounded-2xl overflow-hidden relative group cursor-pointer"
         >
           <img
-            src="https://images.unsplash.com/photo-1589302166083-e9bf6db70927?auto=format&fit=crop&w=1200&q=80"
-            alt="Gâteau artisinal"
+            src="/images/recipes/brioche.jpg"
+            alt="Brioche artisinal"
             className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105"
             style={{ maxHeight: "400px", objectFit: "cover" }}
           />
