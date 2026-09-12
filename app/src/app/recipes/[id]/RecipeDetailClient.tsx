@@ -229,7 +229,6 @@ export function RecipeDetailClient({ recipe }: RecipeDetailClientProps) {
         <div className="flex items-center justify-between mb-6">
           <h3 className="font-display text-2xl text-stone-800">Ingrédients</h3>
           <div className="flex items-center gap-3">
-            <button
             <input
               type="number"
               min={1}
