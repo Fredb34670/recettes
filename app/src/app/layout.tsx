@@ -18,17 +18,6 @@ const jetbrains = JetBrains_Mono({
   variable: "--font-jetbrains",
 })
 
-export const metadata = {
-  title: "Artisan — Recettes",
-  description: "L'excellence pâtissière à portée de main",
-  manifest: "/manifest.json",
-  appleWebApp: {
-    capable: true,
-    statusBarStyle: "default",
-    title: "Artisan",
-  },
-}
-
 export const viewport = {
   themeColor: "#d97706",
 }
