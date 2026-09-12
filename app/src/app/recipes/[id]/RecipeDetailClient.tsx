@@ -31,6 +31,7 @@ export function RecipeDetailClient({ recipe }: RecipeDetailClientProps) {
   const [activeVideoStep, setActiveVideoStep] = useState<number | null>(null)
   const [productionMode, setProductionMode] = useState(false)
   const [shareFeedback, setShareFeedback] = useState(false)
+  const [editedQuantities, setEditedQuantities] = useState<Record<number, number>>({})
   const { mode, hydrated, hydrate, favorites, toggleFavorite } = useAppStore()
   const { getCustomImage } = useCustomImages()
   const customImage = getCustomImage(recipe.id)
@@ -47,6 +48,18 @@ export function RecipeDetailClient({ recipe }: RecipeDetailClientProps) {
       }
     }
   }, [searchParams])
+
+  const handleIngredientEdit = (index: number, newQty: number) => {
+    const original = recipe.ingredients[index].quantity
+    if (!original || original === 0) return
+    const ratio = newQty / original
+    const newQuantities: Record<number, number> = {}
+    recipe.ingredients.forEach((_, i) => {
+      newQuantities[i] = recipe.ingredients[i].quantity * ratio
+    })
+    setEditedQuantities(newQuantities)
+    setServings(Math.round((recipe.servings || 4) * ratio))
+  }
 
   const handleShare = async () => {
     const result = await shareRecipe({
@@ -262,9 +275,14 @@ export function RecipeDetailClient({ recipe }: RecipeDetailClientProps) {
                     {formatQuantity(ing.quantity, ing.unit)}
                   </span>
                 )}
-                <span className="font-mono text-sm text-stone-500">
-                  {formatQuantity(scaledAmount(ing.quantity), ing.unit)}
-                </span>
+                <input
+                  type="number"
+                  step="0.1"
+                  min="0"
+                  value={editedQuantities[i] !== undefined ? editedQuantities[i] : ing.quantity}
+                  onChange={(e) => handleIngredientEdit(i, parseFloat(e.target.value) || 0)}
+                  className="w-20 font-mono text-sm text-stone-500 bg-stone-50 border border-stone-200 rounded px-1 py-0.5 focus:outline-none focus:border-amber-400"
+                />
               </div>
             </div>
           ))}
