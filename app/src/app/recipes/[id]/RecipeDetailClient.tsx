@@ -62,7 +62,7 @@ export function RecipeDetailClient({ recipe }: RecipeDetailClientProps) {
   }
 
   useEffect(() => {
-    if (servings && recipe?.servings && servings !== recipe.servings) {
+    if (servings && recipe?.servings && servings !== recipe.servings && Object.keys(editedQuantities).length > 0) {
       const ratio = servings / (recipe.servings || 4)
       const newQuantities: Record<number, number> = {}
       recipe.ingredients.forEach((_, i) => {
