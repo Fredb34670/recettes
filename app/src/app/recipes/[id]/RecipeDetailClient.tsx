@@ -257,7 +257,7 @@ export function RecipeDetailClient({ recipe }: RecipeDetailClientProps) {
             />
             <span className="text-xs text-stone-400">pers.</span>
             <button
-              onClick={() => setServings(recipe?.servings || 4)}
+              onClick={() => { setServings(recipe?.servings || 4); setEditedQuantities({}); }}
               aria-label="Réinitialiser au nombre original"
               className="px-2 py-1 rounded-lg bg-stone-100 text-stone-600 text-xs font-medium hover:bg-stone-200 transition-colors"
             >
