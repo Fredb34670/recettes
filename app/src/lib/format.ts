@@ -1,7 +1,7 @@
 export function formatQuantity(quantity: number, unit: string, precise = false): string {
   if (unit === "kg") {
-    if (quantity >= 1) return precise ? `${quantity.toFixed(3)} kg` : `${quantity.toFixed(3)} kg`
-    return precise ? `${(quantity * 1000).toFixed(0)} g` : `${Math.round(quantity * 1000)} g`
+    if (quantity >= 1) return `${quantity.toFixed(3)} kg`
+    return `${(quantity * 1000).toFixed(0)} g`
   }
   if (unit === "L") {
     if (quantity >= 1) return precise ? `${quantity.toFixed(2)} L` : `${quantity} L`
