@@ -1,1 +1,1 @@
-{"name":"recettes-root","version":"1.0.0","private":true,"scripts":{"build":"cd app && npm run build"},"devDependencies":{"next":"^16.0.0"}}
+{"name":"recettes-root","version":"1.0.0","private":true,"workspaces":["app"],"scripts":{"build":"npm run build -w app"},"devDependencies":{"next":"16.2.6"}}
