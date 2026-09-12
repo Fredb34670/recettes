@@ -188,8 +188,8 @@ export function RecipeDetailClient({ recipe }: RecipeDetailClientProps) {
 
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-10">
         {[
-          { icon: Clock, label: "Préparation", value: `${recipe.prepTime} min` },
-          { icon: Flame, label: "Cuisson", value: `${recipe.cookTime} min` },
+          { icon: Clock, label: "Préparation", value: `${Math.round(recipe.prepTime * (servings / (recipe.servings || 4)))} min` },
+          { icon: Flame, label: "Cuisson", value: `${Math.round(recipe.cookTime * (servings / (recipe.servings || 4)))} min` },
           { icon: Clock, label: "Repos", value: `${recipe.restTime} min` },
           { icon: Users, label: "Portions", value: `${recipe.servings}` },
         ].map((stat) => (
