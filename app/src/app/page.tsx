@@ -16,7 +16,7 @@ export default function Home() {
 
   useEffect(() => { hydrate() }, [hydrate])
 
-  const featured = recipes[0]
+  const featured = recipes.find(r => r.id === "brioche") || recipes[0]
   const favoriteRecipes = recipes.filter(r => favorites.includes(r.id))
 
   const byFamily = recipes.reduce<Record<string, typeof recipes>>((acc, r) => {
@@ -74,38 +74,14 @@ export default function Home() {
       )}
 
       {featured && (
-        <Link
-          href={`/recipes/${featured.id}`}
-          className="block mb-12 rounded-2xl overflow-hidden relative group cursor-pointer"
-        >
-          <img
-            src="/images/recipes/brioche.jpg"
-            alt="Brioche artisinal"
-            className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105"
-            style={{ maxHeight: "400px", objectFit: "cover" }}
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-stone-900/80 via-transparent to-transparent p-6 md:p-8 flex flex-col justify-end">
-            <span className="inline-block w-fit bg-amber-600 text-white px-3 py-1 rounded-full text-[10px] font-bold mb-3 uppercase tracking-widest">
-              En vedette
-            </span>
-            <h3 className="font-display text-2xl md:text-4xl text-white mb-2">{featured.title}</h3>
-            <div className="flex items-center gap-4 text-white/80 text-xs md:text-sm font-medium">
-              <span className="flex items-center gap-1"><Utensils size={14} />{featured.family}</span>
-              <span>•</span>
-              <span className="flex items-center gap-1"><Timer size={14} />{featured.prepTime + featured.cookTime}min</span>
-              <span>•</span>
-              <span className="flex items-center gap-1">
-                {Array.from({ length: 3 }).map((_, i) => (
-                  <Star
-                    key={i}
-                    size={11}
-                    className={i < getDifficultyStars(featured.difficulty) ? "text-amber-400 fill-amber-400" : "text-white/30"}
-                  />
-                ))}
-              </span>
-            </div>
-          </div>
-        </Link>
+        <div className="mb-12 rounded-2xl overflow-hidden relative">
+        <img
+          src="/images/cuisine.jpg"
+          alt="Cuisine équipée de matériel de pâtisserie"
+          className="w-full h-auto object-cover"
+          style={{ maxHeight: "450px" }}
+        />
+      </div>
       )}
 
       <div>

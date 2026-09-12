@@ -13,6 +13,7 @@ import { CgiVault } from "@/components/cgi-vault"
 import { ExpertOverlay } from "@/components/expert-overlay"
 import { ToolBadge } from "@/components/tool-badge"
 import { RecipeImage } from "@/components/recipe-image"
+import { useCustomImages } from "@/hooks/use-custom-images"
 import { ProductionMode } from "@/components/production-mode"
 import { AssistantChat } from "@/components/assistant-chat"
 import { VoiceAssistant } from "@/components/voice-assistant"
@@ -31,6 +32,9 @@ export function RecipeDetailClient({ recipe }: RecipeDetailClientProps) {
   const [productionMode, setProductionMode] = useState(false)
   const [shareFeedback, setShareFeedback] = useState(false)
   const { mode, hydrated, hydrate, favorites, toggleFavorite } = useAppStore()
+  const { getCustomImage } = useCustomImages()
+  const customImage = getCustomImage(recipe.id)
+  const imageSrc = customImage || recipe.image
 
   useEffect(() => { hydrate() }, [hydrate])
 
@@ -112,9 +116,9 @@ export function RecipeDetailClient({ recipe }: RecipeDetailClientProps) {
       </div>
 
       <div className="rounded-2xl overflow-hidden mb-8">
-        <RecipeImage
-          src={recipe.image}
-          alt={recipe.title}
+<RecipeImage
+            src={imageSrc}
+            alt={recipe.title}
           sizes="(max-width: 768px) 100vw, 800px"
           priority
           className="w-full h-auto"
