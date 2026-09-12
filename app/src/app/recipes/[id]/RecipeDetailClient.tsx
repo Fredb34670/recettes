@@ -61,6 +61,17 @@ export function RecipeDetailClient({ recipe }: RecipeDetailClientProps) {
     setServings(Math.round((recipe.servings || 4) * ratio))
   }
 
+  useEffect(() => {
+    if (servings && recipe?.servings && servings !== recipe.servings) {
+      const ratio = servings / (recipe.servings || 4)
+      const newQuantities: Record<number, number> = {}
+      recipe.ingredients.forEach((_, i) => {
+        newQuantities[i] = recipe.ingredients[i].quantity * ratio
+      })
+      setEditedQuantities(newQuantities)
+    }
+  }, [servings])
+
   const handleShare = async () => {
     const result = await shareRecipe({
       title: recipe.title,
@@ -219,33 +230,6 @@ export function RecipeDetailClient({ recipe }: RecipeDetailClientProps) {
           <h3 className="font-display text-2xl text-stone-800">Ingrédients</h3>
           <div className="flex items-center gap-3">
             <button
-              onClick={() => setServings(Math.max(1, servings - 1))}
-              aria-label="Diminuer le nombre de portions"
-              className="p-2 rounded-full bg-stone-100 hover:bg-stone-200 transition-colors"
-            >
-              <Minus size={16} />
-            </button>
-            <button
-              onClick={() => setServings(Math.round(servings * 2))}
-              aria-label="Doubler les portions"
-              className="px-2 py-1 rounded-lg bg-amber-100 text-amber-700 text-xs font-bold hover:bg-amber-200 transition-colors"
-            >
-              ×2
-            </button>
-            <button
-              onClick={() => setServings(Math.round(servings * 4))}
-              aria-label="Quadrupler les portions"
-              className="px-2 py-1 rounded-lg bg-amber-100 text-amber-700 text-xs font-bold hover:bg-amber-200 transition-colors"
-            >
-              ×4
-            </button>
-            <button
-              onClick={() => setServings(Math.max(1, Math.round(servings / 2)))}
-              aria-label="Diviser par deux les portions"
-              className="px-2 py-1 rounded-lg bg-stone-100 text-stone-600 text-xs font-bold hover:bg-stone-200 transition-colors"
-            >
-              ÷2
-            </button>
             <input
               type="number"
               min={1}
