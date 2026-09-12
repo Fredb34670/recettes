@@ -1,4 +1,3 @@
-import type { Metadata } from "next"
 import { Inter, Playfair_Display, JetBrains_Mono } from "next/font/google"
 import "./globals.css"
 import { Sidebar } from "@/components/sidebar"
@@ -19,7 +18,7 @@ const jetbrains = JetBrains_Mono({
   variable: "--font-jetbrains",
 })
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Artisan — Recettes",
   description: "L'excellence pâtissière à portée de main",
   manifest: "/manifest.json",
