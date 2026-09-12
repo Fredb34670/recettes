@@ -260,9 +260,9 @@ export function RecipeDetailClient({ recipe }: RecipeDetailClientProps) {
                 )}
                 <input
                   type="number"
-                  step="0.1"
+                  step="0.01"
                   min="0"
-                  value={editedQuantities[i] !== undefined ? editedQuantities[i] : ing.quantity}
+                  value={editedQuantities[i] !== undefined ? parseFloat(editedQuantities[i].toFixed(3)) : parseFloat(ing.quantity.toFixed(3))}
                   onChange={(e) => handleIngredientEdit(i, parseFloat(e.target.value.replace(',', '.')) || 0)}
                   className="w-20 font-mono text-sm text-stone-500 bg-stone-50 border border-stone-200 rounded px-1 py-0.5 focus:outline-none focus:border-amber-400"
                 />
