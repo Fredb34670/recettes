@@ -7,12 +7,17 @@ import { getFamilyColor, getFamilyIcon } from "@/lib/families"
 import { getDifficultyStars } from "@/lib/difficulty"
 import { useAppStore } from "@/lib/store"
 import { RecipeImage } from "@/components/recipe-image"
+import { useCustomImages } from "@/hooks/use-custom-images"
 
 export function RecipeCard({ recipe }: { recipe: Recipe }) {
   const stars = getDifficultyStars(recipe.difficulty)
   const FamilyIcon = getFamilyIcon(recipe.family)
   const { favorites, toggleFavorite, hydrated } = useAppStore()
+  const { getCustomImage } = useCustomImages()
   const isFavorite = favorites.includes(recipe.id)
+
+  const customImage = getCustomImage(recipe.id)
+  const imageSrc = customImage || recipe.image
 
   return (
     <Link
@@ -20,13 +25,21 @@ export function RecipeCard({ recipe }: { recipe: Recipe }) {
       className="group block rounded-2xl bg-white border border-stone-200 overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 relative"
     >
       <div className="h-48 overflow-hidden relative">
-        <RecipeImage
-          src={recipe.image}
-          alt={recipe.title}
-          fill
-          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-          className="group-hover:scale-105 transition-transform duration-700"
-        />
+        {customImage ? (
+          <img
+            src={customImage}
+            alt={recipe.title}
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+          />
+        ) : (
+          <RecipeImage
+            src={recipe.image}
+            alt={recipe.title}
+            fill
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+            className="group-hover:scale-105 transition-transform duration-700"
+          />
+        )}
         {hydrated && (
           <button
             onClick={(e) => {
@@ -43,6 +56,11 @@ export function RecipeCard({ recipe }: { recipe: Recipe }) {
           >
             <Heart size={16} className={isFavorite ? "fill-current" : ""} />
           </button>
+        )}
+        {customImage && (
+          <span className="absolute top-3 left-3 px-2 py-0.5 rounded-full bg-amber-500 text-white text-[10px] font-bold">
+            Personnalisé
+          </span>
         )}
       </div>
       <div className="p-5">
