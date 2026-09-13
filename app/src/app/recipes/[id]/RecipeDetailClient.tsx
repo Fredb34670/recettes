@@ -66,7 +66,7 @@ export function RecipeDetailClient({ recipe }: RecipeDetailClientProps) {
       const ratio = servings / (recipe.servings || 4)
       const newQuantities: Record<number, number> = {}
       recipe.ingredients.forEach((_, i) => {
-        newQuantities[i] = recipe.ingredients[i].quantity * ratio
+        newQuantities[i] = Math.round(recipe.ingredients[i].quantity * ratio * 1000) / 1000
       })
       setEditedQuantities(newQuantities)
     }
