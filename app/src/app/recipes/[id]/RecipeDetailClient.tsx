@@ -49,9 +49,27 @@ export function RecipeDetailClient({ recipe }: RecipeDetailClientProps) {
     }
   }, [searchParams])
 
-  const handleIngredientEdit = (index: number, newQty: number) => {
+  const toDisplay = (qty: number, unit: string) => {
+    if (unit === "kg") return qty * 1000
+    if (unit === "L") return qty >= 1 ? qty : qty * 1000
+    return qty
+  }
+
+  const fromDisplay = (qty: number, unit: string) => {
+    if (unit === "kg") return qty / 1000
+    if (unit === "L") return qty >= 1 ? qty : qty / 1000
+    return qty
+  }
+
+  const displayUnit = (unit: string) => {
+    return unit === "kg" ? "g" : unit === "L" ? "L" : unit
+  }
+
+  const handleIngredientEdit = (index: number, displayValue: number) => {
     const original = recipe.ingredients[index].quantity
+    const unit = recipe.ingredients[index].unit
     if (!original || original === 0) return
+    const newQty = fromDisplay(displayValue, unit)
     const ratio = newQty / original
     const newQuantities: Record<number, number> = {}
     recipe.ingredients.forEach((_, i) => {
@@ -70,7 +88,6 @@ export function RecipeDetailClient({ recipe }: RecipeDetailClientProps) {
       })
       setEditedQuantities(newQuantities)
     }
-    // Reset editedQuantities when servings returns to original
     if (servings === (recipe?.servings || 4) && Object.keys(editedQuantities).length > 0) {
       setEditedQuantities({})
     }
@@ -269,13 +286,14 @@ export function RecipeDetailClient({ recipe }: RecipeDetailClientProps) {
                 )}
                 <input
                   type="number"
-                  step="0.01"
+                  step="1"
                   min="0"
-                  value={editedQuantities[i] !== undefined ? parseFloat(editedQuantities[i].toFixed(3)) : parseFloat(ing.quantity.toFixed(3))}
+                  value={editedQuantities[i] !== undefined ? Math.round(toDisplay(editedQuantities[i], ing.unit)) : Math.round(toDisplay(ing.quantity, ing.unit))}
                   onChange={(e) => handleIngredientEdit(i, parseFloat(e.target.value.replace(',', '.')) || 0)}
                   onFocus={(e) => e.currentTarget.scrollIntoView({ behavior: 'smooth', block: 'nearest' })}
                   className="w-20 font-mono text-sm text-stone-500 bg-stone-50 border border-stone-200 rounded px-1 py-0.5 focus:outline-none focus:border-amber-400"
                 />
+                <span className="text-xs text-stone-400">{displayUnit(ing.unit)}</span>
               </div>
             </div>
           ))}
