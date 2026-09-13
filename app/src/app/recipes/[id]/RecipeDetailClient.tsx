@@ -66,11 +66,20 @@ export function RecipeDetailClient({ recipe }: RecipeDetailClientProps) {
       const ratio = servings / (recipe.servings || 4)
       const newQuantities: Record<number, number> = {}
       recipe.ingredients.forEach((_, i) => {
-        newQuantities[i] = Math.round(recipe.ingredients[i].quantity * ratio * 1000) / 1000
+        newQuantities[i] = recipe.ingredients[i].quantity * ratio
       })
       setEditedQuantities(newQuantities)
     }
+    // Reset editedQuantities when servings returns to original
+    if (servings === (recipe?.servings || 4) && Object.keys(editedQuantities).length > 0) {
+      setEditedQuantities({})
+    }
   }, [servings])
+
+  const handleServingsReset = () => {
+    setServings(recipe?.servings || 4)
+    setEditedQuantities({})
+  }
 
   const handleShare = async () => {
     const result = await shareRecipe({
@@ -240,7 +249,7 @@ export function RecipeDetailClient({ recipe }: RecipeDetailClientProps) {
             />
             <span className="text-xs text-stone-400">pers.</span>
             <button
-              onClick={() => { setServings(recipe?.servings || 4); setEditedQuantities({}); }}
+              onClick={handleServingsReset}
               aria-label="Réinitialiser au nombre original"
               className="px-2 py-1 rounded-lg bg-stone-100 text-stone-600 text-xs font-medium hover:bg-stone-200 transition-colors"
             >
